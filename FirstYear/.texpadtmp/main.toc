@@ -1,0 +1,477 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {american}
+\defcounter {refsection}{0}\relax 
+\vspace {-\cftbeforepartskip }
+\defcounter {refsection}{0}\relax 
+\select@language {american}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Physics reinvents geography.}{4}{chapter*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Economic Geography or Geographical Economics ?}{5}{chapter*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Agent-based Modeling in Economy}{5}{chapter*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Finance}{5}{chapter*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {i}\spacedlowsmallcaps {Thematic, Theoretical and Methodological Foundations}}{9}{part.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Interactions between Networks and Territories}}{11}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Territories and Networks}{12}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.1}Territories and Networks : There and Back Again}{12}{subsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Human Territories}{12}{subsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{A Territorial Theory of Networks}{12}{subsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Networks shaping territories ?}{13}{subsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Territorial Systems}{14}{subsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.2}Transportation Networks}{15}{subsection.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{The particularity of transportation networks}{15}{subsection.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Deconstructing Accessibility}{16}{subsection.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Scales and Hierarchies}{16}{subsection.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Interactions between transportation networks and territory}{17}{subsection.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Modeling Interactions}{18}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Modeling in Quantitative Geography}{18}{subsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Modeling Territories and Networks}{19}{subsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Land-Use Transportation Interaction Models}{19}{subsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Network Growth}{20}{subsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Hybrid Modeling}{21}{subsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Urban Systems Modeling}{22}{subsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.3}Sketch of a \emph {Modelography}}{22}{subsection.1.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Research Question}{22}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Theoretical Framework}}{23}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Geographical Theoretical Context}{24}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Foundation}{24}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Networked Human Territories}{24}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Evolutive Urban Theory}{24}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Urban Morphogenesis}{25}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Co-evolution}{26}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Synthesis : an theory of co-evolutive networked territorial systems}{26}{subsection.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}A theoretical Framework for the Study of Socio-technical Systems}{29}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Introduction}{29}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Construction of the theory}{31}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Precision on the recursive aspect of the theory}{32}{definition.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Remark.}{35}{assumption.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Application}{36}{subsection.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.4}Discussion}{36}{subsection.2.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Link with existing frameworks}{36}{subsection.2.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Contributions to the study of complex systems}{37}{subsection.2.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.5}Research Directions}{37}{subsection.2.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Methodological Developments}}{39}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Reproducibility}{40}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}On the Need to Explicit the Model}{40}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Rigorous Formalization}{41}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Transparent Implementation}{41}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Expected Model Behavior}{41}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}On the Need of Exactitude in Model Implementation}{42}{subsection.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.3}Perspectives}{43}{subsection.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}An unified framework for stochastic models of urban growth}{44}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Introduction}{44}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Framework}{44}{subsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Presentation}{44}{subsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}Derivations}{45}{subsection.3.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Generalization of Preferential Attachment}{45}{subsection.3.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Link between Gibrat and Preferential Attachment Models}{45}{subsection.3.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Link between Simon and Preferential Attachment}{47}{lemma.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Link between Favaro-Pumain and Gibrat}{47}{lemma.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Link between Bettencourt-West and Pumain}{47}{lemma.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Other Models}{47}{lemma.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Analytical Sensitivity of Urban Scaling Laws to Spatial Extent}{48}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Introduction}{48}{subsection.3.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}Formalization}{49}{subsection.3.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.3}Analytical Derivation of Sensitivity}{50}{subsection.3.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.4}Numerical Simulations}{51}{subsection.3.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Implementation}{51}{subsection.3.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Random Perturbations}{52}{figure.caption.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Kernel Type}{52}{figure.caption.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Statistical Control on Initial Conditions by Synthetic Data Generation}{53}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.1}Context}{53}{subsection.3.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.2}Description}{53}{subsection.3.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.3}Formal Description}{54}{subsection.3.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Spatio-temporal Correlations}{55}{section.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.1}Notations}{55}{subsection.3.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.2}Wave Equation}{56}{subsection.3.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.3}Fokker-Planck Equation}{56}{subsection.3.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.4}Master Equation}{56}{subsection.3.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.5}Consistent spatio-temporal sampling}{57}{subsection.3.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Quantitative Epistemology}}{59}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Algorithmic Systematic Review}{60}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}In search of models of co-evolution}{60}{subsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}Modeling Interactions between Urban Growth and Network Growth : An Overview}{60}{subsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Land-Use Transportation Interaction Models.}{60}{subsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Network Growth Approaches}{61}{subsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Hybrid Approaches}{61}{subsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.3}Bibliometric Analysis}{61}{subsection.4.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Description of the Algorithm}{62}{subsection.4.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Results}{62}{figure.caption.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Implementation}{62}{figure.caption.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Convergence and Sensitivity Analysis}{63}{figure.caption.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Refining bibliometrics through Hyper-network analysis}{66}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Context}{66}{subsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Application to a scientific journal}{66}{subsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Presentation}{66}{subsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Implementation}{66}{subsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Results}{67}{figure.caption.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.3}Application}{68}{subsection.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Towards modeling purpose and context automatic extraction}{71}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {ii}\spacedlowsmallcaps {Modeling and Empirical Analysis}}{73}{part.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Empirical Analysis : Insights from Stylized Facts}}{75}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Static correlations of urban form and network shape}{76}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.1}Morphological Measures of European Population Density}{76}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Context}{76}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Empirical Analysis}{76}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Further developments}{77}{figure.caption.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.2}Network Measures}{77}{subsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Data preprocessing}{77}{subsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Simplification algorithm}{80}{subsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Implementation}{80}{subsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Sensitivity to simplification parameters}{80}{subsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Indicators}{80}{subsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Results}{81}{subsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Disentangling co-evolutions from causal relations}{82}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}Context Formalization}{82}{subsection.5.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}On Accessibility}{82}{subsection.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.3}Data}{83}{subsection.5.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.4}Statistical Tests}{83}{subsection.5.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.5}Expected results}{84}{subsection.5.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Real Estate Trajectories}{85}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.1}Context}{85}{subsection.5.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.2}Preliminary Results}{85}{subsection.5.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.3}A strategy to investigate early warnings of network breakdowns}{85}{subsection.5.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}South-African historical events as instruments}{87}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.1}Context}{87}{subsection.5.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.2}Objectives}{87}{subsection.5.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Modeling}}{89}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}A simple model of urban growth}{90}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.1}Context}{90}{subsection.6.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.2}Model Description}{90}{subsection.6.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Rationale}{90}{subsection.6.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Settings}{90}{subsection.6.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Indicators}{91}{subsection.6.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.3}Results}{91}{subsection.6.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Generation of urban patterns}{91}{subsection.6.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Model Behavior}{91}{figure.caption.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Convergence - internal model validation}{91}{figure.caption.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Exploration of parameter space}{91}{figure.caption.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Statistical analysis}{94}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Model Calibration}{94}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Real Data}{94}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Calibration Process}{94}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Calibration refinment}{95}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.4}Discussion}{95}{subsection.6.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Thematic interpretation of growth behavior}{95}{subsection.6.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Integration into a multi-scale growth model}{95}{subsection.6.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Correlated generation of territorial configurations}{96}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.1}Correlated geographical data of density and network}{96}{subsection.6.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Context}{96}{subsection.6.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Formalization}{96}{subsection.6.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Density model}{97}{subsection.6.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Network model}{97}{subsection.6.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Parameter space}{98}{Item.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Indicators}{98}{Item.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Covariance and correlation}{99}{Item.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Implementation}{99}{Item.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Results}{99}{figure.caption.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Possible developments}{102}{figure.caption.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.2}Discussion}{103}{subsection.6.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.3}Conclusion}{104}{subsection.6.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Network Growth Models}{105}{section.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.1}Benchmarking Network growth heuristics}{105}{subsection.6.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.2}An interdisciplinary approach to network morphogenesis}{105}{subsection.6.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Towards more Complex Models}}{107}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}The Lutecia Model}{107}{section.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.1}Thematic Context}{107}{subsection.7.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.2}Formalization}{108}{subsection.7.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Land-use evolution}{108}{subsection.7.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Effective distances computation}{109}{subsection.7.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Externality}{110}{subsection.7.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Transportation Network growth}{110}{subsection.7.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Remark for the implementation}{112}{subsection.7.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{An alternative discrete choice ``game''}{112}{subsection.7.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.3}Results}{113}{subsection.7.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Implementation}{113}{subsection.7.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Exploration and Validation}{113}{figure.caption.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Towards operational models}}{115}{part.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {A Roadmap for an Operational Family of Models of Coevolution}}{117}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Objectives}{117}{section.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Case Studies}{117}{section.8.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.3}Roadmap}{118}{section.8.3}
+\defcounter {refsection}{0}\relax 
+\vspace {\beforebibskip }
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{119}{dummy.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Appendix}}{137}{part.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {Architecture and Sources for Algorithms and Models of Simulation}}{139}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}Algorithmic Systematic Review}{139}{section.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Objective}{139}{section.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Location}{139}{section.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Characteristics}{139}{section.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Particularities}{139}{section.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Architecture}{139}{section.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Additional scripts}{140}{section.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}Indirect Bibliometrics}{140}{section.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Objective}{140}{section.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Location}{140}{section.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Characteristics}{140}{section.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Particularities}{140}{section.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Architecture}{140}{section.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Additional scripts}{140}{section.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.3}Density Urban Growth}{140}{section.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Objective}{140}{section.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Location}{140}{section.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Characteristics}{140}{section.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Particularities}{140}{section.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Architecture}{140}{section.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Additional scripts}{140}{section.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.4}Correlated data generation}{140}{section.9.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Objective}{140}{section.9.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Location}{141}{section.9.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Characteristics}{141}{section.9.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Particularities}{141}{section.9.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Architecture}{141}{section.9.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Additional scripts}{141}{section.9.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.5}Lutecia Model}{141}{section.9.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Objective}{141}{section.9.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Location}{141}{section.9.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Characteristics}{141}{section.9.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Particularities}{141}{section.9.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Architecture}{141}{section.9.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Additional scripts}{141}{section.9.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.6}Network analysis}{141}{section.9.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Objective}{141}{section.9.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Location}{141}{section.9.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Characteristics}{142}{section.9.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Particularities}{142}{section.9.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Architecture}{142}{section.9.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Additional scripts}{142}{section.9.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {10}\spacedlowsmallcaps {Tools and Workflow for an open Reproducible Research}}{143}{chapter.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.1}NetLogo documentation generator}{143}{section.10.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.2}git as a reproducibility tool}{143}{section.10.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.3}git-data}{143}{section.10.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.4}Towards a git-compatible figures metadata handler}{143}{section.10.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.5}TorPool}{144}{section.10.5}
