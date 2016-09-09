@@ -2,8 +2,20 @@
 
 
 
+## Cybernetics and cities
+
+* Jeu  8 sep 2016 23:57:57 CEST *
+
+paper Gerhenson/Ratti -> link cybernetics/CS ? autonmoous vehicle : compare tarnsportation point of view ewgt
+is that a theory ? links/compatibility ? etc
 
 
+
+## Early-warning time-series statistical tests
+
+* Ven  2 sep 2016 12:38:32 CEST*
+
+cf pnas article on neolithic populations (TimeSeries)
 
 
 
