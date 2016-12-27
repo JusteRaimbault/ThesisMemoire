@@ -2,6 +2,44 @@
 
 
 
+## Biblio
+
+* Lun 26 déc 2016 00:25:24 CST *
+
+http://www.pnas.org.sci-hub.cc/content/113/51/14560.full.pdf?with-ds=yes# : early warnings in coupled human-ecological systems
+
+Growth over time-correlated disorder: a spectral approach to Mean-field : tractable micro model of growth in disorder : make // with urban growth
+
+https://www.semanticscholar.org/ : also example of textmining sci exploration platform
+
+Detection of timescales in evolving complex systems : http://www.nature.com/articles/srep39713 // may be interesting in link with CAS / system-boundaries
+
+publication ethics : http://publicationethics.org/files/u2/02A_Plagiarism_Submitted.pdf
+
+
+## Modularity
+
+*Mar 29 nov 2016 12:46:14 CST*
+
+\cite{2015arXiv150402550T}
+Theoretical ecology without species : link with modularity in territorial systems ? (interaction matrix, etc.) -> on the arbitrary of partitions
+
+
+## General positioning
+
+*Dim 27 nov 2016 17:27:36 CST*
+
+paper Batty : CA, ABM, meso scale growth models : \cite{batty2005agents}
+
+
+
+## Network Growth
+
+*Mer 16 nov 2016 16:18:17 CST*
+
+ Paper betweeness centrality random planar graph : check growth model / how close to meso heursitics ?
+
+
 
 ## Misc
 
@@ -27,7 +65,7 @@
 
 ## Theory construction
 
-* Mer 14 sep 2016 19:29:06 CEST * 
+* Mer 14 sep 2016 19:29:06 CEST *
 
 Hall and Pain Mega City Regions : Chapter 2-3 : "bring together four sets of conceptual insights"
 -> theory mixing or construction ? compare with our theory and the syncretism critics it can receive
@@ -58,7 +96,6 @@ cf pnas article on neolithic populations (TimeSeries)
 *Jeu 25 aoû 2016 10:28:58 CEST*
 
 Beware of full computational reproc, very different from only code sharing (cf languageABM project).
-\cite{2016arXiv160806897H} describes well this issue. including data sharing, closed system use, etc. 
+\cite{2016arXiv160806897H} describes well this issue. including data sharing, closed system use, etc.
  -> be more nuanced on reproducibility
 Open/repro : open review using pull reqs etc on a dedicated repo. : transparency of the sci process ?
-
