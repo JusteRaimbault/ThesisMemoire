@@ -78,6 +78,12 @@
 \ifthenelse{\thelanguage=1}{#2}{}
 }
 
+
+\newcommand{\bchapter}[2]{
+\ifthenelse{\thelanguage=0}{\chapter{#1}}{}
+\ifthenelse{\thelanguage=1}{\chapter{#2}}{}
+}
+
 \newcommand{\bsection}[2]{
 \ifthenelse{\thelanguage=0}{\section{#1}}{}
 \ifthenelse{\thelanguage=1}{\section{#2}}{}
@@ -86,6 +92,11 @@
 \newcommand{\bsubsection}[2]{
 \ifthenelse{\thelanguage=0}{\subsection{#1}}{}
 \ifthenelse{\thelanguage=1}{\subsection{#2}}{}
+}
+
+\newcommand{\bchapters}[2]{
+\ifthenelse{\thelanguage=0}{\chapter*{#1}}{}
+\ifthenelse{\thelanguage=1}{\chapter*{#2}}{}
 }
 
 \newcommand{\bsections}[2]{
