@@ -38,13 +38,16 @@
 % Includes the file which contains all the document configurations and packages - make sure to edit this file
 \input{classicthesis-config}
 
+%%%%%%%%%
+% biblio
 \addbibresource{/Users/Juste/Documents/ComplexSystems/CityNetwork/Biblio/Bibtex/CityNetwork.bib} % The file housing your bibliography
 %\addbibresource[label=ownpubs]{Self_Publications.bib} % Uncomment for optional self-publications
+\addbibresource{Biblio/transportationEquilibrium.bib}
 
 
 %% Language 0 for english ; 1 for french
-%\def \thelanguage {0}
-\def \thelanguage {1}
+\def \thelanguage {0}
+%\def \thelanguage {1}
 
 
 
@@ -96,7 +99,7 @@
 
 
 
-%\cleardoublepage\include{FrontBackMatter/Publications} % Publications from the thesis page
+\cleardoublepage\include{FrontBackMatter/Publications} % Publications from the thesis page
 
 %\cleardoublepage\include{FrontBackMatter/Acknowledgments} % Acknowledgements page
 
@@ -120,7 +123,7 @@
 %\ctparttext{}
 
 
-\include{Chapters/Introduction}
+\include{Content/Introduction}
 
 
 
@@ -135,7 +138,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Chapter : Quantitative Epistemology
-\include{Chapters/Thematic}
+\include{Content/Thematic}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -144,7 +147,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Chapter : Theoretical Framework
-\include{Chapters/Theory}
+\include{Content/Theory}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -154,7 +157,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Chapter : Quantitative Epistemology
-\include{Chapters/Methodology}
+\include{Content/Methodology}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -162,7 +165,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Chapter : Quantitative Epistemology
-\include{Chapters/QuantEpistemo}
+\include{Content/QuantEpistemo}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -183,19 +186,19 @@
 
 % Stylized facts : empirical analysis
 
-\include{Chapters/StylizedFacts}
+\include{Content/StylizedFacts}
 
 
 
 % Toy modeling : density model / correlated synthetic data
 
-\include{Chapters/Modeling}
+\include{Content/Modeling}
 
 
 
 % Lutecia : particular case including specific thematic developments
 
-\include{Chapters/Lutecia}
+\include{Content/Lutecia}
 
 
 
@@ -217,7 +220,7 @@
 
 %  Various case studies : develop launched/potential collaborations
 
-\include{Chapters/Operational}
+\include{Content/Operational}
 
 
 
@@ -236,8 +239,11 @@
 %------------------------------------------------
 % Provisory chapters 
 
-\include{Chapters/TransportationEquilibrium}
+% Transportation Equilibrium
+\include{Content/TransportationEquilibrium}
 
+% Robustness Discrepancy
+\include{Content/RobutnessDiscrepancy}
 
 
 
@@ -253,6 +259,15 @@
 %\appendix
 
 \part{Appendix} % New part of the thesis for the appendix
+
+
+%%%%%%%%%%%%%%%%%%
+%% Appendix : sources/archi
+\include{Appendices/SyntheticData}
+%%%%%%%%%%%%%%%%%%
+
+
+
 
 %%%%%%%%%%%%%%%%%%
 %% Appendix : sources/archi
