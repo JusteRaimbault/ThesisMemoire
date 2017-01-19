@@ -2,6 +2,52 @@
 
 
 
+## Reproducibility
+
+* Mer 18 jan 2017 18:48:44 CET * 
+
+A manifesto for reproducible science, ... et Ioannidis
+
+
+
+## City definition
+
+* Jeu  5 jan 2017 18:30:06 CST *
+
+when writing on morphogenesis, boundaries -> def city boundaries, i;e. def the city object, is still an open question..(cf Clem scaling ; rq Batty CCS) to what extent our theory of territorial systems gives an answer ; allows to "sortir par le haut" ? (or not ?)
+
+
+## Morphogenesis
+
+* Mar  3 jan 2017 18:20:54 CST * 
+
+ - Alan Turing's Drawings, Autopoiesis and Can Buildings Think? : presence of morphogenetic processes (autpoietic ?) in design of buildings (need more)
+ - on autopoiesis and cognition : Autopoiesis with or without cognition: defining life at its edge
+
+
+
+## Misc
+
+* Ven 30 déc 2016 12:27:42 CST *
+
+ - disc. Cinzia on territorial integration / abberations of frnech network (railway or freeways) -> good narrative of how such a strongly coupled system is path-dependent
+
+ - Transportation Equilibrium : FRIES 1985 gives theoretical approach to equilibria and network design -> possibly link TrEq part with nw morphogenesis ?
+
+
+
+
+
+
+## On theory
+
+* Jeu 29 déc 2016 13:05:51 CST *
+
+do a short link with Tobler, laws etc. : morphogenesis : when bound conditions are either not necessary to explain patterns, or do not modify too much quantitative fit.
+
+
+
+
 ## Biblio
 
 * Lun 26 déc 2016 00:25:24 CST *
