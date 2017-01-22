@@ -63,8 +63,14 @@ Spatio-temporal processes implying diffusion or propagation phenomena generally 
 
 \subsubsection{Context}
 
-At the macroscopic scale of system of cities, spatialization of the urban system is reasonably captured by cities position, associated with aggregated city variable to represent entirely the system (see e.g. ontologies of Simpop models~\cite{pumain2012multi} or its successor Marius~\cite{cottineau2014evolution}). At the mesoscopic scale at which we aim to capture morphological manifestations of interactions between transportation networks and territories, structure of the territorial system can be specified by more refined indicators for the morphological aspect. 
-% biblio spatial structure etc Florent
+
+\bpar{
+At the macroscopic scale of system of cities, spatialization of the urban system is reasonably captured by cities position, associated with aggregated city variable to represent entirely the system (see e.g. ontologies of Simpop models~\cite{pumain2012multi} or its successor Marius~\cite{cottineau2014evolution}). At the mesoscopic scale at which we aim to capture morphological manifestations of interactions between transportation networks and territories, structure of the territorial system can be specified by more refined indicators for the morphological aspect.
+% TODO biblio spatial structure etc Florent
+}{
+A l'échelle macroscopique du système de ville, le caractère spatial du système urbain est capturé de manière raisonnable par les positions des villes, associées aux variables agrégées au niveau de la ville qui représentent entièrement le système (voir e.g. l'ontologie des modèles Simpop~\cite{pumain2012multi} ou de leur successeur Marius~\cite{cottineau2014evolution}). A l'échelle mesoscopique, à laquelle nous nous attendons à capturer des manifestations morphologiques des interactions entre ville et transport, la structure du système territorial peut être spécifiée par des indicateurs plus raffinés pour l'aspect morphologique.
+}
+
 
 \subsubsection{Empirical Analysis}
 
@@ -121,6 +127,9 @@ We work in a first time on road network, which structure is finely conditioned t
 
 % data collected from http://download.geofabrik.de/europe.html
 
+% TODO : remarque : why not include artwork as appendix. science<->art (// poésies ?)
+
+
 
 \paragraph{Simplification algorithm}
 
@@ -160,8 +169,10 @@ These indicators are used to capture a rough picture of the structure. Refined w
 
 \subsubsection{Results}
 
-Computations of network simplification are still ongoing (local parametrization possible only, estimated effective computation time is around 3 weeks). Computations of network indicators and static correlations must then provide the aforementioned insights into interaction processes.
 
+\bpar{}{
+Les indicateurs de réseau ont été calculés sur des zones similaires aux indicateurs de forme urbaine, 
+}
 
 %%%%%%%%%%%%%%%%%%
 %\subsection{Effective static correlations}
@@ -302,12 +313,28 @@ The following large set of analysis are to be tested (non exhaustive) :
 
 \bigskip
 
-\subsection{Expected results}
+%\subsection{Expected results}
 
-We expect from these analyses to test at these spatial and temporal scales, and on a particular metropolitan case study, the assumption on network necessity for the territorial system of functional job commutings.
+%We expect from these analyses to test at these spatial and temporal scales, and on a particular metropolitan case study, the assumption on network necessity for the territorial system of functional job commutings.
 
 
 
+
+%%%%%%%%%%%%%%%%%%
+\subsection{Méthode Générique}
+
+% TODO introduce here systematic granger causality testing - first tests on RBD ?
+
+
+\subsubsection{Description}
+
+Nous décrivons ici une méthode générique, basée sur un test similaire à la causalité de Granger~\cite{}, pour tenter d'identifier des relations causales dans des systèmes spatiaux. Soit $X_j(\vec{x},t)$ des processus aléatoires spatiaux unidimensionnels. Une réalisation d'un sous-système territorial est donnée par des ensembles de trajectoires pour chaque processus $x_{i,j,t}$.
+
+
+
+\subsubsection{Données Synthétiques}
+
+Cette méthode doit dans un premier temps être testée et partiellement validée, ce que nous proposons de faire sur des données synthétiques, approche dont l'utilisation est documentée et illustrée au chapitre~\ref{}. \cite{raimbault2014hybrid} est un modèle simple de morphogénèse urbaine faisant un candidat intéressant pour notre test. En effet,
 
 
 
