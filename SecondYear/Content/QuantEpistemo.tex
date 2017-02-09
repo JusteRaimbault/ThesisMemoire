@@ -5,7 +5,7 @@
 
 
 
-\chapter{Quantitative Epistemology} % Chapter title
+\chapter{Quantitative Epistemology}{Epistémologie Quantitative} % Chapter title
 
 \label{ch:quantepistemo} % For referencing the chapter elsewhere, use \autoref{ch:name} 
 
@@ -20,8 +20,12 @@
 Under this provocative book title by \noun{Hacking} are implied complex mechanisms in the production of scientific knowledge. Animated debates on constructivism would be due to different metaphysical conceptions that are by essence not provable. As we have already evoked with perspectivism, scientific entreprises may have different purposes and be difficultly transferable to other contexts as we intent to do in our broad thematic vision developed in chapter~\ref{ch:thematic}.
 
 
-A corollary of theoretical background proposed in chapter~\ref{ch:theory} is the need of an understanding of involved disciplines themselves to be able to build integrated heterogeneous models. The potentialities of couplings and integrations are greatly determined by existing approaches and corresponding gaps. This implies an advanced epistemological study in each field, that we propose to tackle in a systematic and quantitative way. This deliberate choice may shadow elaborated epistemological considerations but fits our purpose of preliminary investigations for the construction of models, as it may reveal investigation directions.
 
+\bpar{
+A corollary of the thematic background introduced in chapter~\ref{ch:thematic} is the need of an understanding of involved disciplines themselves to be able to build integrated heterogeneous models. The potentialities of couplings and integrations are greatly determined by existing approaches and corresponding gaps. This implies an advanced epistemological study in each field, that we propose to tackle in a systematic and quantitative way. This deliberate choice may shadow elaborated epistemological considerations but fits our purpose of preliminary investigations for the construction of models, as it may reveal investigation directions.
+}{
+Un corolaire de la matière thématique introduite en chapitre~\ref{ch:thematic} est le besoin d'une compréhension des disciplines impliquées elles-même pour être en mesure de construire des modèles hétérogènes intégrés. Les possibilités de couplage et d'intégration sont hautement déterminées par les approches existantes et les lacunes correspondantes. Cela implique une étude épistémologique avancée dans chaque champ, que nous proposons de mener de manière quantitative et systématique. Ce choix délibéré pourrait occulter des considérations épistémologiques élaborées mais suit notre objectif d'investigations préliminaires pour la construction de modèles, en révélant potentiellement des directions de recherche.
+}
 
 We describe and explore in a first section a systematic review exploration algorithm, that retrieve corpuses of references through iterative semantic extraction. We describe then briefly possible extended bibliometrics by presenting an external example of application. We finally suggest possible development directions towards unsupervised data and text-mining.
 
@@ -133,8 +137,8 @@ L'algorithme termine quand la taille du corpus devient stable ou quand un nombre
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}
 \centering
-\includegraphics[width=\textwidth]{Figures/PartI/QuantitativeEpistemo/schema_algo}
-\caption[Systematic review algorithm workflow]{Global workflow of the algorithm, including implementation details : catalog request is done through Mendeley API ; final state of corpuses are RIS files.}{}
+\includegraphics[width=\textwidth]{Figures/QuantitativeEpistemo/schema_algo}
+\caption[Systematic review algorithm workflow][Architecture de l'algorithme de revue systématique]{Global workflow of the algorithm, including implementation details: catalog request is done through Mendeley API; final state of corpuses are RIS files.}{Architecture globale de l'algorithme, incluant des détails d'implémentation : la requête au catalogue est faite via l'API Mendeley ; les corpus finaux sont sous forme de fichiers RIS.}
 \label{fig:quantepistemo:algo}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -168,9 +172,9 @@ Une preuve formelle de convergence de l'algorithme n'est guère envisageable pui
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}
 \centering
-\includegraphics[width=\textwidth]{Figures/PartI/QuantitativeEpistemo/explo}
+\includegraphics[width=\textwidth]{Figures/QuantitativeEpistemo/explo}
 \medskip
-\includegraphics[width=0.8\textwidth]{Figures/PartI/QuantitativeEpistemo/lexicalConsistence_MeanSd}
+\includegraphics[width=0.8\textwidth]{Figures/QuantitativeEpistemo/lexicalConsistence_MeanSd}
 \caption[Convergence and sensitivity analysis of systematic review algorithm]{Convergence and sensitivity analysis. Left : Plots of number of references as a function of iteration, for various queries linked to our theme (see further), for various values of $N_k$ (from 2 to 30). We obtain a rapid convergence for most cases, around 10 iterations needed. Final number of references appears to be very sensitive to keyword number depending on queries, what seems logical since encountered landscape should strongly vary depending on terms. Right : Mean lexical consistence and standard error bars for various queries, as a function of keyword number. Lexical consistence is defined though co-occurrences of keywords by, with $N$ final number of keywords, $f$ final step, and $c(i)$ co-occurrences in references, $k = \frac{2}{N(N-1)}\cdot \sum_{i,j \in \mathcal{K}_f}{\left| c(i) - c(j) \right|}$. The stability confirms the consistence of final corpuses.}{}
 \label{fig:quantepistemo:sensitivity}
 \end{figure}
@@ -189,8 +193,8 @@ Lorsque l'algorithme a été partiellement validé, on peut l'appliquer à notre
 
 \begin{table}
 \centering
-\includegraphics[width=\textwidth]{Figures/PartI/QuantitativeEpistemo/corpusesDistances}
-\caption[Stationary lexical proximities]{Symmetric matrix of lexical proximities between final corpuses, defined as the sum of overall final keywords co-occurrences between corpuses, normalized by number of final keywords (100). We obtain very low values, confirming that corpuses are significantly far. Size of final corpuses is given as $W$.}{}
+\includegraphics[width=\textwidth]{Figures/QuantitativeEpistemo/corpusesDistances}
+\caption[Stationary lexical proximities][Proximités lexicales stationnaires]{Symmetric matrix of lexical proximities between final corpuses, defined as the sum of overall final keywords co-occurrences between corpuses, normalized by number of final keywords (100). We obtain very low values, confirming that corpuses are significantly far. Size of final corpuses is given as $W$.}{Matrice symétrique des proximités lexicales entre les corpus finaux, définies comme la somme des co-occurrences totale de mots-clés finaux entre corpus, normalisé par le nombre de mots-clés finaux (100). Les valeurs obtenues sont considérablement faibles, ce qui confirme que les corpus sont éloignés de manière significative. La taille des corpus finaux est donnée par $W$.}
 \label{tab:quantepistemo:lexical}
 \end{table}
 
@@ -219,19 +223,22 @@ L'absence peu explicable a priori de modèles qui simulent la co-évolution des 
 
 % Section describing cybergeo method applied to ref on our subject
 
-\section{Indirect bibliometrics through Complex Network analysis}{Bibliométrie Indirecte par Analyse de Réseaux Complexes}
+\section[Indirect Bibliometrics][Bibliométrie indirecte]{Indirect bibliometrics through Complex Network analysis}{Bibliométrie Indirecte par Analyse de Réseaux Complexes}
 
 
-
-As described before, semantic analysis does not contain all the information on disciplinary compartmentation nor on patterns of propagation of scientific knowledge as the ones contained in citation networks for example. Furthermore, data collection in the previous algorithm is subject to convergence towards self-consistent themes because of the proper structure of the method. It may give more insight about scientific social patterns of ontological choices in modeling to study communities in broader networks, that would more correspond to disciplines (or sub-disciplines depending on granularity level).
-
-
+\bpar{
+As described before, semantic analysis of final corpus does not contain all the information on disciplinary compartmentation nor on patterns of propagation of scientific knowledge as the ones contained in citation networks for example. Furthermore, data collection in the previous algorithm is subject to convergence towards self-consistent themes because of the proper structure of the method. It may give more insight about scientific social patterns of ontological choices in modeling to study communities in broader networks, that would more correspond to disciplines (or sub-disciplines depending on granularity level). We propose to reconstruct disciplines around our thematic, to obtain a more precise view of interdisciplinarity and the scientific landscape on our subject.
+}{
+Comme décrit précédemment, l'analyse sémantique des corpus finaux ne contient pas la totalité de l'information sur les liens entre disciplines ni sur les motifs de propagation de la connaissance scientifique comme ceux contenus dans les réseaux de citations par exemple. De plus, la collection des données dans l'algorithme précédent est sujette à convergence vers des thèmes relativement auto-cohérents de par la structure propre de la méthode. On pourrait obtenir plus d'information sur les motifs sociaux de choix ontologiques pour la modélisation en étudiant les communautés dans des réseaux plus larges, ce qui correspondrait plus à des disciplines (ou des sous-disciplines selon le niveau de granularité). Nous proposons de reconstruire les disciplines autour de notre thématique, pour obtenir une vue plus précise de l'interdisciplinarité et du paysage scientifique sur notre sujet. 
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\todo{insert / adapt / translate cybergeo paper : run on a specific corpus}
 
+%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Content/CybergeoAdapted}
+%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -242,11 +249,8 @@ As described before, semantic analysis does not contain all the information on d
 %%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Specific Application}{Application Spécifique}
 
-We will try to reconstruct the same way disciplines around our thematic, and by for example identifying bridge articles (nodes with high centrality or vulnerability) identify crucial thematic elements and research directions.
 
-\bigskip
-
-An other application will be the reflexivity of our thesis : we attend to proceed to similar analysis on our proper bibliography (and its evolution, available via \texttt{git} history), to understand our patterns of knowledge, possible gaps or unveil unexpected developments.
+The methodology developed here is particularly interesting since it is reflexive, i.e. it can be used on our work itself. Therefore, an other application will be the reflexivity of our thesis : we attend to proceed to similar analysis on our proper bibliography (and possibly its evolution, available via \texttt{git} history), to understand our patterns of knowledge, possible gaps or unveil unexpected developments. The detailed development is done in Appendix~\ref{}.
 
 
 
