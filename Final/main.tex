@@ -33,6 +33,8 @@
 		dottedtoc, % Make page numbers in the table of contents flushed right with dots leading to them
 		BCOR=5mm,paper=a4,fontsize=11pt, % Binding correction, paper type and font size
 		french,american, % Languages, change this to your language(s)
+		draft%,
+		%captions=innerbeside
 		]{scrreprt} 
                 
 % Includes the file which contains all the document configurations and packages - make sure to edit this file
@@ -51,6 +53,10 @@
 \addbibresource{Biblio/knowledgeFramework.bib}
 \addbibresource{Biblio/spaceMatters.bib}
 \addbibresource{Biblio/patentsMining.bib}
+\addbibresource{Biblio/indirectBibliometrics.bib}
+\addbibresource{Biblio/morphogenesis.bib}
+\addbibresource{Biblio/density.bib}
+
 
 %%%%%
 %% Language 0 for english ; 1 for french
@@ -460,6 +466,21 @@
 %
 % Supplementary Information
 \include{Appendices/SupplementaryInformation}
+%
+% Chapter 1 : Fieldwork
+\include{Appendices/SupplementaryChapter1}
+%
+% Chapter 2 : Quantitative Epistemology
+\include{Appendices/SupplementaryChapter2}
+%
+% Chapter 4 : Static Correlations
+\include{Appendices/SupplementaryChapter4}
+%
+% Chapter 5 : Spatio-temporal causalities
+\include{Appendices/SupplementaryChapter5}
+%
+% Chapter 6 : Morphogenesis
+\include{Appendices/SupplementaryChapter6}
 %%%%%%%%%%%%%%%%%%
 
 
@@ -471,6 +492,9 @@
 %
 % Robustness Discrepancy
 \include{Appendices/RobutnessDiscrepancy}
+%
+% Cybergeo
+\include{Appendices/Cybergeo}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -520,6 +544,8 @@
 %% Appendix F (15) : Reflexivity
 %  ``Meta-conclusion''
 %  -> should also include reading graph / possible paths
+%
+% Reflexivity
 \include{Appendices/Reflexivity}
 %%%%%%%%%%%%%%%%%%
 
