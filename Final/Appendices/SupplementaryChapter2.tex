@@ -20,9 +20,9 @@
 
 
 \bpar{
-Because of the heterogeneity of operations required by the algorithm (references organisation, catalog requests, text processing), it was found a reasonable choice to implement it in Java. Source code is available on the Github repository of the project\footnote{at \texttt{https://github.com/JusteRaimbault/CityNetwork/tree/master/Models/Biblio/AlgoSR}}. Catalog request, consisting in retrieving a set of references from a set of keywords, is done using the Mendeley software API \cite{mendeley} as it allows an open access to a large database. Keyword extraction is done by Natural Language Processing (NLP) techniques, following the workflow given in \cite{chavalarias2013phylomemetic}, calling a Python script that uses \cite{bird2006nltk}.
+Because of the heterogeneity of operations required by the algorithm (references organisation, catalog requests, text processing), it was found a reasonable choice to implement it in Java. Source code is available on the Github repository of the project\footnote{at \texttt{https://github.com/JusteRaimbault/CityNetwork/tree/master/Models/QuantEpsitemo/AlgoSR}}. Catalog request, consisting in retrieving a set of references from a set of keywords, is done using the Mendeley software API \cite{mendeley} as it allows an open access to a large database. Keyword extraction is done by Natural Language Processing (NLP) techniques, following the workflow given in \cite{chavalarias2013phylomemetic}, calling a Python script that uses \cite{bird2006nltk}.
 }{
-De par l'hétérogénéité des opérations requises par l'algorithme (organisation des références, requêtes au catalogue, analyse textuelle), le language Java s'est présenté comme une alternative raisonnable. Le code source est disponible sur le dépôt ouvert du projet\comment{(Florent) lien ?}\footnote{à l'adresse \texttt{https://github.com/JusteRaimbault/CityNetwork/tree/master/Models/Biblio/AlgoSR}}. Les requêtes au catalogue, qui consistent à récupérer un ensemble de références à partir d'un ensemble de mots-clés, sont faites via l'API du logiciel Mendeley~\cite{mendeley} qui permet un accès ouvert à une base de données conséquente. L'extraction des mots-clés est effectuée par techniques d'Analyse Textuelle (NLP) selon le processus donné dans~\cite{chavalarias2013phylomemetic}, via un script Python qui utilise~\cite{bird2006nltk}.
+De par l'hétérogénéité des opérations requises par l'algorithme (organisation des références, requêtes au catalogue, analyse textuelle), le language Java s'est présenté comme une alternative raisonnable. Le code source est disponible sur le dépôt ouvert du projet\footnote{à l'adresse \texttt{https://github.com/JusteRaimbault/CityNetwork/tree/master/Models/QuantEpistemo/AlgoSR}}. Les requêtes au catalogue, qui consistent à récupérer un ensemble de références à partir d'un ensemble de mots-clés, sont faites via l'API du logiciel Mendeley~\cite{mendeley} qui permet un accès ouvert à une base de données conséquente. L'extraction des mots-clés est effectuée par techniques d'Analyse Textuelle (NLP) selon le processus donné dans~\cite{chavalarias2013phylomemetic}, via un script Python qui utilise~\cite{bird2006nltk}.
 }
 
 
@@ -49,6 +49,244 @@ Une preuve formelle de convergence de l'algorithme n'est guère envisageable pui
 \label{fig:quantepistemo:sensitivity}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+
+\subsection{Hypernetwork analysis}{Analyse par hyperréseau}
+
+
+\paragraph{Initial corpus}{Corpus initial}
+
+
+Le tableau~\ref{tab:app:quantepistemo:corpus} donne la composition du corpus par domaines.
+
+%\begin{table}
+% a completer
+%\caption{}{}
+%\label{tab:app:quantepistemo:corpus}
+%\end{table}
+
+
+
+
+
+\paragraph{Sensitivity analysis}{Analyse de sensibilité}
+
+L'analyse de sensibilité permettant de fixer les paramètres optimaux pour le réseau sémantique est montrée en Fig.~\ref{fig:app:quantepistemo:sensitivity}.
+
+% degré non pondéré ? -> justifié dans le Cybergeo paper
+
+
+%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\includegraphics[width=0.49\linewidth]{Figures/Quantepistemo/pareto-com-vertices}
+\includegraphics[width=0.49\linewidth]{Figures/Quantepistemo/pareto-modularity-vertices}\\
+\includegraphics[width=\linewidth]{Figures/Quantepistemo/sensitivity_freqmin0_normalized}
+\caption{Sensitivity analysis of network indicators to filtering parameters}{}
+\label{fig:app:quantepistemo:sensitivity}
+\end{figure}
+%%%%%%%%%%%%%%%%%%
+
+
+
+\paragraph{Semantic Network}{Réseau Sémantique}
+
+% Visualisation du réseau sémantique.
+
+
+
+%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\includegraphics[width=\linewidth]{Figures/Quantepistemo/semantic}
+\caption[Semantic network ][Réseau sémantique]{Semantic network of domains. Network is constructed by co-occurrences of most relevant keywords. Filtering parameters are here taken according to the multi-objective optimization done in Fig.~\ref{fig:sensitivity}, i.e. $(k_{max}=,e_{th}=,f_{min},f_{max}=)$. The graph spatialization algorithm (Fruchterman-Reingold), despite its stochastic and path-dependent character, unveils information. A zoomable vectorial file (\texttt{.svg}) of the network is available as Supplementary Material.}{}
+\label{fig:quantepistemo:semanticnw}
+\end{figure}
+%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+\stars
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%
+\section{Modelography}{Modélographie}
+
+\label{app:sec:modelography}
+
+
+%----------------------------------------------------------------------------------------
+
+
+
+\subsection{Systematic Review Methodology}{Méthodologie de la revue systématique}
+
+
+Choix possible : extraire les mots-clés pertinents par sous-communautés du réseau de citations, puis prendre les plus pertinents ensuite.
+ou (a priori ce que l'on fait) extraire sur le corpus complet, puis récupérer par sous-communautés. Pour un petit corpus, deuxième plus souhaitable, notion de pertinence moins importante que pour du big-data (mentionner Patents et Cybergeo, ressemblances et différences).
+
+
+
+
+% random stuff removed manual screening 
+%computer sci, neurosci, geology, chem/bio terrorism WTF ? , theoretical physics, eco des orgs, socio (aids ethiopia ?), target tracking, rice storage culinary qual, bulimic, smart cities, bullshit territorialité Die, chinese migrants !, chinese tourist HongKong, papier CN desakota (cité migrdyn), health, hydrology, paysage hautes corbières, musical implication network, finance capitalism, produit territoire pomme des alpes, mobilité sociale, vibration pont hsr, ontological knowledge industri., signal processing, anger/agression, flocks/schools, friendship and mobility, consumer brand,  aghion ? , colorectal cancer texas, lidar urban, mediteranean cities, sun and sand tourism, gender car use, gold rush movies, urban informatics, "best outside US", badger, robots beacon, milieux innovateurs, politique univ villes la rochelle etc, cosmology, economie de la qualité,  handbook adult resilience, stock price, archeo chefferie, speculative urb, Mendoza arg, subway platfrom ventilation, magaliths, crowding HK light rail !, terrritoire familiaux naples classes sup, performing arts series, sncf tunnel rig, china snow disaster; fabriq rue paris 19e, geopol inuit, espace public beyrouth, greenway., desire named streetcar, jeddah, french competitino rail myth, Equip the warrior instead of manning the equipment, aparheid namibia, baselIII finance, tokyo, espace transfrtontalier, transport proteins !, hedonic rail road noise, croissance syst urbain loi metropol, maritime nw indonesia, eco sociale au quebec, first world urban activism, hybrid.. , gentrif nvel urba, [before] Estimation of local spatial scale : otpicians !, stations de montange, street gang sptail pattern LA, SFI adress !, bogota BRT, transport noise, brussel urban geology, drosohiplia embryo
+
+
+
+
+
+
+% hand classifications :
+Journals $\rightarrow$ disciplines
+jtgeo : geography, jtlu : transportation, transportation research, epb : geography\ldots
+
+geography includes urbanisme, etudes urbaines si pas trop proche du planning (urban durable).
+
+
+
+
+
+
+
+\subsection{Meta-analysis}{Meta-analyse}
+
+\paragraph{Time scale}{Echelle de temps}
+
+"TEMPSCALE~YEAR+CITCOM+TYPE+SPATSCALE+FMETHOD+DISCIPLINE+INTERDISC+SEMCOM"
+
+                           Estimate Std. Error t value Pr(>|t|)   
+(Intercept)               1.382e+04  2.379e+03   5.809  0.01015 * 
+YEAR                     -6.181e+00  1.109e+00  -5.572  0.01141 * 
+CITCOMInfra Planning      1.117e+02  2.234e+01   4.999  0.01540 * 
+CITCOMLUTI                1.140e+02  1.956e+01   5.827  0.01007 * 
+CITCOMNetworks            7.977e+01  2.243e+01   3.556  0.03793 * 
+TYPEterritory            -2.234e+02  2.233e+01 -10.004  0.00213 **
+SPATSCALE                 9.248e-02  1.807e-02   5.119  0.01443 * 
+FMETHODsem               -1.130e+02  2.640e+01  -4.281  0.02341 * 
+FMETHODsim               -1.212e+03  1.962e+02  -6.180  0.00853 **
+FMETHODstat              -1.029e+03  1.968e+02  -5.228  0.01361 * 
+DISCIPLINEgeography      -2.285e+00  1.253e+01  -0.182  0.86692   
+DISCIPLINEphysics        -6.824e+01  1.111e+01  -6.140  0.00869 **
+DISCIPLINEplanning        9.928e+02  1.826e+02   5.437  0.01222 * 
+DISCIPLINEtransportation -2.360e+01  1.128e+01  -2.092  0.12750   
+INTERDISC                -1.635e+02  3.757e+01  -4.353  0.02239 * 
+SEMCOMinfra planning     -1.171e+02  2.690e+01  -4.353  0.02240 * 
+SEMCOMnetworks           -8.645e+01  2.009e+01  -4.303  0.02309 * 
+SEMCOMtod                -1.027e+03  1.905e+02  -5.393  0.01249 * 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 8.854 on 3 degrees of freedom
+  (124 observations deleted due to missingness)
+Multiple R-squared:  0.9954,	Adjusted R-squared:  0.9691 
+F-statistic: 37.89 on 17 and 3 DF,  p-value: 0.006012
+
+\paragraph{Spatial scale}{Echelle d'espace}
+
+
+"SPATSCALE~YEAR+CITCOM+TYPE+TEMPSCALE+FMETHOD+DISCIPLINE+INTERDISC+SEMCOM"
+
+                           Estimate Std. Error t value Pr(>|t|)    
+(Intercept)              -1.440e+05  1.890e+04  -7.622  0.00469 ** 
+YEAR                      6.436e+01  9.165e+00   7.022  0.00593 ** 
+CITCOMInfra Planning     -1.188e+03  1.354e+02  -8.773  0.00312 ** 
+CITCOMLUTI               -1.188e+03  1.549e+02  -7.667  0.00461 ** 
+CITCOMNetworks           -8.778e+02  1.358e+02  -6.466  0.00751 ** 
+TYPEterritory             2.087e+03  5.872e+02   3.555  0.03796 *  
+TEMPSCALE                 9.702e+00  1.895e+00   5.119  0.01443 *  
+FMETHODsem                1.210e+03  1.771e+02   6.834  0.00641 ** 
+FMETHODsim                1.287e+04  4.487e+02  28.685 9.30e-05 ***
+FMETHODstat               1.110e+04  1.581e+02  70.218 6.37e-06 ***
+DISCIPLINEgeography       7.562e+01  1.214e+02   0.623  0.57749    
+DISCIPLINEphysics         6.551e+02  1.810e+02   3.620  0.03626 *  
+DISCIPLINEplanning       -1.067e+04  1.944e+02 -54.871 1.33e-05 ***
+DISCIPLINEtransportation  2.622e+02  9.951e+01   2.635  0.07799 .  
+INTERDISC                 1.644e+03  4.269e+02   3.852  0.03090 *  
+SEMCOMinfra planning      1.233e+03  2.203e+02   5.597  0.01127 *  
+SEMCOMnetworks            9.091e+02  1.680e+02   5.411  0.01238 *  
+SEMCOMtod                 1.105e+04  1.945e+02  56.805 1.20e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 90.68 on 3 degrees of freedom
+  (124 observations deleted due to missingness)
+Multiple R-squared:  0.9999,	Adjusted R-squared:  0.9991 
+F-statistic:  1274 on 17 and 3 DF,  p-value: 3.169e-05
+
+
+
+
+\paragraph{Interdisciplinarity}{Interdisciplinarité}
+
+
+"INTERDISC~YEAR"
+
+             Estimate Std. Error t value Pr(>|t|)   
+(Intercept)  6.218932   2.314180   2.687  0.00849 **
+YEAR        -0.002781   0.001153  -2.413  0.01772 * 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.108 on 96 degrees of freedom
+  (47 observations deleted due to missingness)
+Multiple R-squared:  0.05718,	Adjusted R-squared:  0.04736 
+F-statistic: 5.822 on 1 and 96 DF,  p-value: 0.01772
+
+
+\paragraph{Year}{Année}
+
+"YEAR~CITCOM+TYPE+TEMPSCALE+SPATSCALE+FMETHOD+DISCIPLINE+INTERDISC+SEMCOM"
+
+                           Estimate Std. Error t value Pr(>|t|)    
+(Intercept)               2.227e+03  2.598e+01  85.729  3.5e-06 ***
+CITCOMInfra Planning      1.779e+01  2.373e+00   7.498  0.00492 ** 
+CITCOMLUTI                1.806e+01  1.940e+00   9.307  0.00263 ** 
+CITCOMNetworks            1.310e+01  2.326e+00   5.633  0.01107 *  
+TYPEterritory            -3.217e+01  7.996e+00  -4.024  0.02758 *  
+TEMPSCALE                -1.475e-01  2.648e-02  -5.572  0.01141 *  
+SPATSCALE                 1.465e-02  2.086e-03   7.022  0.00593 ** 
+FMETHODsem               -1.838e+01  2.372e+00  -7.749  0.00447 ** 
+FMETHODsim               -1.903e+02  2.334e+01  -8.151  0.00386 ** 
+FMETHODstat              -1.633e+02  2.143e+01  -7.622  0.00469 ** 
+DISCIPLINEgeography      -8.011e-01  1.890e+00  -0.424  0.70027    
+DISCIPLINEphysics        -1.008e+01  2.474e+00  -4.076  0.02667 *  
+DISCIPLINEplanning        1.570e+02  2.057e+01   7.631  0.00467 ** 
+DISCIPLINEtransportation -3.701e+00  1.704e+00  -2.172  0.11821    
+INTERDISC                -2.499e+01  6.192e+00  -4.036  0.02735 *  
+SEMCOMinfra planning     -1.835e+01  3.752e+00  -4.891  0.01635 *  
+SEMCOMnetworks           -1.355e+01  2.811e+00  -4.820  0.01702 *  
+SEMCOMtod                -1.625e+02  2.153e+01  -7.547  0.00482 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.368 on 3 degrees of freedom
+  (124 observations deleted due to missingness)
+Multiple R-squared:  0.987,	Adjusted R-squared:  0.9132 
+F-statistic: 13.38 on 17 and 3 DF,  p-value: 0.02725
+
+
+
+
+
+
 
 
 
