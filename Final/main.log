@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.21)  1 NOV 2017 21:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.21)  1 NOV 2017 22:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -7326,9 +7326,14 @@ LaTeX Warning: Citation '2016arXiv160806313S' on page 236 undefined on input li
 ne 72.
 
 
-Overfull \hbox (1.31963pt too wide) in paragraph at lines 80--81
-\T1/pplj/m/n/10.95 ra-mètres. Le monde est une grille car-rée de côté $\U/zeur/
-m/n/10.95 N$\T1/pplj/m/n/10.95 , dans le-quel chaque
+Overfull \hbox (35.3468pt too wide) in paragraph at lines 72--73
+\T1/pplj/m/n/10.95 Un mo-dèle cap-tu-rant ces pro-ces-sus a été in-tro-duit dan
+s [[]],
+ []
+
+
+Overfull \hbox (4.52263pt too wide) in paragraph at lines 72--73
+\T1/pplj/m/n/10.95 comme une va-ria-tion cel-lu-laire du mo-dèle DLA [[]].
  []
 
 [236]
@@ -7386,12 +7391,6 @@ Overfull \hbox (7.22084pt too wide) in paragraph at lines 204--205
 es pro-prié-tés de conver-
  []
 
-
-Overfull \hbox (2.14008pt too wide) in paragraph at lines 204--205
-\T1/pplj/m/n/10.95 dard. L'in-di-ca-teur le plus va-riable est l'in-dex de Mo-r
-an avec un Sharpe
- []
-
 [239] [240 <./Figures/Final/5-2-2-fig-density-fig2.jpg>]
 Overfull \hbox (9.35936pt too wide) in paragraph at lines 242--243
 \T1/pplj/m/n/10.95 les pa-ra-mètres va-riant dans $\U/zeur/m/n/10.95  \U/zeus/
@@ -7404,7 +7403,8 @@ T1/pplj/m/n/10.95 , [] , \U/zeur/m/n/10.95 5\U/zeus/m/n/10.95 g\T1/pplj/m/n/10.
 95 , \U/zeur/m/n/10.95 N[] \U/zeus/m/n/10.95 2
  []
 
-<Figures/Final/5-2-2-fig-density-fig3.jpg, id=2252, 2007.5pt x 1185.42876pt>
+[241]
+<Figures/Final/5-2-2-fig-density-fig3.jpg, id=2256, 2007.5pt x 1185.42876pt>
 File: Figures/Final/5-2-2-fig-density-fig3.jpg Graphic file (type jpg)
 
 <use Figures/Final/5-2-2-fig-density-fig3.jpg>
@@ -7413,11 +7413,35 @@ Package pdftex.def Info: Figures/Final/5-2-2-fig-density-fig3.jpg used on input
 (pdftex.def)             Requested size: 506.71652pt x 299.21439pt.
 
 
-LaTeX Warning: Citation 'turing1952chemical' on page 241 undefined on input lin
+LaTeX Warning: Citation 'turing1952chemical' on page 242 undefined on input lin
 e 267.
 
 
-LaTeX Warning: Citation '2017arXiv171007580R' on page 241 undefined on input li
+./Content/DensityGeneration.tex:267: Package inputenc Error: Unicode char Ã\com
+ment (U+352)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267 }
+       
+? 
+
+./Content/DensityGeneration.tex:267: Package inputenc Error: Keyboard character
+ used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267 }
+       
+? 
+
+LaTeX Warning: Citation '2017arXiv171007580R' on page 242 undefined on input li
 ne 267.
 
 
@@ -7427,18 +7451,17 @@ Overfull \hbox (4.9277pt too wide) in paragraph at lines 267--268
  []
 
 
-Overfull \hbox (28.3388pt too wide) in paragraph at lines 267--268
+Overfull \hbox (27.51756pt too wide) in paragraph at lines 267--268
 \T1/pplj/m/sc/10.95 Tu-ring \T1/pplj/m/n/10.95 dans son ar-ticle sé-mi-nal sur 
-la mor-pho-ge-nèse [[]].
+la mor-pho-ge-nèse [[]]
  []
 
 
-Overfull \hbox (57.31323pt too wide) in paragraph at lines 267--268
-\T1/pplj/m/n/10.95 mon avec forme quel-conque de la fonc-tion d'at-ta-che-ment,
- [[]]
+Overfull \hbox (15.28719pt too wide) in paragraph at lines 267--268
+\T1/pplj/m/n/10.95 quel-conque de la fonc-tion d'at-ta-che-ment, [[]] montre
  []
 
-[241] [242 <./Figures/Final/5-2-2-fig-density-fig3.jpg>]
+[242 <./Figures/Final/5-2-2-fig-density-fig3.jpg>]
 Overfull \hbox (38.48892pt too wide) detected at line 273
  $ \U/zeur/m/n/10.95 ^^Nt \U/zeus/m/n/10.95 ^^A [] ½ [] « [] ^^A [] ^^A [][] « 
 [] ^^A [] ^^A []$  
@@ -7483,10 +7506,10 @@ LaTeX Warning: Float too large for page by 25.801pt on input line 321.
 
 
 LaTeX Warning: Citation '10.1371/journal.pone.0138212' on page 245 undefined on
- input line 344.
+ input line 338.
 
 
-Overfull \hbox (34.41034pt too wide) in paragraph at lines 344--345
+Overfull \hbox (34.41034pt too wide) in paragraph at lines 338--339
 \T1/pplj/m/n/10.95 met-teurs. Plus pré-ci-sé-ment, l'al-go-rithme PSE [[]]
  []
 
@@ -7496,24 +7519,23 @@ File: Figures/Final/5-2-2-fig-density-fig6.jpg Graphic file (type jpg)
 
 <use Figures/Final/5-2-2-fig-density-fig6.jpg>
 Package pdftex.def Info: Figures/Final/5-2-2-fig-density-fig6.jpg used on input
- line 351.
+ line 345.
 (pdftex.def)             Requested size: 506.71652pt x 386.11577pt.
 
-Overfull \hbox (4.41771pt too wide) in paragraph at lines 361--362
+Overfull \hbox (4.41771pt too wide) in paragraph at lines 355--356
 \T1/pplj/m/n/10.95 un mo-dèle hau-te-ment réa-liste. La mo-di-fi-ca-tion de cer
 -tains mé-ca-nismes
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--374
+[247] [248 <./Figures/Final/5-2-2-fig-density-fig6.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
 
  []
 
-[247] [248 <./Figures/Final/5-2-2-fig-density-fig6.jpg>]) [249]
+) [249]
 \openout2 = `Content/CorrelatedSyntheticData.aux'.
 
-
-(./Content/CorrelatedSyntheticData.tex
+ (./Content/CorrelatedSyntheticData.tex
 
 LaTeX Warning: Citation 'pritchard2009advances' on page 250 undefined on input 
 line 33.
@@ -11907,10 +11929,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38105 strings out of 493014
- 701781 string characters out of 6133351
+ 38106 strings out of 493014
+ 701793 string characters out of 6133351
  1470514 words of memory out of 5000000
- 39188 multiletter control sequences out of 15000+600000
+ 39189 multiletter control sequences out of 15000+600000
  147105 words of font info for 273 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,23n,105p,10447b,2191s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -11982,7 +12004,7 @@ ts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2016/texmf-dist
 type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
 urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/pal
 atino/uplri8a.pfb>
-Output written on main.pdf (535 pages, 24383875 bytes).
+Output written on main.pdf (535 pages, 24386426 bytes).
 PDF statistics:
  5370 PDF objects out of 6186 (max. 8388607)
  4554 compressed objects within 46 object streams
