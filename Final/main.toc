@@ -1,0 +1,1289 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {american}
+\defcounter {refsection}{0}\relax 
+\vspace {-\cftbeforepartskip }
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{Introduction}{3}{chapter*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {i}\spacedlowsmallcaps {Fondations}}{21}{part.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Interactions entre R\IeC {\'e}seaux et Territoires}}{25}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Territoires et R\IeC {\'e}seaux}{27}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.1}Territoires et R\IeC {\'e}seaux : \emph {There and Back Again}}{27}{subsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Territoires}{27}{subsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{R\IeC {\'e}seaux}{29}{subsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{R\IeC {\'e}seaux r\IeC {\'e}els}{30}{subsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Des r\IeC {\'e}seaux qui fa\IeC {\c c}onnent les territoires ?}{31}{subsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Syst\IeC {\`e}mes Territoriaux}{33}{subsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.2}R\IeC {\'e}seaux de Transport}{34}{subsection.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{La particularit\IeC {\'e} des r\IeC {\'e}seaux de transport}{34}{subsection.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Transports et Accessibilit\IeC {\'e}}{36}{subsection.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Echelles et Hierarchies}{37}{subsection.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Transports et Mobilit\IeC {\'e}}{38}{subsection.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.3}Interactions entre R\IeC {\'e}seaux et Territoires}{39}{subsection.1.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diversit\IeC {\'e} des interactions}{39}{subsection.1.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Gouvernance et Planification}{40}{subsection.1.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Co-\IeC {\'e}volution des r\IeC {\'e}seaux et des territoires}{41}{subsection.1.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}De Paris \IeC {\`a} Zhuhai}{43}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Le Grand Paris : histoire et enjeux}{43}{subsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Gouvernance}{44}{subsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{R\IeC {\'e}seau de Transport du Grand Paris}{44}{subsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Impact du Grand Paris Express}{45}{subsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Le Delta de la Rivi\IeC {\`e}re des Perles}{51}{subsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Nouveaux \emph {r\IeC {\'e}gimes urbains} et \emph {Mega-r\IeC {\'e}gion urbaine}}{51}{subsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Impact du Pont Zhuhai-Hong-Kong-Macao}{53}{subsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.3}Comparabilit\IeC {\'e} des \IeC {\'e}tudes de cas}{54}{subsection.1.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Elements de terrain}{55}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.1}D\IeC {\'e}veloppement d'un r\IeC {\'e}seau de transport}{55}{subsection.1.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.2}Impl\IeC {\'e}mentation du TOD : des illustrations contrast\IeC {\'e}es}{57}{subsection.1.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.3}Observation Flottante}{61}{subsection.1.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{M\IeC {\'e}thode}{61}{subsection.1.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{R\IeC {\'e}sultats}{62}{subsection.1.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Mod\IeC {\'e}liser les Interactions entre R\IeC {\'e}seaux et Territoires}}{67}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Mod\IeC {\'e}liser les Interactions}{70}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Mod\IeC {\'e}lisation en G\IeC {\'e}ographie Quantitative}{70}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Mod\IeC {\'e}lisation et Equilibre}{71}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Mod\IeC {\'e}liser les territoires et r\IeC {\'e}seaux}{71}{subsection.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Mod\IeC {\`e}les LUTI}{72}{subsection.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Croissance du R\IeC {\'e}seau}{74}{subsection.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.3}Mod\IeC {\'e}liser la co-\IeC {\'e}volution}{77}{subsection.2.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Mod\IeC {\'e}lisation Hybride}{77}{subsection.2.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Mod\IeC {\'e}lisation de Syst\IeC {\`e}mes Urbains}{80}{subsection.2.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Co-\IeC {\'e}volution}{81}{subsection.2.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Une Approche Epist\IeC {\'e}mologique}{83}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Revue Syst\IeC {\'e}matique Algorithmique}{83}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{En recherche de mod\IeC {\`e}les de co-\IeC {\'e}volution}{84}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Mod\IeC {\'e}liser les interactions entre croissance urbaine et croissance des r\IeC {\'e}seaux}{84}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Analyse Bibliom\IeC {\'e}trique}{84}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Description de l'Algorithme}{85}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{R\IeC {\'e}sultats}{87}{figure.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Bibliom\IeC {\'e}trie indirecte}{88}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Contexte}{89}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Donn\IeC {\'e}es}{91}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Corpus Initial}{91}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Donn\IeC {\'e}es de citation}{91}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Donn\IeC {\'e}es textuelles}{92}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{R\IeC {\'e}sultats}{92}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{R\IeC {\'e}seau de citations}{92}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Communaut\IeC {\'e}s S\IeC {\'e}mantiques}{93}{figure.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Mesures d'interdisciplinarit\IeC {\'e}}{95}{table.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Discussion}{98}{subsection.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Vers une mod\IeC {\'e}lisation des th\IeC {\`e}mes et une extraction automatique du contexte}{98}{subsection.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{R\IeC {\'e}flexivit\IeC {\'e}}{98}{subsection.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Revue Syst\IeC {\'e}matique et Mod\IeC {\'e}lographie}{100}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Revue syst\IeC {\'e}matique et Meta-analyse}{100}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Mod\IeC {\'e}lographie}{103}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Processus et cas d'\IeC {\'e}tude}{106}{figure.2.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Caract\IeC {\'e}ristiques du corpus}{107}{figure.2.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{R\IeC {\'e}gressions classiques}{108}{table.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{R\IeC {\'e}gressions par For\IeC {\^e}ts Al\IeC {\'e}atoires}{109}{table.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Discussion}{109}{subsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{D\IeC {\'e}veloppements}{109}{subsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Le\IeC {\c c}ons pour la mod\IeC {\'e}lisation}{110}{subsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Synth\IeC {\`e}se}{110}{subsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Positionnements}}{113}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Mod\IeC {\'e}lisation, donn\IeC {\'e}es massives et calcul intensif}{115}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Pourquoi mod\IeC {\'e}liser ?}{115}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Le mod\IeC {\`e}le comme outil de connaissance indirecte}{115}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Comment explorer un mod\IeC {\`e}le de simulation}{116}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Lien entre mod\IeC {\'e}lisation et Science Ouverte}{117}{Item.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Pour un usage raisonn\IeC {\'e} des donn\IeC {\'e}es massives et de la computation}{118}{subsection.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.3}Etendre les analyses de sensibilit\IeC {\'e}}{121}{subsection.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Contexte}{121}{subsection.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Rationelle}{122}{subsection.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Formalisation}{123}{subsection.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Role de la d\IeC {\'e}pendance au chemin spatio-temporelle}{123}{subsection.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Travaux existants}{124}{subsection.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{M\IeC {\'e}thodes}{124}{subsection.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{G\IeC {\'e}n\IeC {\'e}rateur spatial}{125}{subsection.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Comparer les diagrammes de phase}{125}{subsection.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{R\IeC {\'e}sultats}{126}{equation.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Reproducibilit\IeC {\'e}}{130}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Explicitation, documentation et impl\IeC {\'e}mentation des mod\IeC {\`e}les}{130}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Sur le Besoin d'expliciter le mod\IeC {\`e}le}{130}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Formalisation Rigoureuse}{131}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Impl\IeC {\'e}mentation Transparente}{133}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Comportement attendu du mod\IeC {\`e}le}{133}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Sur le besoin d'exactitude dans l'impl\IeC {\'e}mentation du mod\IeC {\`e}le}{134}{figure.3.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Exploration interactive et production des r\IeC {\'e}sultats}{135}{subsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}Perspectives}{136}{subsection.3.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Positionnement Epist\IeC {\'e}mologique}{140}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Approche cognitive et Perspectivisme}{140}{subsection.3.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}De la Vie \IeC {\`a} la Culture}{141}{subsection.3.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.3}Nature de la Complexit\IeC {\'e} et Production de Connaissances}{143}{subsection.3.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Complexit\IeC {\'e} et Complexit\IeC {\'e}s}{143}{subsection.3.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Complexit\IeC {\'e} computationnelle et \IeC {\'e}mergence}{144}{subsection.3.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Complexit\IeC {\'e} informationnelle et \IeC {\'e}mergence}{145}{subsection.3.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Production de connaissances}{146}{subsection.3.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {ii}\spacedlowsmallcaps {Briques El\IeC {\'e}mentaires}}{151}{part.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Stationnarit\IeC {\'e}}{155}{chapter*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Ergodicit\IeC {\'e}}{155}{chapter*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Chaos}{155}{chapter*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Correlation}{155}{chapter*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Causalit\IeC {\'e} de Granger}{155}{chapter*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Regression G\IeC {\'e}ographique Pond\IeC {\'e}r\IeC {\'e}e}{156}{chapter*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Apprentissage statistique}{156}{chapter*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Overfitting}{156}{chapter*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Discr\IeC {\'e}pance}{156}{chapter*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Echantillonnage LHS}{156}{chapter*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{NSGA}{156}{chapter*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Th\IeC {\'e}orie Evolutive Urbaine}}{157}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Forme Urbaine et Forme de R\IeC {\'e}seau}{161}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Mesures morphologiques}{163}{subsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Morphologie Urbaine}{163}{subsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{R\IeC {\'e}sultats}{165}{Item.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}Mesures de R\IeC {\'e}seau}{168}{subsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Pr\IeC {\'e}-traitement des donn\IeC {\'e}es}{168}{subsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Indicateurs}{169}{subsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Forme de R\IeC {\'e}seau et R\IeC {\'e}silience}{170}{subsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{R\IeC {\'e}sultats}{171}{subsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.3}Correlations Statiques Effectives et Non-stationnarit\IeC {\'e}}{171}{subsection.4.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Corr\IeC {\'e}lations spatiales}{171}{subsection.4.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Nature multi-scalaire des processus}{173}{figure.4.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Echelles optimales}{174}{figure.4.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Non-stationnarit\IeC {\'e} spatiale et non-ergodicit\IeC {\'e}}{176}{table.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Formalisation}{176}{table.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Sur la non-ergodicit\IeC {\'e} globale}{177}{Item.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Discussion}{178}{Item.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Universalit\IeC {\'e}}{178}{Item.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{D\IeC {\'e}veloppements}{178}{Item.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Causalit\IeC {\'e}s Spatio-temporelles}{180}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Causalit\IeC {\'e}s Spatio-temporelles}{180}{subsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{M\IeC {\'e}thode}{183}{subsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Donn\IeC {\'e}es Synth\IeC {\'e}tiques}{184}{subsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{R\IeC {\'e}gimes de causalit\IeC {\'e}}{187}{figure.4.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Interpr\IeC {\'e}tation}{188}{figure.4.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.3}Relations R\IeC {\'e}seaux-territoires en Afrique du Sud}{189}{subsection.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Contexte}{189}{subsection.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{R\IeC {\'e}sultats}{189}{subsection.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Donn\IeC {\'e}es}{189}{subsection.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Mesures de r\IeC {\'e}seau}{189}{subsection.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Motifs de causalit\IeC {\'e}}{190}{figure.4.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{D\IeC {\'e}veloppements possibles}{192}{figure.4.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Mod\IeC {\`e}le de croissance macroscopique}{194}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Contexte}{194}{subsection.4.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Croissance Urbaine et Interactions Spatiales}{196}{subsection.4.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Croissance Urbaine et R\IeC {\'e}seaux de Transports}{197}{subsection.4.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}Mod\IeC {\`e}le et R\IeC {\'e}sultats}{198}{subsection.4.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Description du mod\IeC {\`e}le}{198}{subsection.4.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Contexte}{198}{subsection.4.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Description du mod\IeC {\`e}le}{198}{subsection.4.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Espace des param\IeC {\`e}tres}{200}{equation.4.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Donn\IeC {\'e}es}{200}{table.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Donn\IeC {\'e}es de population}{201}{table.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Flux physiques}{201}{table.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Evaluation du mod\IeC {\`e}le}{202}{table.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{R\IeC {\'e}sultats}{203}{table.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Faits stylis\IeC {\'e}s}{203}{table.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Exploration du mod\IeC {\`e}le}{203}{figure.4.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Calibration du mod\IeC {\`e}le de gravit\IeC {\'e}}{205}{figure.4.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Effets de R\IeC {\'e}seau}{210}{figure.4.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Performance du mod\IeC {\`e}le}{211}{figure.4.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.3}Vers des mod\IeC {\`e}les co-\IeC {\'e}volutifs}{214}{subsection.4.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Morphogen\IeC {\`e}se Urbaine}}{217}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Une Approche Interdisciplinaire de la Morphogen\IeC {\`e}se}{219}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Contexte}{219}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.1}Revues}{220}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Biologie du D\IeC {\'e}veloppement}{220}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{M\IeC {\'e}canismes de r\IeC {\'e}action-diffusion}{220}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Le mod\IeC {\`e}le French Flag}{221}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Forces inter-cellulaires}{221}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Environnement b\IeC {\^a}ti}{223}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Mod\IeC {\'e}lisation}{224}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Arch\IeC {\'e}ologie}{224}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Autopoi\IeC {\`e}se}{225}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Histoire de la notion}{225}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Autres}{226}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Epist\IeC {\'e}mologie}{226}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Une Approche Math\IeC {\'e}matique}{226}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Autopoi\IeC {\`e}se et Morphogen\IeC {\`e}se}{227}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Co-\IeC {\'e}volution}{227}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Definition et fronti\IeC {\`e}res du syst\IeC {\`e}me}{227}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.2}Synth\IeC {\`e}se}{228}{subsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Notions cl\IeC {\'e}s}{228}{subsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Processus communs et divergences}{229}{subsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Des interactions locales aux flux globaux d'information}{229}{subsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{De l'auto-organisation \IeC {\`a} la morphogen\IeC {\`e}se : la notion d'architecture}{229}{subsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Proposition d'un cadre meta-epist\IeC {\'e}mologique}{229}{subsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Cadre}{229}{subsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Application}{231}{equation.5.1.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.3}Discussion}{231}{subsection.5.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Vers une construction syst\IeC {\'e}matique}{231}{subsection.5.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Epistemologie quantitative}{231}{subsection.5.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Transfert de Connaissances}{232}{subsection.5.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Morphogen\IeC {\`e}se Urbaine par Agr\IeC {\'e}gation-diffusion}{233}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}Contexte}{233}{subsection.5.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}Mod\IeC {\`e}le et R\IeC {\'e}sultats}{236}{subsection.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Mod\IeC {\`e}le de croissance urbaine}{236}{subsection.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Description}{236}{subsection.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Formalisation}{236}{subsection.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Mesure de la forme urbaine}{237}{table.5.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Donn\IeC {\'e}es r\IeC {\'e}elles}{237}{table.5.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Impl\IeC {\'e}mentation}{238}{table.5.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Formes g\IeC {\'e}n\IeC {\'e}r\IeC {\'e}es}{238}{table.5.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Comportement du mod\IeC {\`e}le}{239}{figure.5.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Convergence}{239}{figure.5.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Exploration de l'espace des param\IeC {\`e}tres}{241}{figure.5.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Analyse semi-analytique}{241}{figure.5.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Calibration du mod\IeC {\`e}le}{244}{figure.5.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.3}Discussion}{245}{subsection.5.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Raffinement de la calibration et du mod\IeC {\`e}le}{245}{subsection.5.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}G\IeC {\'e}n\IeC {\'e}ration de configurations territoriales corr\IeC {\'e}l\IeC {\'e}es}{250}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.1}Donn\IeC {\'e}es G\IeC {\'e}ographiques corr\IeC {\'e}l\IeC {\'e}es de Densit\IeC {\'e} et de R\IeC {\'e}seau}{250}{subsection.5.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.2}Mod\IeC {\`e}le et Resultats}{251}{subsection.5.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Formalisation}{251}{subsection.5.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Mod\IeC {\`e}le de densit\IeC {\'e}}{251}{subsection.5.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Mod\IeC {\`e}le de r\IeC {\'e}seau}{251}{subsection.5.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Espace des param\IeC {\`e}tres}{253}{Item.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Indicateurs}{253}{Item.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Covariance et Correlation}{254}{Item.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Impl\IeC {\'e}mentation}{254}{Item.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{R\IeC {\'e}sultats}{254}{figure.5.35}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.3}Discussion}{258}{subsection.5.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Positionnement Scientifique}{258}{subsection.5.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{D\IeC {\'e}veloppements}{258}{subsection.5.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Applications Directes}{258}{subsection.5.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{G\IeC {\'e}n\IeC {\'e}ralisation}{260}{subsection.5.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Synth\IeC {\`e}se}}{263}{part.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Echelles et processus}{265}{table.5.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Co-\IeC {\'e}volution \IeC {\`a} l'Echelle Macroscopique}}{269}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Mod\IeC {\`e}les existants}{271}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.1}Contexte}{271}{subsection.6.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Description du Mod\IeC {\`e}le}{271}{subsection.6.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Perspectives}{272}{subsection.6.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.2}M\IeC {\'e}thode}{272}{subsection.6.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Configuration spatiale}{272}{subsection.6.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{G\IeC {\'e}n\IeC {\'e}ration de configuration synth\IeC {\'e}tique}{272}{subsection.6.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Indicateurs}{273}{subsection.6.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.3}R\IeC {\'e}sultats}{274}{subsection.6.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Plan d'exp\IeC {\'e}rience}{274}{subsection.6.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Convergence}{275}{subsection.6.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Sensibilit\IeC {\'e} \IeC {\`a} l'espace}{275}{subsection.6.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Motifs}{275}{table.6.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Extension dynamique du mod\IeC {\`e}le d'interaction}{279}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.1}Mod\IeC {\`e}le macroscopique de co-\IeC {\'e}volution}{279}{subsection.6.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Hypoth\IeC {\`e}ses et choix de mod\IeC {\'e}lisation}{279}{subsection.6.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Formulation G\IeC {\'e}n\IeC {\'e}rique}{279}{subsection.6.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Croissance du r\IeC {\'e}seau}{281}{figure.6.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Impl\IeC {\'e}mentation}{281}{figure.6.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.2}Application \IeC {\`a} des Donn\IeC {\'e}es Synth\IeC {\'e}tiques}{281}{subsection.6.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Donn\IeC {\'e}es Synth\IeC {\'e}tiques}{282}{subsection.6.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{R\IeC {\'e}sultats}{282}{subsection.6.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Synth\IeC {\`e}se}{285}{figure.6.39}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.3}Applications au Syst\IeC {\`e}me de Villes Fran\IeC {\c c}ais}{286}{subsection.6.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Donn\IeC {\'e}es de R\IeC {\'e}seau}{286}{subsection.6.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Faits stylis\IeC {\'e}s}{286}{subsection.6.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Calibration du mod\IeC {\`e}le abstrait}{287}{figure.6.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Indicateurs}{287}{figure.6.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{R\IeC {\'e}sultats}{289}{figure.6.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Mod\IeC {\`e}le avec r\IeC {\'e}seau physique}{290}{figure.6.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Perspectives}{290}{figure.6.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Trajectoires Particuli\IeC {\`e}res}{290}{figure.6.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Comparaison de syst\IeC {\`e}mes urbains}{293}{figure.6.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Co-\IeC {\'e}volution \IeC {\`a} l'Echelle Mesoscopique}}{295}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Mod\IeC {\`e}les de Croissance de R\IeC {\'e}seau}{296}{section.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.1}Comparer les heuristiques de croissance de r\IeC {\'e}seau}{296}{subsection.7.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Base du mod\IeC {\`e}le de croissance de r\IeC {\'e}seau}{296}{subsection.7.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Heuristiques de r\IeC {\'e}f\IeC {\'e}rence}{297}{Item.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Heuristique euclidienne}{297}{Item.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Rupture de potentiel al\IeC {\'e}atoire}{297}{Item.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Heuristique biologique}{298}{Item.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Co\IeC {\^u}ts-b\IeC {\'e}n\IeC {\'e}fices}{299}{figure.7.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.2}R\IeC {\'e}sultats}{299}{subsection.7.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{R\IeC {\'e}seaux g\IeC {\'e}n\IeC {\'e}r\IeC {\'e}s}{299}{subsection.7.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Plan d'exp\IeC {\'e}rience}{301}{figure.7.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Topologies obtenues}{301}{figure.7.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Comparaison aux r\IeC {\'e}seaux r\IeC {\'e}els}{301}{figure.7.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.3}Discussion}{301}{subsection.7.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Co-\IeC {\'e}volution \IeC {\`a} l'\IeC {\'e}chelle mesoscopique}{304}{section.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.1}Mod\IeC {\`e}le}{304}{subsection.7.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Rationelle}{304}{subsection.7.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Formalisation}{304}{figure.7.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.2}R\IeC {\'e}sultats}{305}{subsection.7.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Calibration statique et dynamique}{305}{subsection.7.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{R\IeC {\'e}gimes de causalit\IeC {\'e}}{306}{figure.7.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.3}D\IeC {\'e}veloppements}{306}{subsection.7.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}Mod\IeC {\'e}lisation de la Gouvernance du Syst\IeC {\`e}me de Transport}{309}{section.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.1}Contexte}{309}{subsection.7.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.2}Le Mod\IeC {\`e}le Lutecia}{309}{subsection.7.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.3}Application au Delta de la Rivi\IeC {\`e}re des Perles}{309}{subsection.7.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Ouverture}}{313}{part.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Echelles et Ontologies}}{315}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Repr\IeC {\'e}sentation territoriales}{316}{section.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.1}Representations de syst\IeC {\`e}mes territoriaux}{316}{subsection.8.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.2}Dimension intrins\IeC {\`e}que d'un syst\IeC {\`e}me territorial}{316}{subsection.8.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.3}Etendre les ontologies}{316}{subsection.8.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Equilibre Utilisateur Statique}{317}{section.8.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.1}Contexte}{317}{subsection.8.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.2}R\IeC {\'e}sultats}{319}{subsection.8.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Collecte des donn\IeC {\'e}es}{319}{subsection.8.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Construction du jeu de donn\IeC {\'e}es}{319}{subsection.8.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Description des donn\IeC {\'e}es}{319}{subsection.8.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{M\IeC {\'e}thodes and R\IeC {\'e}sultats}{320}{subsection.8.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Visualisation des motifs spatio-temporels de congestion}{320}{subsection.8.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Variabilit\IeC {\'e} Spatio-temporelle des Trajets}{320}{figure.8.51}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Stabilit\IeC {\'e} des mesures de r\IeC {\'e}seau}{322}{figure.8.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{H\IeC {\'e}t\IeC {\'e}rog\IeC {\'e}n\IeC {\'e}it\IeC {\'e} spatiale de l'\IeC {\'e}quilibre}{324}{figure.8.54}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.3}Discussion}{326}{subsection.8.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Implications th\IeC {\'e}oriques et pratiques des conclusions empiriques}{326}{subsection.8.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Vers des interpr\IeC {\'e}tations de la non-stationnarit\IeC {\'e}}{328}{subsection.8.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{D\IeC {\'e}veloppements}{329}{subsection.8.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Conclusion}{330}{subsection.8.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.3}Transport Routier et D\IeC {\'e}terminants des Co\IeC {\^u}ts}{331}{section.8.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.1}Contexte}{331}{subsection.8.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Donn\IeC {\'e}es}{332}{subsection.8.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Collection de donn\IeC {\'e}es h\IeC {\'e}t\IeC {\'e}rog\IeC {\`e}nes \IeC {\`a} grande \IeC {\'e}chelle}{333}{subsection.8.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Jeu de donn\IeC {\'e}es}{334}{subsection.8.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.2}R\IeC {\'e}sultats}{335}{subsection.8.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Motifs spatio-temporels des prix}{335}{subsection.8.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{R\IeC {\'e}gression G\IeC {\'e}ographique Pond\IeC {\'e}r\IeC {\'e}e}{337}{figure.8.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{R\IeC {\'e}gressions multi-niveaux}{339}{figure.8.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.3}Discussion}{341}{subsection.8.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Sur la compl\IeC {\'e}mentarit\IeC {\'e} des m\IeC {\'e}thodes \IeC {\'e}conom\IeC {\'e}triques et des m\IeC {\'e}thodes d'analyse spatiale}{341}{subsection.8.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Proposition de politiques de r\IeC {\'e}gulation localis\IeC {\'e}es}{343}{subsection.8.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Conclusion}{343}{subsection.8.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {Cadre Th\IeC {\'e}orique}}{345}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}Contributions et Perspectives}{347}{section.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.1}D\IeC {\'e}finition de la co-\IeC {\'e}volution : r\IeC {\'e}sultats empiriques et m\IeC {\'e}thodes}{347}{subsection.9.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Echelles spatiales et non-stationnarit\IeC {\'e}}{347}{subsection.9.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{R\IeC {\'e}gimes de co-\IeC {\'e}volution}{347}{subsection.9.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Applicabilit\IeC {\'e} empirique}{347}{subsection.9.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.2}Syst\IeC {\`e}mes de villes et \IeC {\'e}chelle macroscopique}{348}{subsection.9.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Implications th\IeC {\'e}oriques}{348}{subsection.9.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Sp\IeC {\'e}cificit\IeC {\'e} du syst\IeC {\`e}me urbain}{349}{subsection.9.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{R\IeC {\'e}seau multi-couches}{349}{subsection.9.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{R\IeC {\'e}seau physique}{349}{subsection.9.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.3}Territoires et \IeC {\'e}chelle mesoscopiques}{350}{subsection.9.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Int\IeC {\'e}gration dans un mod\IeC {\`e}le de croissance multi-scalaire}{350}{subsection.9.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}Une Th\IeC {\'e}orie G\IeC {\'e}ographique}{351}{section.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.1}Fondations}{351}{subsection.9.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Territoires Humains en R\IeC {\'e}seau}{351}{subsection.9.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Th\IeC {\'e}orie Evolutive des Villes}{352}{subsection.9.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Morphogen\IeC {\`e}se Urbaine}{352}{subsection.9.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Co-\IeC {\'e}volution}{353}{subsection.9.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.2}Une th\IeC {\'e}orie des syst\IeC {\`e}mes territoriaux co-\IeC {\'e}volutifs en r\IeC {\'e}seau}{354}{subsection.9.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.3}Contextualisation}{356}{subsection.9.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.3}Un Cadre de Connaissances Appliqu\IeC {\'e}}{358}{section.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.3.1}Etude de cas}{360}{subsection.9.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Gen\IeC {\`e}se de la Th\IeC {\'e}orie Evolutive Urbaine}{360}{subsection.9.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Ing\IeC {\'e}ni\IeC {\'e}rie}{363}{figure.9.59}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.3.2}Cadre de Connaissances}{365}{subsection.9.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Contraintes}{365}{subsection.9.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Fondations Epist\IeC {\'e}mologiques}{365}{subsection.9.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Domaines de connaissance}{365}{subsection.9.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Co-\IeC {\'e}volution des connaissances}{366}{subsection.9.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Application}{367}{subsection.9.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.3.3}Discussion}{367}{subsection.9.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Port\IeC {\'e}e d'application}{367}{subsection.9.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Vers une Formalisation}{367}{subsection.9.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Co-construction des th\IeC {\'e}ories et mod\IeC {\`e}les}{369}{subsection.9.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Pourquoi une th\IeC {\'e}orie et des mod\IeC {\`e}les de co-\IeC {\'e}volution}{371}{subsection.9.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Etudes empiriques}{371}{subsection.9.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Mod\IeC {\'e}lisation}{371}{subsection.9.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Construction d'une Th\IeC {\'e}orie G\IeC {\'e}ographique}{372}{subsection.9.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{Conclusion}{375}{subsection.9.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Non-stationnarit\IeC {\'e}, non-ergodicit\IeC {\'e} et d\IeC {\'e}pendance au chemin}{380}{chapter*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Couplage des mod\IeC {\`e}les et approches}{380}{chapter*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Construire des outils de validation pour les mod\IeC {\`e}les de simulation}{380}{chapter*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Epist\IeC {\'e}mologie quantitative et exp\IeC {\'e}rimentale pour une int\IeC {\'e}gration effective}{380}{chapter*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Pour une science totalement ouverte}{381}{chapter*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Appendices}}{385}{part.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Informations suppl\IeC {\'e}mentaires}}{387}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Elements de Terrain}{388}{section.A.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.1}Carnet de Terrain}{388}{subsection.A.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{29/10/2016}{388}{subsection.A.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{07/11/2016}{388}{subsection.A.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{16/01/2017}{388}{subsection.A.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{11/12/2016}{388}{subsection.A.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{19/06/2017}{388}{subsection.A.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{8/06/2017}{388}{subsection.A.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{11/07/2017}{388}{subsection.A.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{24/07/2017}{388}{subsection.A.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{31/07/2017}{388}{subsection.A.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{09/08/2017}{388}{subsection.A.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{13/08/2017}{388}{subsection.A.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{17/08/2017}{388}{subsection.A.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{20/08/2017}{388}{subsection.A.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{21/08/2017}{388}{subsection.A.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.2}Entretiens}{389}{subsection.A.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Epist\IeC {\'e}mologie Quantitative}{390}{section.A.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.1}Revue syst\IeC {\'e}matique algorithmique}{390}{subsection.A.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Impl\IeC {\'e}mentation}{390}{subsection.A.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Convergence et analyse de sensibilit\IeC {\'e}}{390}{subsection.A.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2.2}Analyse par hyperr\IeC {\'e}seau}{390}{subsection.A.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Corpus initial}{390}{subsection.A.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Analyse de sensibilit\IeC {\'e}}{390}{subsection.A.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{R\IeC {\'e}seau S\IeC {\'e}mantique}{390}{subsection.A.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 61:}{391}{subsection.A.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 62:}{392}{subsection.A.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 63:}{393}{subsection.A.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Mod\IeC {\'e}lographie}{394}{section.A.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.3.1}M\IeC {\'e}thodologie de la revue syst\IeC {\'e}matique}{394}{subsection.A.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Remarques sur la classification manuelle}{394}{subsection.A.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.3.2}Meta-analyse}{394}{subsection.A.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Echelle de temps}{394}{subsection.A.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Echelle d'espace}{395}{subsection.A.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Interdisciplinarit\IeC {\'e}}{396}{subsection.A.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Ann\IeC {\'e}e}{396}{subsection.A.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Correlations Statiques}{398}{section.A.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.4.1}Mesures morphologiques}{398}{subsection.A.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.4.2}Algorithme de Simplification du R\IeC {\'e}seau}{398}{subsection.A.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Impl\IeC {\'e}mentation}{398}{subsection.A.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Sensibilit\IeC {\'e} aux param\IeC {\`e}tres de simplification}{398}{subsection.A.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.4.3}R\IeC {\'e}silience des R\IeC {\'e}seaux}{398}{subsection.A.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Formes Urbaines et indicateurs de r\IeC {\'e}seaux}{401}{table.A.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Interpr\IeC {\'e}tation des Indicateurs}{401}{table.A.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Caract\IeC {\'e}risation de la r\IeC {\'e}silience}{402}{table.A.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{R\IeC {\'e}silience Dynamique et Topologie}{402}{table.A.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.4.4}Indicateurs de r\IeC {\'e}seau}{402}{subsection.A.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.4.5}Corr\IeC {\'e}lations Spatiales}{402}{subsection.A.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 64:}{403}{table.A.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 65:}{403}{subsection.A.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 66:}{404}{subsection.A.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}R\IeC {\'e}gimes de causalit\IeC {\'e}}{406}{section.A.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Formalisation}{406}{section.A.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Sur l'accessibilit\IeC {\'e}}{406}{section.A.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Donn\IeC {\'e}es}{407}{Item.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Tests Statistiques}{407}{Item.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.6}Causalit\IeC {\'e}s spatio-temporelles}{409}{section.A.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.7}Effets de r\IeC {\'e}seau}{410}{section.A.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 67:}{411}{subsection.A.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.8}Morphogen\IeC {\`e}se par agr\IeC {\'e}gation-diffusion}{411}{section.A.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.8.1}Figures suppl\IeC {\'e}mentaires pour l'exploration du mod\IeC {\`e}le}{411}{subsection.A.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Convergence}{411}{subsection.A.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Indicateurs}{411}{subsection.A.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 68:}{412}{subsection.A.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Scatterplot des indicateurs}{412}{subsection.A.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.8.2}Analyse semi-analytique du mod\IeC {\`e}le simplifi\IeC {\'e}}{412}{subsection.A.8.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Equation aux d\IeC {\'e}riv\IeC {\'e}es partielles}{412}{subsection.A.8.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 69:}{413}{subsection.A.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 70:}{414}{subsection.A.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 71:}{415}{subsection.A.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 72:}{416}{subsection.A.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Solution stationnaire pour la densit\IeC {\'e}}{418}{equation.A.8.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 73:}{418}{equation.A.8.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 74:}{419}{equation.A.8.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.9}Donn\IeC {\'e}es Synth\IeC {\'e}tiques Corr\IeC {\'e}l\IeC {\'e}es}{419}{section.A.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.10}Exploration du mod\IeC {\`e}le SimpopNet}{420}{section.A.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.11}Heuristiques de g\IeC {\'e}n\IeC {\'e}ration de r\IeC {\'e}seau}{421}{section.A.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 75:}{422}{section.A.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}\spacedlowsmallcaps {D\IeC {\'e}veloppements M\IeC {\'e}thodologiques}}{423}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.1}Un cadre unifi\IeC {\'e} pour les mod\IeC {\`e}les stochastiques de croissance urbaine}{424}{section.B.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.1.1}Introduction}{424}{subsection.B.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.1.2}Cadre de Travail}{424}{subsection.B.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{W}{424}{subsection.B.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.1.3}D\IeC {\'e}rivations}{425}{subsection.B.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{G\IeC {\'e}n\IeC {\'e}ralisation de l'Attachement Pr\IeC {\'e}f\IeC {\'e}rentiel}{425}{subsection.B.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Lien entre Gibrat et Attachement Pr\IeC {\'e}f\IeC {\'e}rentiel}{425}{subsection.B.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Lien entre Simon et Attachement Pr\IeC {\'e}f\IeC {\'e}rentiel}{425}{lemma.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Lien entre Favaro-Pumain et Gibrat}{426}{lemma.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Lien entre Bettencourt-West et Pumain}{426}{lemma.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Autres mod\IeC {\`e}les}{426}{lemma.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.1.4}D\IeC {\'e}rivations pour les mod\IeC {\`e}les de croissance urbaine}{426}{subsection.B.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.2}Sensibilit\IeC {\'e} des Lois d'Echelle Urbaines \IeC {\`a} l'Etendue Spatiale}{429}{section.B.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.2.1}D\IeC {\'e}rivation Analytique de la Sensibilit\IeC {\'e}}{431}{subsection.B.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.2.2}Simulations Num\IeC {\'e}riques}{432}{subsection.B.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Impl\IeC {\'e}mentation}{432}{subsection.B.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Perturbations al\IeC {\'e}atoires}{433}{subsection.B.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Type de Noyau}{433}{subsection.B.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.3}Correlations spatio-temporelles}{434}{section.B.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.3.1}Notations}{434}{subsection.B.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.3.2}Equation des Ondes}{435}{subsection.B.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.3.3}Equation de Fokker-Planck}{435}{subsection.B.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.3.4}Equation Maitresse}{435}{subsection.B.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.3.5}Echantillonnage spatial coh\IeC {\'e}rent}{436}{subsection.B.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.4}G\IeC {\'e}n\IeC {\'e}ration de Donn\IeC {\'e}es Synth\IeC {\'e}tiques Corr\IeC {\'e}l\IeC {\'e}es}{437}{section.B.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.4.1}Contexte}{437}{subsection.B.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.4.2}Formalisation}{438}{subsection.B.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Une vue alternative: donn\IeC {\'e}es synth\IeC {\'e}tiques}{439}{Item.67}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.5}Un Cadre bas\IeC {\'e} sur la Discr\IeC {\'e}pance}{440}{section.B.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.5.1}Introduction}{440}{subsection.B.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Contexte G\IeC {\'e}n\IeC {\'e}ral}{440}{subsection.B.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Approche Propos\IeC {\'e}e}{442}{subsection.B.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Objectifs comme int\IeC {\'e}grales spatiales}{442}{subsection.B.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Objectifs agr\IeC {\'e}g\IeC {\'e}s lin\IeC {\'e}airement}{442}{subsection.B.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.5.2}Description du Cadre}{443}{subsection.B.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Description Intuitive}{443}{subsection.B.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Description Formelle}{444}{Item.69}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Indicateurs}{444}{Item.69}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Agr\IeC {\'e}gation}{445}{Item.71}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Estimation de la Robustesse}{445}{Item.71}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.5.3}R\IeC {\'e}sultats}{446}{subsection.B.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Impl\IeC {\'e}mentation}{446}{subsection.B.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Impl\IeC {\'e}mentation sur Donn\IeC {\'e}es Synth\IeC {\'e}tiques}{447}{subsection.B.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Collecte des donn\IeC {\'e}es}{447}{subsection.B.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Cas Virtuel}{447}{subsection.B.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Application \IeC {\`a} un cas r\IeC {\'e}el : s\IeC {\'e}gr\IeC {\'e}gation m\IeC {\'e}tropolitaine}{448}{table.B.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Donn\IeC {\'e}es}{448}{table.B.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Indicateurs}{449}{table.B.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{R\IeC {\'e}sultats}{450}{table.B.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 76:}{451}{table.B.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.5.4}Discussion}{452}{subsection.B.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Applicabilit\IeC {\'e} \IeC {\`a} des situations r\IeC {\'e}elles}{452}{subsection.B.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Implications pour la prise de d\IeC {\'e}cision}{452}{subsection.B.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Int\IeC {\'e}gration au sein de cadres existants}{452}{subsection.B.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 77:}{453}{table.B.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Disponibilit\IeC {\'e} des donn\IeC {\'e}es brutes}{454}{subsection.B.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Validit\IeC {\'e} des hypoth\IeC {\`e}ses th\IeC {\'e}oriques}{454}{subsection.B.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{G\IeC {\'e}n\IeC {\'e}ralit\IeC {\'e} du Cadre}{454}{subsection.B.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.6}Exploration de l'Interdisciplinarit\IeC {\'e}}{456}{section.B.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.7}Un Cadre pour les Syst\IeC {\`e}mes Socio-techniques}{457}{section.B.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.7.1}Contexte}{457}{subsection.B.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Contexte Scientifique}{457}{subsection.B.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Objectifs}{458}{subsection.B.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.7.2}Construction de la Th\IeC {\'e}orie}{459}{subsection.B.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Perspectives et Ontologies}{459}{subsection.B.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Pr\IeC {\'e}cision sur l'aspect r\IeC {\'e}cursif de la th\IeC {\'e}orie}{461}{definition.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Graphe Ontologique}{462}{definition.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Arbre Ontologique Minimal}{464}{Item.85}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Remarque}{464}{assumption.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Action sur des Donn\IeC {\'e}es}{465}{proposition.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Echelles}{466}{proposition.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.7.3}Applications et discussion}{466}{subsection.B.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Le cas particulier des syst\IeC {\`e}mes g\IeC {\'e}ographiques}{466}{subsection.B.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Discussion}{467}{subsection.B.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Lien avec des cadres existants}{467}{subsection.B.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Contribution \IeC {\`a} l'\IeC {\'e}tude des syst\IeC {\`e}mes complexes}{467}{subsection.B.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{R\IeC {\'e}flexivit\IeC {\'e}}{467}{subsection.B.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}\spacedlowsmallcaps {D\IeC {\'e}veloppements Th\IeC {\'e}matiques}}{469}{appendix.C}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.1}Ponts entre G\IeC {\'e}ographie et Economie}{469}{section.C.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.2}Generation of Correlated Synthetic Data}{470}{section.C.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Cadre}{470}{section.C.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{G\IeC {\'e}n\IeC {\'e}ration des donn\IeC {\'e}es}{471}{section.C.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Impl\IeC {\'e}mentation et r\IeC {\'e}sultats}{471}{section.C.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{M\IeC {\'e}thodologie}{471}{section.C.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 78:}{472}{section.C.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Impl\IeC {\'e}mentation}{473}{equation.C.2.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{R\IeC {\'e}sultats}{473}{equation.C.2.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 79:}{475}{equation.C.2.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 80:}{476}{equation.C.2.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.3}Classifying Patents Based on their Semantic Content}{477}{section.C.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Relevance definition}{483}{Item.91}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Moving window estimation}{484}{equation.C.3.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 81:}{486}{equation.C.3.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 82:}{487}{equation.C.3.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 83:}{488}{equation.C.3.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 84:}{490}{equation.C.3.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 85:}{493}{equation.C.3.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 86:}{493}{equation.C.3.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Intra-classification overlaps}{494}{equation.C.3.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Inter-classification overlaps}{494}{equation.C.3.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 87:}{495}{equation.C.3.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 88:}{496}{equation.C.3.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Figure 89:}{497}{equation.C.3.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {D}\spacedlowsmallcaps {Donn\IeC {\'e}es}}{503}{appendix.D}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.1}Donn\IeC {\'e}es de Traffic du Grand Paris}{503}{section.D.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.2}Prix de l'Essence aux Etats-Unis}{503}{section.D.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.3}R\IeC {\'e}seau Routier Europ\IeC {\'e}en}{503}{section.D.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.4}Interviews}{503}{section.D.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {E}\spacedlowsmallcaps {Outils}}{505}{appendix.E}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {E.1}Softwares and Packages}{506}{section.E.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.1.1}largeNetwoRk : Import de r\IeC {\'e}seau et simplification pour R}{506}{subsection.E.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.1.2}Fouille de Corpus scientifique}{506}{subsection.E.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.1.3}R\IeC {\'e}seaux de transports et accessibilit\IeC {\'e} en R}{506}{subsection.E.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.1.4}morphology : extension NetLogo pour mesurer la forme urbaine}{506}{subsection.E.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {E.2}Architecture and Sources for Algorithms and Models of Simulation}{507}{section.E.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.2.1}Revue Syst\IeC {\'e}matique Algorithmique}{507}{subsection.E.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Objectifs}{507}{subsection.E.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Localisation}{507}{subsection.E.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Caract\IeC {\'e}ristiques}{507}{subsection.E.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Particularit\IeC {\'e}s}{507}{subsection.E.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Architecture}{507}{subsection.E.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Scripts additionnels}{507}{subsection.E.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.2.2}Bibliom\IeC {\'e}trie Indirecte}{508}{subsection.E.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Objectifs}{508}{subsection.E.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Localisation}{508}{subsection.E.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Caract\IeC {\'e}ristiques}{508}{subsection.E.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Particularit\IeC {\'e}s}{508}{subsection.E.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Architecture}{508}{subsection.E.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Scripts additionnels}{508}{subsection.E.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.2.3}Croissance Urbaine}{508}{subsection.E.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Objectif}{508}{subsection.E.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Localisation}{508}{subsection.E.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Caract\IeC {\'e}ristiques}{508}{subsection.E.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Particularit\IeC {\'e}s}{508}{subsection.E.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Architecture}{508}{subsection.E.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Scripts additionnels}{508}{subsection.E.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.2.4}G\IeC {\'e}n\IeC {\'e}ration des Donn\IeC {\'e}es Synth\IeC {\'e}tiques Corr\IeC {\'e}l\IeC {\'e}es}{508}{subsection.E.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Objectifs}{508}{subsection.E.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Localisation}{509}{subsection.E.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Caract\IeC {\'e}ristiques}{509}{subsection.E.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Particularit\IeC {\'e}s}{509}{subsection.E.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Architecture}{509}{subsection.E.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Scripts additionnels}{509}{subsection.E.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.2.5}Mod\IeC {\`e}le Lutecia}{509}{subsection.E.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Objectif}{509}{subsection.E.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Localisation}{509}{subsection.E.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Caract\IeC {\'e}ristiques}{509}{subsection.E.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Particularit\IeC {\'e}s}{509}{subsection.E.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Architecture}{509}{subsection.E.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Scripts additionnels}{509}{subsection.E.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.2.6}Analyse des R\IeC {\'e}seaux}{509}{subsection.E.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Objectif}{509}{subsection.E.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Localisation}{509}{subsection.E.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Caract\IeC {\'e}ristiques}{510}{subsection.E.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Particularit\IeC {\'e}s}{510}{subsection.E.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Architecture}{510}{subsection.E.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Scripts additionnels}{510}{subsection.E.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.2.7}Co-\IeC {\'e}volution par morphogen\IeC {\`e}se}{510}{subsection.E.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Objectif}{510}{subsection.E.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Localisation}{510}{subsection.E.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Caract\IeC {\'e}ristiques}{510}{subsection.E.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Particularit\IeC {\'e}s}{510}{subsection.E.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Architecture}{510}{subsection.E.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Scripts additionnels}{510}{subsection.E.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.2.8}Co-\IeC {\'e}volution \IeC {\`a} l'\IeC {\'e}chelle macroscopique}{510}{subsection.E.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Objectif}{510}{subsection.E.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Localisation}{510}{subsection.E.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Caract\IeC {\'e}ristiques}{510}{subsection.E.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Particularit\IeC {\'e}s}{510}{subsection.E.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Architecture}{511}{subsection.E.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Donn\IeC {\'e}es utilis\IeC {\'e}es}{511}{subsection.E.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Scripts additionnels}{511}{subsection.E.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {E.3}Tools and Workflow for an open Reproducible Research}{512}{section.E.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.3.1}G\IeC {\'e}n\IeC {\'e}rateur de Documentation Netlogo}{512}{subsection.E.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.3.2}git comme outil de reproductibilit\IeC {\'e}}{512}{subsection.E.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.3.3}Vers un gestionnaire de m\IeC {\'e}tadonn\IeC {\'e}es compatible avec git}{512}{subsection.E.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {E.3.4}TorPool}{513}{subsection.E.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {F}\spacedlowsmallcaps {Quantitative Analysis of Thesis reflexivity}}{515}{appendix.F}
