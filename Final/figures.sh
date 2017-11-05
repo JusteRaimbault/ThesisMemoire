@@ -46,7 +46,7 @@ then
   # fig:casestudies:projects
   FIGNAME=1-2-1-fig-casestudies-empiricalres
   echo $FIGNAME
-  convert Figures/GrandParisRealEstate/laggedcorrs_times_allvars.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+  convert Figures/GrandParisRealEstate/laggedcorrs_times_allvars_fr.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
 
   ###############
   ## 1.3 : Qualitative
