@@ -296,13 +296,10 @@ convert Figures/Density/Fig6.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/
 FIGNAME=5-3-2-fig-correlatedsyntheticdata-densnwcor
 echo $FIGNAME
 convert -density $PDFRESOLUTION Figures/CorrelatedSyntheticData/hist_crossCorMat_breaks30.pdf -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/CorrelatedSyntheticData/hist_crossCorMat_breaks30.jpg
-convert -density $PDFRESOLUTION Figures/CorrelatedSyntheticData/pca_meanAbsCor_errorBars.pdf -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/CorrelatedSyntheticData/pca_meanAbsCor_errorBars.jpg
-montage Figures/CorrelatedSyntheticData/hist_crossCorMat_breaks30.jpg Figures/CorrelatedSyntheticData/pca_meanAbsCor_errorBars.jpg -tile 2x1 -geometry +0+"$HORIZONTALPADDING" -quality $JPGQUALITY $FIGDIR/"$FIGNAME"_tmp1.jpg
-convert Figures/CorrelatedSyntheticData/heatmaps.png -resize "$((WIDTH / 3))"x -quality $JPGQUALITY Figures/CorrelatedSyntheticData/heatmaps.jpg
-convert Figures/CorrelatedSyntheticData/pca_realDistCol_meanAbsCorSize_withSpecificPoints.png -resize "$((2 * WIDTH / 3))"x -quality $JPGQUALITY Figures/CorrelatedSyntheticData/pca_realDistCol_meanAbsCorSize_withSpecificPoints.jpg
-montage Figures/CorrelatedSyntheticData/heatmaps.jpg Figures/CorrelatedSyntheticData/pca_realDistCol_meanAbsCorSize_withSpecificPoints.jpg -tile 2x1 -geometry +0+"$HORIZONTALPADDING" -quality $JPGQUALITY $FIGDIR/"$FIGNAME"_tmp2.jpg
-montage $FIGDIR/"$FIGNAME"_tmp1.jpg $FIGDIR/"$FIGNAME"_tmp2.jpg -tile 1x2 -geometry +"$VERTICALPADDING"+0 -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
-rm $FIGDIR/"$FIGNAME"_tmp2.jpg $FIGDIR/"$FIGNAME"_tmp1.jpg Figures/CorrelatedSyntheticData/pca_realDistCol_meanAbsCorSize_withSpecificPoints.jpg Figures/CorrelatedSyntheticData/heatmaps.jpg Figures/CorrelatedSyntheticData/pca_meanAbsCor_errorBars.jpg Figures/CorrelatedSyntheticData/hist_crossCorMat_breaks30.jpg
+convert Figures/CorrelatedSyntheticData/pca_realDistCol_meanAbsCorSize_withSpecificPoints.png -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/CorrelatedSyntheticData/pca_realDistCol_meanAbsCorSize_withSpecificPoints.jpg
+montage Figures/CorrelatedSyntheticData/hist_crossCorMat_breaks30.jpg Figures/CorrelatedSyntheticData/pca_realDistCol_meanAbsCorSize_withSpecificPoints.jpg -tile 2x1 -geometry +0+"$HORIZONTALPADDING" -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+#montage $FIGDIR/"$FIGNAME"_tmp1.jpg $FIGDIR/"$FIGNAME"_tmp2.jpg -tile 1x2 -geometry +"$VERTICALPADDING"+0 -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+rm Figures/CorrelatedSyntheticData/pca_realDistCol_meanAbsCorSize_withSpecificPoints.jpg Figures/CorrelatedSyntheticData/hist_crossCorMat_breaks30.jpg
 
 
 # fig:correlatedsyntheticdata:exampl
@@ -360,15 +357,20 @@ then
   # fig:macrocoevol:model
   # ok, very light pdf
 
-  # fig:macrocoevol:behavior
-  FIGNAME=6-2-2-fig-macrocoevol-behavior
+
+  ##montage Figures/MacroCoEvol/closenessSummaries_mean_gravityWeight0_001.jpg Figures/MacroCoEvol/populationEntropies_gravityWeight0_001.jpg Figures/MacroCoEvol/complexityAccessibility_synthrankSize1_nwGmax0_05.jpg Figures/MacroCoEvol/rankCorrAccessibility_synthrankSize1_nwGmax0_05.jpg -tile 2x2 -geometry +"$VERTICALPADDING"+"$HORIZONTALPADDING" -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+
+  # fig:macrocoevol:behavior-time
+  FIGNAME=6-2-2-fig-macrocoevol-behavior-time
   echo $FIGNAME
-  convert -density $PDFRESOLUTION Figures/MacroCoEvol/closenessSummaries_mean_gravityWeight0_001.pdf -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/MacroCoEvol/closenessSummaries_mean_gravityWeight0_001.jpg
-  convert -density $PDFRESOLUTION Figures/MacroCoEvol/populationEntropies_gravityWeight0_001.pdf -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/MacroCoEvol/populationEntropies_gravityWeight0_001.jpg
-  convert -density $PDFRESOLUTION Figures/MacroCoEvol/complexityAccessibility_synthrankSize1_nwGmax0_05.pdf -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/MacroCoEvol/complexityAccessibility_synthrankSize1_nwGmax0_05.jpg
-  convert -density $PDFRESOLUTION Figures/MacroCoEvol/rankCorrAccessibility_synthrankSize1_nwGmax0_05.pdf -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/MacroCoEvol/rankCorrAccessibility_synthrankSize1_nwGmax0_05.jpg
-  montage Figures/MacroCoEvol/closenessSummaries_mean_gravityWeight0_001.jpg Figures/MacroCoEvol/populationEntropies_gravityWeight0_001.jpg Figures/MacroCoEvol/complexityAccessibility_synthrankSize1_nwGmax0_05.jpg Figures/MacroCoEvol/rankCorrAccessibility_synthrankSize1_nwGmax0_05.jpg -tile 2x2 -geometry +"$VERTICALPADDING"+"$HORIZONTALPADDING" -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
-  rm Figures/MacroCoEvol/closenessSummaries_mean_gravityWeight0_001.jpg Figures/MacroCoEvol/populationEntropies_gravityWeight0_001.jpg Figures/MacroCoEvol/complexityAccessibility_synthrankSize1_nwGmax0_05.jpg Figures/MacroCoEvol/rankCorrAccessibility_synthrankSize1_nwGmax0_05.jpg
+  montage Figures/MacroCoEvol/closenessSummaries_mean_synthRankSize1_gravityWeight0_001_gravityDecay10.png Figures/MacroCoEvol/populationEntropies_synthRankSize1_gravityWeight0_001_gravityGamma0_5.png -tile 1x2 -geometry +0+"$VERTICALPADDING" -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+  # fig:macrocoevol:behavior-aggreg
+  FIGNAME=6-2-2-fig-macrocoevol-behavior-aggreg
+  echo $FIGNAME
+  montage Figures/MacroCoEvol/complexityAccessibility_synthrankSize1_nwGmax0_05_gravityWeight0_001.png Figures/MacroCoEvol/rankCorrAccessibility_synthrankSize1_nwGmax0_05_gravityWeight0_001.png -tile 1x2 -geometry +0+"$VERTICALPADDING" -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
 
   # fig:macrocoevol:correlations
   FIGNAME=6-2-2-fig-macrocoevol-correlations
@@ -392,10 +394,8 @@ then
   # fig:macrocoevol:pareto
   FIGNAME=6-2-3-fig-macrocoevol-pareto
   echo $FIGNAME
-  convert -density $PDFRESOLUTION Figures/MacroCoEvol/pareto_gravityDecay.pdf -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/MacroCoEvol/pareto_gravityDecay.jpg
-  convert -density $PDFRESOLUTION Figures/MacroCoEvol/pareto_nwThreshold.pdf -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/MacroCoEvol/pareto_nwThreshold.jpg
-  montage Figures/MacroCoEvol/pareto_gravityDecay.jpg Figures/MacroCoEvol/pareto_nwThreshold.jpg -tile 1x2 -geometry +0+"$VERTICALPADDING" -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
-  rm Figures/MacroCoEvol/pareto_gravityDecay.jpg Figures/MacroCoEvol/pareto_nwThreshold.jpg
+  convert -density $PDFRESOLUTION Figures/MacroCoEvol/pareto_nwThreshold.pdf -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
 
   # fig:macrocoevol:parameters
   FIGNAME=6-2-3-fig-macrocoevol-parameters
@@ -515,6 +515,7 @@ then
   FIGNAME=8-1-2-fig-transportationequilibrium-fig-5
   echo $FIGNAME
   convert Figures/TransportationEquilibrium/gr5.png -resize $WIDTH -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
 
 
 
@@ -707,6 +708,56 @@ then
   echo $FIGNAME
   convert Figures/Density/scatter.jpg -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
 
+  # fig:app:density:stationary
+  FIGNAME=A-density-stationary
+  echo $FIGNAME
+  convert Figures/Density/stationary.jpg -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+  # fig:app:density:pmax
+  FIGNAME=A-density-pmax
+  echo $FIGNAME
+  montage Figures/Density/pmax_alpha.png Figures/Density/pmax_logbeta.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+
+  #############
+  ## B.5 Synthetic Data
+
+  #fig:app:correlatedsyntheticdata:correlations
+  FIGNAME=A-correlatedsyntheticdata-correlations
+  echo $FIGNAME
+  convert -density $PDFRESOLUTION Figures/CorrelatedSyntheticData/pca_meanAbsCor_errorBars.pdf -resize "$((2 * WIDTH / 3))"x -quality $JPGQUALITY Figures/CorrelatedSyntheticData/pca_meanAbsCor_errorBars.jpg
+  convert Figures/CorrelatedSyntheticData/heatmaps.png -resize "$((WIDTH / 3))"x -quality $JPGQUALITY Figures/CorrelatedSyntheticData/heatmaps.jpg
+  montage Figures/CorrelatedSyntheticData/pca_meanAbsCor_errorBars.jpg Figures/CorrelatedSyntheticData/heatmaps.jpg -tile 2x1 -geometry +0+"$HORIZONTALPADDING" -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+  rm Figures/CorrelatedSyntheticData/heatmaps.jpg Figures/CorrelatedSyntheticData/pca_meanAbsCor_errorBars.jpg
+
+
+
+  #############
+  ## B.6 MacroCoEvol
+
+
+  # fig:app:macrocoevol:behavior-time
+  FIGNAME=A-macrocoevol-behavior-time
+  echo $FIGNAME
+  convert -density $PDFRESOLUTION Figures/MacroCoEvol/closenessSummaries_meansynthRankSize1_gravityWeight0_001.pdf -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/MacroCoEvol/closenessSummaries_mean_gravityWeight0_001.jpg
+  convert -density $PDFRESOLUTION Figures/MacroCoEvol/populationEntropiessynthRankSize1_gravityWeight0_001.pdf -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/MacroCoEvol/populationEntropies_gravityWeight0_001.jpg
+  montage Figures/MacroCoEvol/closenessSummaries_mean_gravityWeight0_001.jpg Figures/MacroCoEvol/populationEntropies_gravityWeight0_001.jpg -tile 1x2 -geometry +0+"$VERTICALPADDING" -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+  rm Figures/MacroCoEvol/closenessSummaries_mean_gravityWeight0_001.jpg Figures/MacroCoEvol/populationEntropies_gravityWeight0_001.jpg
+
+
+  # fig:app:macrocoevol:behavior-aggreg
+  FIGNAME=A-macrocoevol-behavior-aggreg
+  echo $FIGNAME
+  convert -density $PDFRESOLUTION Figures/MacroCoEvol/complexityAccessibility_synthrankSize1_nwGmax0_05.pdf -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/MacroCoEvol/complexityAccessibility_synthrankSize1_nwGmax0_05.jpg
+  convert -density $PDFRESOLUTION Figures/MacroCoEvol/rankCorrAccessibility_synthrankSize1_nwGmax0_05.pdf -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/MacroCoEvol/rankCorrAccessibility_synthrankSize1_nwGmax0_05.jpg
+  montage Figures/MacroCoEvol/complexityAccessibility_synthrankSize1_nwGmax0_05.jpg Figures/MacroCoEvol/rankCorrAccessibility_synthrankSize1_nwGmax0_05.jpg -tile 1x2 -geometry +0+"$VERTICALPADDING" -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+  rm Figures/MacroCoEvol/complexityAccessibility_synthrankSize1_nwGmax0_05.jpg Figures/MacroCoEvol/rankCorrAccessibility_synthrankSize1_nwGmax0_05.jpg
+
+
+  # fig:app:macrocoevol:pareto
+  FIGNAME=A-macrocoevol-pareto
+  echo $FIGNAME
+  convert -density $PDFRESOLUTION Figures/MacroCoEvol/pareto_gravityDecay.pdf -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
 
 
   #############
