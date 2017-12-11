@@ -2,7 +2,7 @@
 
 \newcommand{\noun}[1]{\textsc{#1}}
 
-% command fort head of chapter citation
+% command for head of chapter citation
 \newcommand{\headercit}[3]{
 \begin{multicols}{2}
 \phantom{}
@@ -78,6 +78,10 @@
 
 \usepackage{mdframed}
 
+%\usepackage{transparent}
+\usepackage[angle=0,scale=1,opacity=1,color=black]{background}
+
+
 %%%%%
 % forward/backward arrows
 
@@ -120,16 +124,20 @@
 
 %\usepackage{subcaption}
 
+% math
 \usepackage{amssymb}
+\usepackage{bbm}
 
 \usepackage{multicol}
 
-\usepackage{bbm}
 
 
 
 
-% chinese
+
+%%%%%%%%%%%%%%%%%%%
+% Chinese
+
 %\usepackage{ctex}
 %\setCJKmainfont[BoldFont=FandolSong-Bold.otf,ItalicFont=FandolKai-Regular.otf]{FandolSong-Regular.otf}
 %\setCJKsansfont[BoldFont=FandolHei-Bold.otf]{FandolHei-Regular.otf}
@@ -146,9 +154,14 @@
 }
 
 
-%%
+%%%%%%
+% Tables
+
+
 % Threeparttable
 \usepackage[flushleft]{threeparttable}
+
+\usepackage{multirow}
 
 
 %%%
