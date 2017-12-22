@@ -11,7 +11,7 @@
 
 \label{app:sec:networkgrowth}
 
-
+Les espaces topologiques des réseaux générés en~\ref{sec:networkgrowth} peuvent être conditionnés aux classes morphologiques pour la distribution de densité initiale. Ce conditionnement est montré en Fig.~\ref{fig:app:networkgrowth:feasiblespace_bymorph}
 
 
 %%%%%%%%%%%%%%%%%
@@ -22,6 +22,53 @@
 \appcaption{}{\textbf{Espace topologique faisable pour les différentes heuristiques de génération, conditionné à la classe morphologique de densité.}\label{fig:app:networkgrowth:feasiblespace_bymorph}}
 \end{figure}
 %%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%
+\section{Transportation Network Governance modeling}{Modélisation de la gouvernance du système de transport}
+
+
+
+\subsection{Semi-analytical study of the land-use model}{Etude semi-analytique du modèle d'usage du sol}
+
+\cite{leurent2014user}
+
+Nous étudions ici la question de la convergence dans le temps de la distribution des activités.
+
+Considérons un cas très simple : en prenant $\lambda = 0$ on déspatialise le problème et en prenant $\gamma_A = 1$ on finit de découpler population et emplois. En posant $\beta' = \sum_j E_j \cdot \beta$ et $P_0 = \frac{\sum_i P_i}{\sum_i \exp \beta' P_i}$, l'existence d'un point fixe pour les populations se ramène à la résolution de
+\[
+P_i = P_0 \cdot \frac{\exp\left(\beta' \cdot P_i\right)}{\sum \exp\left(\beta' \cdot P_i\right)}
+\]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

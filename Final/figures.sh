@@ -873,6 +873,24 @@ fi
 if [ "$TARGET" == "--C" ] || [ "$TARGET" == "--all" ]
 then
 
+  ###############
+  ## Cybergeo Networks
+  FIGNAME=C-cybergeonetworks-authoring-studied
+  echo $FIGNAME
+  montage Figures/CybergeoNetworks/authoring.png Figures/CybergeoNetworks/studied.png -tile 2x1 -geometry +"$HORIZONTALPADDING"+"$VERTICALPADDING" -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+  FIGNAME=C-cybergeonetworks-who
+  echo $FIGNAME
+  convert Figures/CybergeoNetworks/whoStudiesWho.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+  FIGNAME=C-cybergeonetworks-commintern
+  echo $FIGNAME
+  montage Figures/CybergeoNetworks/CommunitiesVertical.png Figures/CybergeoNetworks/Semantic.png -tile 2x1 -geometry +"$HORIZONTALPADDING"+"$VERTICALPADDING" -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+  FIGNAME=C-cybergeonetworks-cluster_hadri
+  echo $FIGNAME
+  montage Figures/CybergeoNetworks/Map_4_studied_hadri_dend.png Figures/CybergeoNetworks/Leg_4_studied_hadri.png -tile 2x1 -geometry +"$HORIZONTALPADDING"+"$VERTICALPADDING" -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
 
   ###############
   ## Synthetic Data
