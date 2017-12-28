@@ -891,6 +891,27 @@ then
   echo $FIGNAME
   montage Figures/CybergeoNetworks/Map_4_studied_hadri_dend.png Figures/CybergeoNetworks/Leg_4_studied_hadri.png -tile 2x1 -geometry +"$HORIZONTALPADDING"+"$VERTICALPADDING" -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
 
+  # fig:app:cybergeonetworks:cluster_juste
+  FIGNAME=C-cybergeonetworks-cluster_juste
+  echo $FIGNAME
+  montage Figures/CybergeoNetworks/Map_5_studied_juste_dend.png Figures/CybergeoNetworks/Leg_5_studied_juste.png -tile 2x1 -geometry +"$HORIZONTALPADDING"+"$VERTICALPADDING" -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+  # fig:app:cybergeonetworks:cluster_poc
+  FIGNAME=C-cybergeonetworks-cluster_poc
+  echo $FIGNAME
+  montage Figures/CybergeoNetworks/Map_4_studied_poc_dend.png Figures/CybergeoNetworks/Leg_4_studied_poc.png -tile 2x1 -geometry +"$HORIZONTALPADDING"+"$VERTICALPADDING" -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+  # fig:app:cybergeonetworks:complementarity
+  FIGNAME=C-cybergeonetworks-complementarity
+  echo $FIGNAME
+  convert Figures/CybergeoNetworks/Sankey_methods_Compared.png  -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+  # fig:app:cybergeonetworks:modularities
+  FIGNAME=C-cybergeonetworks-modularities
+  echo $FIGNAME
+  convert -density $PDFRESOLUTION Figures/CybergeoNetworks/modularities.pdf  -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+
 
   ###############
   ## Synthetic Data
@@ -964,10 +985,35 @@ then
   convert Figures/PatentsMining/Fig9.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
 
 
+  ################
+  ## Mediation Ecotox
+
+  # fig:app:mediationecotox:boardgame
+  FIGNAME=C-mediationecotox-boardgame
+  echo $FIGNAME
+  convert Figures/MediationEcotox/boardgame.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
 
 
+  ################
+  ## Migration dynamics
+
+  # fig:app:migrationdynamics:model
+  FIGNAME=C-migrationdynamics-model
+  echo $FIGNAME
+  montage Figures/MigrationDynamics/model.png Figures/MigrationDynamics/examples.png -tile 2x1 -geometry +"$HORIZONTALPADDING"+0 -border 2 -bordercolor Black $FIGDIR/"$FIGNAME"_tmp.png
+  convert $FIGDIR/"$FIGNAME"_tmp.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+  rm $FIGDIR/"$FIGNAME"_tmp.png
+
+  # fig:app:migrationdynamics:results
+  FIGNAME=C-migrationdynamics-results
+  echo $FIGNAME
+  montage -resize "$(( WIDTH / 3))"x Figures/MigrationDynamics/baseline_jobdist0.png -resize "$((2 * WIDTH / 3))"x Figures/MigrationDynamics/real_indicjobDistance0_smoothed.png -tile 2x1 -geometry +"$HORIZONTALPADDING"+0 $FIGDIR/"$FIGNAME".jpg
 
 
 
 
 fi
+
+
+
+osascript -e 'display notification "Finished figures for chapter '$TARGET'" with title "Figures generation"'
