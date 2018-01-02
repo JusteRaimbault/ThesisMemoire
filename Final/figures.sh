@@ -43,10 +43,16 @@ then
   echo $FIGNAME
   convert -density $PDFRESOLUTION Figures/GrandParisRealEstate/reseaux.pdf -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
 
-  # fig:casestudies:projects
+  # fig:casestudies:empiricalres
   FIGNAME=1-2-1-fig-casestudies-empiricalres
   echo $FIGNAME
   convert Figures/GrandParisRealEstate/laggedcorrs_times_allvars_fr.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+  # fig:casestudies:prd
+  FIGNAME=1-2-1-fig-casestudies-prd
+  echo $FIGNAME
+  montage Figures/CaseStudies/accessp_withbridge_prd.png Figures/CaseStudies/accesspdiff_prd.png -resize "$WIDTH"x -tile 2x1 -geometry +"$HORIZONTALPADDING"+0 -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
 
   ###############
   ## 1.3 : Qualitative
@@ -57,8 +63,9 @@ then
   montage Figures/Qualitative/tangjia.jpg Figures/Qualitative/zhuhai.jpg Figures/Qualitative/yangshuo.jpg Figures/Qualitative/chengdu.jpg -tile 2x2 -geometry +"$HORIZONTALPADDING"+"$VERTICALPADDING" -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
 
   # fig:qualitative:schema
-  #  schema is light, pdf ok
-
+  FIGNAME=1-3-1-fig-qualitative-schema
+  echo $FIGNAME
+  cp Figures/Qualitative/tod_fr.pdf $FIGDIR/"$FIGNAME".pdf
 
 
 
@@ -587,6 +594,14 @@ then
   #############
   ## quantepistemo
 
+  # fig:quantepistemo:sensitivity-algosr
+  FIGNAME=A-quantepistemo-sensitivity-algosr
+  echo $FIGNAME
+  convert Figures/QuantEpistemo/explo.png -resize "$WIDTH"x -quality $JPGQUALITY Figures/QuantEpistemo/explo.jpg
+  convert -density $PDFRESOLUTION Figures/QuantEpistemo/lexicalConsistence_MeanSd.pdf -resize "$WIDTH"x -quality $JPGQUALITY Figures/QuantEpistemo/lexicalConsistence_MeanSd.jpg
+  montage Figures/QuantEpistemo/explo.jpg Figures/QuantEpistemo/lexicalConsistence_MeanSd.jpg -tile 1x2 -geometry +0+"$VERTICALPADDING" $FIGDIR/"$FIGNAME".jpg
+  rm Figures/QuantEpistemo/explo.jpg Figures/QuantEpistemo/lexicalConsistence_MeanSd.jpg
+
   # fig:app:quantepistemo:sensitivity
   FIGNAME=A-quantepistemo-sensitivity
   echo $FIGNAME
@@ -896,6 +911,16 @@ then
   echo $FIGNAME
   montage Figures/CybergeoNetworks/Map_5_studied_juste_dend.png Figures/CybergeoNetworks/Leg_5_studied_juste.png -tile 2x1 -geometry +"$HORIZONTALPADDING"+"$VERTICALPADDING" -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
 
+  # fig:app:cybergeonetworks:perplexity
+  FIGNAME=C-cybergeonetworks-perplexity
+  echo $FIGNAME
+  montage Figures/CybergeoNetworks/perplexity.png Figures/CybergeoNetworks/entropy.png -tile 2x1 -geometry +"$HORIZONTALPADDING"+0 -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+  # fig:app:cybergeonetworks:topics-evolution
+  FIGNAME=C-cybergeonetworks-topics-evolution
+  echo $FIGNAME
+  convert Figures/CybergeoNetworks/evolution.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
   # fig:app:cybergeonetworks:cluster_poc
   FIGNAME=C-cybergeonetworks-cluster_poc
   echo $FIGNAME
@@ -904,7 +929,8 @@ then
   # fig:app:cybergeonetworks:complementarity
   FIGNAME=C-cybergeonetworks-complementarity
   echo $FIGNAME
-  convert Figures/CybergeoNetworks/Sankey_methods_Compared.png  -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+  convert Figures/CybergeoNetworks/Sankey_methods_Compared.jpg -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+  # -background White -alpha Background : png transparency
 
   # fig:app:cybergeonetworks:modularities
   FIGNAME=C-cybergeonetworks-modularities
