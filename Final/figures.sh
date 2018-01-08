@@ -493,6 +493,12 @@ then
   ###############
   ## 7.3 : Lutecia
 
+  # fig:lutecia:governance
+  FIGNAME=7-3-3-fig-lutecia-governance
+  echo $FIGNAME
+  montage Figures/Lutecia/ex_setup.png Figures/Lutecia/ex_reg_infra50_explo200_seed1.png Figures/Lutecia/ex_maxcollabcost_infra45_explo200_seed3.png Figures/Lutecia/ex_mincollabcost_infra50_explo200_seed1.png -resize "$WIDTH"x -quality $JPGQUALITY -tile 2x2 -geometry +"$HORIZONTALPADDING"+"$VERTICALPADDING" $FIGDIR/"$FIGNAME".jpg
+
+
   # fig:lutecia:ex-prd
   FIGNAME=7-3-3-fig-lutecia-ex-prd
   echo $FIGNAME
@@ -502,7 +508,7 @@ then
   # fig:lutecia:calib
   FIGNAME=7-3-3-fig-lutecia-calib
   echo $FIGNAME
-  montage Figures/Lutecia/regional-distance_colorgametype.png Figures/Lutecia/collab-distance_colorregional.png -resize "$WIDTH"x -quality $JPGQUALITY -tile 2x1 -geometry +"$HORIZONTALPADDING"+0 $FIGDIR/"$FIGNAME".jpg
+  montage Figures/Lutecia/regional-distance_colorgametype.png Figures/Lutecia/collab-distance_colorregional.png Figures/Lutecia/distanceviolin_gametype.png Figures/Lutecia/distanceviolin_gametype_real.png -resize "$WIDTH"x -quality $JPGQUALITY -tile 2x2 -geometry +"$HORIZONTALPADDING"+"$VERTICALPADDING" $FIGDIR/"$FIGNAME".jpg
 
 
 
@@ -609,6 +615,26 @@ fi
 
 if [ "$TARGET" == "--A" ] || [ "$TARGET" == "--all" ]
 then
+
+
+  #############
+  ## casestudies
+
+  # fig:app:casestudies:nanfang
+  FIGNAME=A-casestudies-nanfang
+  echo $FIGNAME
+  convert Figures/CaseStudies/nanfang.png -resize $WIDTH -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+  # fig:app:casestudies:prd
+  FIGNAME=A-casestudies-prd
+  echo $FIGNAME
+  convert Figures/CaseStudies/prd.png -resize $WIDTH -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+  # fig:app:casestudies:zhuhai
+  FIGNAME=A-casestudies-zhuhai
+  echo $FIGNAME
+  convert Figures/CaseStudies/zhuhai.png -resize $WIDTH -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
 
   #############
   ## quantepistemo
@@ -760,11 +786,11 @@ then
   # fig:app:density:pmax
   FIGNAME=A-density-pmax
   echo $FIGNAME
-  montage Figures/Density/pmax_alpha.png Figures/Density/pmax_logbeta.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+  montage Figures/Density/pmax_alpha.png Figures/Density/pmax_logbeta.png -tile 2x1 -geometry +0+"$HORIZONTALPADDING" -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
 
 
   #############
-  ## B.5 Synthetic Data
+  ## Synthetic Data
 
   #fig:app:correlatedsyntheticdata:correlations
   FIGNAME=A-correlatedsyntheticdata-correlations
@@ -777,7 +803,7 @@ then
 
 
   #############
-  ## B.6 MacroCoEvol
+  ## MacroCoEvol
 
 
   # fig:app:macrocoevol:behavior-time
@@ -812,6 +838,37 @@ then
   FIGNAME=A-networkgrowth-feasiblespace_bymorph
   echo $FIGNAME
   montage Figures/NetworkGrowth/feasible_space_pca_bymorph.png Figures/NetworkGrowth/feasible_space_withreal_pca_bymorph.png -tile 1x2 -geometry +0+"$VERTICALPADDING" -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+
+  #############
+  ## Lutecia
+
+  # fig:app:lutecia:morphotrajs
+  FIGNAME=A-lutecia-morphotrajs
+  echo $FIGNAME
+  convert -density $PDFRESOLUTION Figures/Lutecia/morphoActiveTrajsvaryinglambda_betaDC1_euclpace6.pdf -resize "$WIDTH"x -quality $JPGQUALITY Figures/Lutecia/morphoActiveTrajsvaryinglambda_betaDC1_euclpace6.jpg
+  convert -density $PDFRESOLUTION Figures/Lutecia/morphoActiveTrajsvaryinglambda_betaDC2_euclpace6.pdf -resize "$WIDTH"x -quality $JPGQUALITY Figures/Lutecia/morphoActiveTrajsvaryinglambda_betaDC2_euclpace6.jpg
+  montage Figures/Lutecia/morphoActiveTrajsvaryinglambda_betaDC1_euclpace6.jpg Figures/Lutecia/morphoActiveTrajsvaryinglambda_betaDC2_euclpace6.jpg -tile 1x2 -geometry +0+"$VERTICALPADDING" -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+  rm Figures/Lutecia/morphoActiveTrajsvaryinglambda_betaDC1_euclpace6.jpg Figures/Lutecia/morphoActiveTrajsvaryinglambda_betaDC2_euclpace6.jpg
+
+  # fig:app:lutecia:morphosens
+  FIGNAME=A-lutecia-morphosens
+  echo $FIGNAME
+  convert Figures/Lutecia/PC1_synth_nonw_euclpace6.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+  # fig:app:lutecia:ludiff
+  FIGNAME=A-lutecia-ludiff
+  echo $FIGNAME
+  convert Figures/Lutecia/rdiffact_synth_nonw_euclpace6.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+
+
+  # fig:app:lutecia:realsetup
+  FIGNAME=A-lutecia-realsetup
+  echo $FIGNAME
+  montage Figures/Lutecia/ex_real_filesetup.png Figures/Lutecia/realnonw_nolu.png -tile 2x1 -geometry +"$HORIZONTALPADDING"+0 -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+
 
 fi
 
