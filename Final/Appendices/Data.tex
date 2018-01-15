@@ -45,24 +45,29 @@ Cette annexe liste et décrit les différents jeux de données ouvertes que nous
 
 
 
+
+%%%%%%%
+%% -- ON HOLD --
+% (clarifier degré d'ouverture possible 
+
+
 %%%%%%%%%%%%%%
-\section{US Gaz Prices}{Prix de l'Essence aux Etats-Unis}
+%\section{US Gaz Prices}{Prix de l'Essence aux Etats-Unis}
 
 
-\subsection{Specification}{Spécification}
+%\subsection{Specification}{Spécification}
 
-\paragraph{Citation}{Citation}
+%\paragraph{Citation}{Citation}
 
-\paragraph{Type and Format}{Type et Format}
+%\paragraph{Type and Format}{Type et Format}
 
-\paragraph{License}{Licence}
+%\paragraph{License}{Licence}
 
-\paragraph{Availability}{Disponibilité}
+%\paragraph{Availability}{Disponibilité}
+
+%\subsection{Description}{Description}
 
 
-
-
-\subsection{Description}{Description}
 
 
 
@@ -74,19 +79,29 @@ Cette annexe liste et décrit les différents jeux de données ouvertes que nous
 La simplification des réseaux routiers, opérée à grande échelle pour l'Europe et la Chine sur les données d'OpenStreetMap, produit les graphes topologiques correspondants. 
 
 
+\subsection{Description}{Description}
+
+
+
+
 \subsection{Specification}{Spécification}
 
-\paragraph{Citation}{Citation}
+\paragraph{Citation}{Citation} 
+
+Raimbault, Juste, 2018, "Simplified road networks, Europe and China", doi:10.7910/DVN/RKDZMV, Harvard Dataverse, V1
 
 \paragraph{Type and Format}{Type et Format}
 
+Edge lists of graphs. Format : postgis dumps
+
 \paragraph{License}{Licence}
+
+CC0
 
 \paragraph{Availability}{Disponibilité}
 
+La base est disponible sur le Harvard Dataverse à \url{http://dx.doi.org/10.7910/DVN/RKDZMV}.
 
-
-\subsection{Description}{Description}
 
 
 
@@ -109,15 +124,7 @@ La simplification des réseaux routiers, opérée à grande échelle pour l'Euro
 
 % laius sur pourquoi données "quali" devraient pas être plus dispo (quand accord intervié) ; outils idem ex. git, dissocié quanti : cf exemple galère excel notes ridicule, refus systématique et catégorique d'une alternative stable et fiable...
 
-\subsection{Specification}{Spécification}
-
-\paragraph{Citation}{Citation}
-
-\paragraph{Type and Format}{Type et Format}
-
-\paragraph{License}{Licence}
-
-\paragraph{Availability}{Disponibilité}
+Un matériau de recherche qui serait plus ``qualitatif'' au sens classique, n'a pas de raison d'être moins ouvert que des bases de données ``quantitatives''. Dans le cas d'entretiens, l'ouverture des retranscriptions est essentielle pour la reproductibilité puisqu'il s'agit du dernier (et du premier) stade avant la traduction non reproductible en interprétations. Nous pensons également qu'elle est cruciale pour exploiter l'ensemble de leur potentiel, l'ouverture permettant leur réutilisation et donc possiblement réactions ou débats.
 
 
 \subsection{Description}{Description}
@@ -139,7 +146,59 @@ Géographe à l'interface interdisciplinaire
 
 \subsubsection{Interview with Denise Pumain, 2017/12/15}{Entretien avec Denise Pumain, 2017/12/15}
 
-Effets structurants des infrastructures de transport et co-évolution.
+Effets structurants des infrastructures de transport et co-évolution, du point de vue de la géographie.
+
+
+
+
+\subsubsection{Interview with Alain Bonnafous, 2018/01/09}{Entretien avec Alain Bonnafous, 2018/01/09}
+
+
+
+Effets structurants des infrastructures de transport, du point de vue de l'économie des transports.
+
+
+
+\subsection{Specification}{Spécification}
+
+\paragraph{Citation}{Citation}
+
+\paragraph{Type and Format}{Type et Format}
+
+Données textuelles : transcription des entretiens au format texte.
+
+\paragraph{License}{Licence}
+
+% 
+
+\paragraph{Availability}{Disponibilité}
+
+Dépôt git : \url{https://github.com/JusteRaimbault/Entretiens}
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%
+\section{Synthetic Data and simulation results}{Données Synthétiques et résultats de simulations}
+
+Les résultats de calculs ou de simulations utilisés pour l'ensemble des résultats présentés sont disponibles de manière ouverte, soit sur le dépôt git soit sur un dépôt dataverse dédié dans le cas d'articles autonomes ou de fichiers massifs. Les liens sont les suivants pour les dépôts particuliers :
+
+\begin{itemize}
+	\item Résultats de l'exploration du corpus Cybergeo \url{http://dx.doi.org/10.7910/DVN/VU2XKT} ; Epistémologie quantitative et modélographie \url{https://github.com/JusteRaimbault/CityNetwork/tree/master/Models/QuantEpistemo/HyperNetwork/data}
+	\item Indicateurs morphologiques et topologiques pour l'Europe et la Chine \url{http://dx.doi.org/10.7910/DVN/RHLM5Q}
+	\item Simulation de données synthétiques par le modèle RBD pour l'identification de régimes de causalité spatio-temporelle \url{http://dx.doi.org/10.7910/DVN/KGHZZB}
+	\item Simulation et calibration du modèle macroscopique d'interactions \url{}
+	\item Simulation et calibration du modèle de morphogenèse pour la densité \url{http://dx.doi.org/10.7910/DVN/WSUSBA}
+	\item Simulations du modèle de co-évolution macroscopique \url{http://dx.doi.org/10.7910/DVN/TYBNFQ} et \url{https://github.com/JusteRaimbault/CityNetwork/tree/master/Models/MacroCoevol/MacroCoevol/calibres} pour la calibration
+	\item Simulations du modèle de co-évolution mesoscopique \url{http://dx.doi.org/10.7910/DVN/OBQ4CS}
+	\item Simulations du modèle Lutecia \url{http://dx.doi.org/10.7910/DVN/V3KI2N}
+\end{itemize}
+
+
 
 
 

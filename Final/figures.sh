@@ -453,7 +453,7 @@ then
   # fig:networkgrowth:examples
   FIGNAME=7-1-2-fig-networkgrowth-examples
   echo $FIGNAME
-  montage Figures/NetworkGrowth/example_nw-connection.png Figures/NetworkGrowth/example_nw-random.png Figures/NetworkGrowth/example_nw-rndbrkdwn.png Figures/NetworkGrowth/example_nw-gravity.png Figures/NetworkGrowth/example_nw-cost.png Figures/NetworkGrowth/example_nw-bio.png -tile 3x2 -geometry +"$HORIZONTALPADDING"+"$VERTICALPADDING" -border 2 -bordercolor Black $FIGDIR/"$FIGNAME"_tmp.png
+  montage Figures/NetworkGrowth/example_comp_nwSize200_connex.png Figures/NetworkGrowth/example_comp_nwSize200_random.png Figures/NetworkGrowth/example_comp_nwSize200_rndbrkdwn.png Figures/NetworkGrowth/example_comp_nwSize200_detbrkdwn.png Figures/NetworkGrowth/example_comp_nwSize200_cost.png Figures/NetworkGrowth/example_comp_nwSize200_bio.png -tile 3x2 -geometry +"$HORIZONTALPADDING"+"$VERTICALPADDING" -border 2 -bordercolor Black $FIGDIR/"$FIGNAME"_tmp.png
   convert $FIGDIR/"$FIGNAME"_tmp.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
   rm $FIGDIR/"$FIGNAME"_tmp.png
 
@@ -479,13 +479,15 @@ then
   # fig:mesocoevolmodel:calibration
   FIGNAME=7-2-2-fig-mesocoevolmodel-calibration
   echo $FIGNAME
-  montage Figures/MesoCoEvol/pca_allobjs.png Figures/MesoCoEvol/corrs-distrib_rhoasize4.png Figures/MesoCoEvol/pca_morpho_byheuristic.png Figures/MesoCoEvol/pca_network_byheuristic.png -tile 2x2 -geometry +"$HORIZONTALPADDING"+"$VERTICALPADDING" -resize "$((WIDTH / 2))"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+  montage Figures/MesoCoEvol/pca_morpho_byheuristic.png Figures/MesoCoEvol/pca_network_byheuristic.png Figures/MesoCoEvol/pca_allobjs.png Figures/MesoCoEvol/distance-corrs-distrib_rhoasize4.png -tile 2x2 -geometry +"$HORIZONTALPADDING"+"$VERTICALPADDING" -resize "$((WIDTH / 2))"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+  #montage Figures/MesoCoEvol/pca_morpho_byheuristic.png Figures/MesoCoEvol/pca_network_byheuristic.png Figures/MesoCoEvol/pca_allobjs.png Figures/MesoCoEvol/distance-all-distrib_rhoasize4.png Figures/MesoCoEvol/distance-indics-distrib_rhoasize4.png Figures/MesoCoEvol/distance-corrs-distrib_rhoasize4.png -tile 2x3 -geometry +"$HORIZONTALPADDING"+"$VERTICALPADDING" -resize "$((WIDTH / 2))"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
 
   # fig:mesocoevolmodel:causality
   FIGNAME=7-2-2-fig-mesocoevolmodel-causality
   echo $FIGNAME
   convert Figures/MesoCoEvol/centertrajs.png -resize "$((3 * WIDTH / 5))"x -quality $JPGQUALITY Figures/MesoCoEvol/centertrajs.jpg
-  convert Figures/MesoCoEvol/cluster-params.png -resize "$((2 * WIDTH / 5))"x -quality $JPGQUALITY Figures/MesoCoEvol/cluster-params.jpg
+  convert Figures/MesoCoEvol/cluster-params-gridRoadPop.png -resize "$((2 * WIDTH / 5))"x -quality $JPGQUALITY Figures/MesoCoEvol/cluster-params.jpg
   montage Figures/MesoCoEvol/centertrajs.jpg Figures/MesoCoEvol/cluster-params.jpg -tile 2x1 -geometry +"$HORIZONTALPADDING"+0 $FIGDIR/"$FIGNAME".jpg
   rm Figures/MesoCoEvol/centertrajs.jpg Figures/MesoCoEvol/cluster-params.jpg
 
@@ -840,6 +842,15 @@ then
   montage Figures/NetworkGrowth/feasible_space_pca_bymorph.png Figures/NetworkGrowth/feasible_space_withreal_pca_bymorph.png -tile 1x2 -geometry +0+"$VERTICALPADDING" -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
 
 
+  ############
+  ## Mesocoevol
+
+  # fig:app:mesocoevolmodel:paretodists
+  FIGNAME=A-mesocoevolmodel-paretodists
+  echo $FIGNAME
+  montage Figures/MesoCoEvol/dists_pareto_i1.png Figures/MesoCoEvol/dists_pareto_i10.png -tile 2x1 -geometry +"$HORIZONTALPADDING"+0 -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+
   #############
   ## Lutecia
 
@@ -1095,6 +1106,15 @@ then
   echo $FIGNAME
   convert Figures/MediationEcotox/boardgame.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
 
+  # fig:app:mediationecotox:phasediags
+  FIGNAME=C-mediationecotox-phasediags
+  echo $FIGNAME
+  convert Figures/MediationEcotox/phasediags.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+  # fig:app:mediationecotox:webpage
+  FIGNAME=C-mediationecotox-webpage
+  echo $FIGNAME
+  convert Figures/MediationEcotox/webpage.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
 
   ################
   ## Migration dynamics
