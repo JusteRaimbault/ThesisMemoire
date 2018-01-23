@@ -394,10 +394,8 @@ then
   # fig:macrocoevol:correlations
   FIGNAME=6-2-2-fig-macrocoevol-correlations
   echo $FIGNAME
-  convert -density $PDFRESOLUTION Figures/MacroCoEvol/distcorrs_gravityWeight5e-04_nwThreshold4_5.pdf -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/MacroCoEvol/distcorrs_gravityWeight5e-04_nwThreshold4_5.jpg
-  convert -density $PDFRESOLUTION Figures/MacroCoEvol/laggedcorrs_gravityWeight5e-04_nwThreshold4_5.pdf -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/MacroCoEvol/laggedcorrs_gravityWeight5e-04_nwThreshold4_5.jpg
-  montage Figures/MacroCoEvol/distcorrs_gravityWeight5e-04_nwThreshold4_5.jpg Figures/MacroCoEvol/laggedcorrs_gravityWeight5e-04_nwThreshold4_5.jpg -tile 1x2 -geometry +0+"$VERTICALPADDING" -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
-  rm Figures/MacroCoEvol/distcorrs_gravityWeight5e-04_nwThreshold4_5.jpg Figures/MacroCoEvol/laggedcorrs_gravityWeight5e-04_nwThreshold4_5.jpg
+  convert Figures/MacroCoEvol/laggedregimes_nwGmax0_05.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
 
   # fig:macrocoevol:empirical
   FIGNAME=6-2-3-fig-macrocoevol-empirical
@@ -828,6 +826,14 @@ then
   montage Figures/MacroCoEvol/complexityAccessibility_synthrankSize1_nwGmax0_05.jpg Figures/MacroCoEvol/rankCorrAccessibility_synthrankSize1_nwGmax0_05.jpg -tile 1x2 -geometry +0+"$VERTICALPADDING" -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
   rm Figures/MacroCoEvol/complexityAccessibility_synthrankSize1_nwGmax0_05.jpg Figures/MacroCoEvol/rankCorrAccessibility_synthrankSize1_nwGmax0_05.jpg
 
+  FIGNAME=A-macrocoevol-distcorrs
+  echo $FIGNAME
+  convert -density $PDFRESOLUTION Figures/MacroCoEvol/distcorrs_gravityWeight5e-04_nwThreshold4_5.pdf -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+  FIGNAME=A-macrocoevol-laggedcorrs
+  echo $FIGNAME
+  convert -density $PDFRESOLUTION Figures/MacroCoEvol/laggedcorrs_gravityWeight5e-04_nwThreshold4_5.pdf -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
 
   # fig:app:macrocoevol:pareto
   FIGNAME=A-macrocoevol-pareto
@@ -1138,6 +1144,45 @@ then
 
 
 fi
+
+
+###############
+## Appendix F
+
+if [ "$TARGET" == "--F" ] || [ "$TARGET" == "--all" ]
+then
+
+  # fig:app:reflexivity:citnw
+  FIGNAME=F-reflexivity-citnw
+  echo $FIGNAME
+  convert Figures/Reflexivity/citcore.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+  # fig:app:reflexivity:time
+  FIGNAME=F-reflexivity-time
+  echo $FIGNAME
+  montage Figures/Reflexivity/weekly-macroproj.png Figures/Reflexivity/weekly-chapter.png Figures/Reflexivity/weekly-knowledgedomains.png -resize "$WIDTH"x -quality $JPGQUALITY -tile 1x3 -geometry +0+"$VERTICALPADDING" $FIGDIR/"$FIGNAME".jpg
+
+  # fig:app:reflexivity:projects
+  FIGNAME=F-reflexivity-projects
+  echo $FIGNAME
+  montage -resize "$(( WIDTH / 2))"x Figures/Reflexivity/graph-projects-cooccs.png -resize "$(( WIDTH / 2))"x Figures/Reflexivity/graph-projects-laggedflow.png -quality $JPGQUALITY -tile 2x1 -geometry +"$HORIZONTALPADDING"+0 $FIGDIR/"$FIGNAME".jpg
+
+  # fig:app:reflexivity:kd
+  FIGNAME=F-reflexivity-kd
+  echo $FIGNAME
+  montage -resize "$(( WIDTH / 2))"x Figures/Reflexivity/graph-kd-cooccs.png -resize "$(( WIDTH / 2))"x Figures/Reflexivity/graph-kd-laggedflow.png -quality $JPGQUALITY -tile 2x1 -geometry +"$HORIZONTALPADDING"+0 $FIGDIR/"$FIGNAME".jpg
+
+
+
+
+
+
+
+
+
+fi
+
+
 
 
 
