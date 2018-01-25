@@ -683,6 +683,19 @@ then
   echo $FIGNAME
   convert Figures/StaticCorrelations/CN_indics_network_selected.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
 
+
+  # fig:app:staticcorrelations:overallcorrs
+  FIGNAME=A-staticcorrelations-overallcorrs
+  echo $FIGNAME
+  convert Figures/StaticCorrelations/corrmat_deltainfty.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+
+  # fig:app:staticcorrelations:europe-correlations
+  FIGNAME=A-staticcorrelations-europe-correlations
+  echo $FIGNAME
+  montage Figures/StaticCorrelations/corr_alphaCloseness.moran_rhoasize12.png Figures/StaticCorrelations/corr_slope.moran_rhoasize12.png Figures/StaticCorrelations/corr_meanBetweenness.slope_rhoasize12.png Figures/StaticCorrelations/corr_alphaCloseness.alphaBetweenness_rhoasize12.png Figures/StaticCorrelations/corr_vcount.meanPathLength_rhoasize12.png Figures/StaticCorrelations/corr_slope.rsquaredslope_rhoasize12.png -resize "$WIDTH"x -tile 2x3 -geometry +"$HORIZONTALPADDING"+"$VERTICALPADDING" -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
+
   # fig:app:staticcorrelations:corr-distribs
   FIGNAME=A-staticcorrelations-corr-distribs
   echo $FIGNAME
@@ -1157,6 +1170,11 @@ then
   echo $FIGNAME
   convert Figures/Reflexivity/citcore.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
 
+  # fig:app:reflexivity:interdisc
+  FIGNAME=F-reflexivity-interdisc
+  echo $FIGNAME
+  convert Figures/Reflexivity/interdisciplinarities.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+
   # fig:app:reflexivity:time
   FIGNAME=F-reflexivity-time
   echo $FIGNAME
@@ -1171,11 +1189,6 @@ then
   FIGNAME=F-reflexivity-kd
   echo $FIGNAME
   montage -resize "$(( WIDTH / 2))"x Figures/Reflexivity/graph-kd-cooccs.png -resize "$(( WIDTH / 2))"x Figures/Reflexivity/graph-kd-laggedflow.png -quality $JPGQUALITY -tile 2x1 -geometry +"$HORIZONTALPADDING"+0 $FIGDIR/"$FIGNAME".jpg
-
-
-
-
-
 
 
 
