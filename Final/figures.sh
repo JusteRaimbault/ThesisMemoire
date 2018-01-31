@@ -1003,7 +1003,7 @@ then
 
   FIGNAME=C-cybergeonetworks-who
   echo $FIGNAME
-  convert Figures/CybergeoNetworks/whoStudiesWho.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
+  convert Figures/CybergeoNetworks/who-who.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
 
   FIGNAME=C-cybergeonetworks-commintern
   echo $FIGNAME
@@ -1188,7 +1188,10 @@ then
   echo $FIGNAME
   montage -resize "$(( WIDTH / 2))"x Figures/Reflexivity/graph-kd-cooccs.png -resize "$(( WIDTH / 2))"x Figures/Reflexivity/graph-kd-laggedflow.png -quality $JPGQUALITY -tile 2x1 -geometry +"$HORIZONTALPADDING"+0 $FIGDIR/"$FIGNAME".jpg
 
-
+  # fig:app:reflexivity:laggedcorrs
+  FIGNAME=F-reflexivity-laggedcorrs
+  echo $FIGNAME
+  convert Figures/Reflexivity/laggedcorrs.png -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
 
 
 fi
