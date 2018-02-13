@@ -772,7 +772,7 @@ In order to strengthen the idea of a complementarity of classifications, that wo
 Afin de renforcer l'idée d'une complémentarité des classifications, qui captureraient chacune différentes dimensions des processus de production de connaissance, nous examinons finalement la matrice des corrélations entre les classifications. Nous utilisons cette fois les probabilités de classes effectives pour la classification de citation, i.e. un vecteur de zeros à l'exception d'un un à l'index de la classe de la référence. Nous calculons un coefficient de corrélation de Pearson entre les classes $k$ (sémantique) et la classe $k'$ (citation) comme
 }
 \[
-\rho_{k,k'} = \frac{Cov \left[ (p^{(Sem)}_{ik})_i , (p^{(Cit)}_{ik'})_i \right]}{\sqrt{\sigma\left[(p^{(Sem)}_{ik})_i\right]\sigma\left[(p^{(Sem)}_{ik})_i\right]}}
+\rho_{k,k'} = \frac{Cov \left[ (p^{(Sem)}_{ik})_i , (p^{(Cit)}_{ik'})_i \right]}{\sqrt{\Cov\left[(p^{(Sem)}_{ik})_i\right]\Cov\left[(p^{(Sem)}_{ik})_i\right]}}
 \]
 
 \bpar{
@@ -937,6 +937,8 @@ We have introduced a multi-dimensional approach to the understanding of interdis
 Nous avons introduit une approche multi-dimensionnelle pour la compréhension de l'interdisciplinarité, basée sur les analyses du réseau de citation et du réseau sémantique. A partir d'un journal généraliste en Géographie, nous construisons un vaste corpus du voisinage de citation, duquel nous extrayons les mots-clés pertinents pour élaborer une classification sémantique. Nous montrons ensuite qualitativement et quantitativement la complémentarité des classifications. La méthodologie et les outils associés sont ouverts et peuvent être réutilisés dans des études similaires pour lesquelles les données sont difficiles à obtenir ou faiblement référencées dans les bases classiques. 
 }
 
+
+\stars
 
 
 %%%%%%%%%%%%%%%%%%%%%
