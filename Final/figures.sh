@@ -128,7 +128,7 @@ then
   echo $FIGNAME
   #cp Figures/Final/7-3-3-fig-lutecia-governance.jpg $FIGDIR/"$FIGNAME".jpg
   # cropped figure
-  cp Soutenance/Communication/lutecia-cropped.png $FIGDIR/"$FIGNAME".jpg
+  cp Soutenance/Communication/figuresraw/lutecia-cropped.png $FIGDIR/"$FIGNAME".jpg
 
   FIGNAME=meso-nwgrowth
   echo $FIGNAME
