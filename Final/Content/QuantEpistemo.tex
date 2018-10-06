@@ -400,10 +400,7 @@ Les appellations sont à regard d'expert a posteriori, selon les grands domaines
 
 
 \bpar{
-The Fig.~~\ref{fig:quantepistemo:citnw} shows the citation network and allows to visualize the relations between these domains. It is interesting to observe that works by economists and physicists in this field fall within the same category of the study of \emph{Spatial Networks}. Indeed, the literature cited by physicists contains often a larger number of references in economics than in geography, whereas economists use network analysis techniques. Moreover, planning, accessibility, LUTI and TOD are very close but can be distinguished in their specificities: the fact that they appear as separated communities witnesses of a certain level of compartmentalization. These make the bridge between spatial network approaches and geographical approaches, which contain an important part of political science for example.
-%%%%%
-%% -- TRAD --
-%%%%%
+The Fig.~~\ref{fig:quantepistemo:citnw} shows the citation network and allows to visualize the relations between these domains. It is interesting to observe that works by economists and physicists in this field fall within the same category of the study of \emph{Spatial Networks}. Indeed, the literature cited by physicists contains often a larger number of references in economics than in geography, whereas economists use network analysis techniques. Moreover, planning, accessibility, LUTI and TOD are very close but can be distinguished in their specificities: the fact that they appear as separated communities witnesses of a certain level of compartmentalization. These make the bridge between spatial network approaches and geographical approaches, which contain an important part of political science for example. Links between physics and geography remain rather low. This overview naturally depends on the initial corpus, but allows us to better understand its context in its disciplinary environment.
 }{
 La Fig.~\ref{fig:quantepistemo:citnw} montre le réseau de citation et permet de visualiser les relations entre ces domaines. Il est intéressant d'observer que les travaux des économistes et des physiciens dans le domaine tombent dans la même catégorie d'étude des \emph{Spatial Networks}. En effet, la littérature citée par les physiciens comporte souvent plus d'ouvrage en économie qu'en géographie, tandis que les économistes utilisent des techniques d'analyse de réseau. Ensuite, le planning, l'accessibilité, les LUTI et le TOD sont très proches mais se distinguent dans leur spécificités : le fait qu'ils apparaissent dans des communautés séparées témoigne d'un certain niveau de cloisonnement. Ceux-ci font le pont entre les approches réseaux spatiaux et les approches géographiques, qui comportent une partie importante de sciences politiques par exemple. Les liens entre physique et géographie restent très faibles. Ce panorama dépend bien sûr du corpus initial, mais nous permet de mieux comprendre le contexte de celui-ci dans son environnement disciplinaire.
 }
@@ -414,7 +411,7 @@ La Fig.~\ref{fig:quantepistemo:citnw} montre le réseau de citation et permet de
 \begin{figure}[!ht]
 %\includegraphics[width=\linewidth]{Figures/QuantEpistemo/rawcore_labs36.png}
 \includegraphics[width=\linewidth]{Figures/Final/2-2-2-fig-quantepistemo-citnw.jpg}
-\caption[Citation Network][Réseau de citations]{\textbf{Citation Network}\label{fig:quantepistemo:citnw}}{\textbf{Réseau de citations.} Nous visualisons les références ayant au moins deux liens, par un algorithme de force-atlas. Les couleurs donnent les communautés décrites dans le texte. En orange, bleu, turquoise: géographie urbaine, géographie des transports, sciences politiques ; en rose, noir, vert: planning, accessibilité, LUTI ; en violet : réseaux spatiaux (physique et économie).\label{fig:quantepistemo:citnw}}
+\caption[Citation Network][Réseau de citations]{\textbf{Citation Network.} We visualize references having at least two links, using a force-atlas algorithm. Colors give communities described in text. In orange, blue, turquoise: urban geography, transport geography, political sciences; in pink, black, green: planning, accessibility, LUTI; in purple: spatial networks (physics and economics).\label{fig:quantepistemo:citnw}}{\textbf{Réseau de citations.} Nous visualisons les références ayant au moins deux liens, par un algorithme de force-atlas. Les couleurs donnent les communautés décrites dans le texte. En orange, bleu, turquoise: géographie urbaine, géographie des transports, sciences politiques ; en rose, noir, vert: planning, accessibilité, LUTI ; en violet : réseaux spatiaux (physique et économie).\label{fig:quantepistemo:citnw}}
 \end{figure}
 %%%%%%%%%%%%%%%%%
 
@@ -423,22 +420,25 @@ La Fig.~\ref{fig:quantepistemo:citnw} montre le réseau de citation et permet de
 
 
 %%%%%%%%%%%%%%%%%%
-\paragraph{Semantic Communities}{Communautés sémantiques}
-
-
-L'extraction des mots-clés est faite suivant une heuristique inspirée de~\cite{chavalarias2013phylomemetic}. La description complète de la méthode et de son implémentation est donnée en Annexe~\ref{app:sec:cybergeo}. Elle se base sur les relations au second ordre entre les entités sémantiques, qui sont des \emph{n-grams}, c'est-à-dire des mots-clés multiples pouvant avoir une longueur jusqu'à 3. Celles-ci sont estimées via la matrice de co-occurrence, dont les propriétés statistiques fournissent une mesure de déviation à des co-occurrences uniformes, qui est utilisée pour juger la pertinence des mots-clés. Sélectionnant un nombre fixe de mots-clés pertinents $K_W = 10000$, nous pouvons ensuite construire un réseau pondéré par les co-occurrences.
+\paragraph{Semantic communities}{Communautés sémantiques}
 
 
 \bpar{
-The topology of raw networks does not allow the extraction of clear communities, in particular because of the presence of hubs that correspond to frequent terms common to many fields (e.g. \texttt{model}, \texttt{space}). We assume these highest degree terms do not carry specific information on particular classes and can be thus filtered given a maximal degree threshold $k_{max}$. Similarly, edge with small weight are considered as noise and filtered according to a minimal edge weight threshold $\theta_w$. Keywords are preliminary filtered by a document frequency window $\left[ f_{min},f_{max} \right]$ which is slightly different from network filtering and complementary. A sensitivity analysis of resulting network topology to these parameters is presented in Fig.~\ref{fig:sensitivity}. We choose parameter values that maximize modularity under the constraint of a community number and size distribution of same magnitude as technological classes. This multi-objective optimization does not have a unique solution as objectives are somehow contradictory, and a compromise point must be chosen.
+The extraction of keywords is done following an heuristic inspired by~\cite{chavalarias2013phylomemetic}. The complete description of the method and its implementation if given in Appendix~\ref{app:sec:cybergeo}. It is based on second-order relations between semantic entities, which are \emph{n-grams}, i.e. multiple keywords which can have a length up to three. These are estimated by the intermediate of the co-occurence matrix, which statistical properties yield a measure of deviation from uniform co-occurrences, which is used to evaluate the relevance of keywords. By selecting a fixed number of relevant keywords $K_W = 10000$, we can then construct a network weighted by co-occurrences.
+}{
+L'extraction des mots-clés est faite suivant une heuristique inspirée de~\cite{chavalarias2013phylomemetic}. La description complète de la méthode et de son implémentation est donnée en Annexe~\ref{app:sec:cybergeo}. Elle se base sur les relations au second ordre entre les entités sémantiques, qui sont des \emph{n-grams}, c'est-à-dire des mots-clés multiples pouvant avoir une longueur jusqu'à 3. Celles-ci sont estimées via la matrice de co-occurrence, dont les propriétés statistiques fournissent une mesure de déviation à des co-occurrences uniformes, qui est utilisée pour juger la pertinence des mots-clés. Sélectionnant un nombre fixe de mots-clés pertinents $K_W = 10000$, nous pouvons ensuite construire un réseau pondéré par les co-occurrences.
+}
+
+
+\bpar{
+The topology of the raw network does not allow the extraction of clear communities, in particular because of the presence of hubs that correspond to frequent terms common to many fields (e.g. \texttt{model}, \texttt{space}). These words are used in a comparable way in all the studied fields, and do not carry information to separate them\footnote{But they will carry some if we were comparing a corpus in quantitative geography and a corpus in musicology for example.}. We make the assumption that these highest degree terms do not carry specific information on particular classes and can be thus filtered given a maximal degree threshold $k_{max}$ (we are thus interested in what makes the specificity of each domain). Similarly, edges with small weight are considered as noise and filtered according to a minimal edge weight threshold $\theta_w$. The generic method furthermore allows a preliminary filtration of keywords, according to a document frequency window $\left[ f_{min},f_{max} \right]$, to which results are not sensitive in our case. The sensitivity analysis of the characteristics of the filtered network, in particular its size, modularity and community structure, is given in Fig.~\ref{fig:sensitivity}. We choose parameter values allowing a multi-objective optimization between modularity and network size, $\theta_w = 10,k_{max} = 500$, by the choice of a compromise point on a Pareto front, what gives a semantic network of size $(V=7063,E=48952)$. It is visualized in Appendix~\ref{app:sec:quantepistemo}.
 }{
 La topologie du réseau brut ne permet pas l'extraction claire de communautés, en particulier à cause de hubs qui correspondent à des termes fréquents commun à de nombreux champs (e.g. \texttt{model}, \texttt{space}). Ces mots sont utilisés de manière comparable dans l'ensemble des champs étudiés, et ne portent pas d'information pour les séparer\footnote{Mais en porteraient si l'on comparait un corpus de géographie quantitative et un corpus de musicologie par exemple.}. Nous faisons l'hypothèse que ces termes à fort degré ne portent pas d'information particulière sur des classes données et peuvent ainsi être filtrés étant donné un seuil de degré maximal $k_{max}$ (on s'intéresse alors à ce qui fait la spécificité de chaque domaine). De la même manière, les liens avec un poids faibles sont considérés comme du bruit et filtrés selon un seuil de poids minimal $\theta_w$. La méthode générique permet de plus une filtration préliminaire des mot-clés, complémentaire à la filtration topologique, par fréquence d'apparition dans les documents $\left[ f_{min},f_{max} \right]$, à laquelle les résultats ne sont pas sensibles dans notre cas. L'analyse de sensibilité des caractéristiques du réseau filtré, notamment de sa taille, modularité et structure des communautés, est donnée en~\ref{app:sec:quantepistemo}. Nous choisissons des valeurs de paramètres permettant une optimisation multi-objectifs entre modularité et taille du réseau, $\theta_w = 10,k_{max} = 500$, par le choix d'un point compromis sur un front de Pareto, qui donne un réseau sémantique de taille $(V=7063,E=48952)$. Celui-ci est visualisé en Annexe~\ref{app:sec:quantepistemo}.
 }
 
 
 \bpar{
-We then retrieve communities in the semantic network (using standard Louvain algorithm, with the optimized filtering parameters). communities correspond to well-defined scientific fields (and/or domains, approaches). An expert validation allow us to give names to these, a more complicated naming procedure would eventually be possible (as in~\cite{yang2000improving} for the case of patents 
- where a chi-square test on distribution of documents in classes), but we prefer to stick here to a certain level of supervision. Table~\ref{tab:domains} summarizes the communities 
+We then retrieve communities in the network using a standard Louvain clustering on the optimal filtered network. We obtain 20 communities for a modularity of 0.58. These are examined manually to be named, the automatic naming techniques~\cite{yang2000improving} being not elaborated enough to make the implicit distinction between thematic and methodological fields for example (in fact between knowledge domains, see~\ref{sec:knowledgeframework}) which is a supplementary dimension that we do not tackle here, but necessary to have meaningful descriptions. The communities are described in Table~\ref{tab:quantepistemo:semanticdomains}. We directly see the complementarity with the citation approach, since emerge here together subjects of study (High Speed Rail, Maritime Networks), domains and methods (Networks, Remote Sensing, Mobility Data Mining), thematic domains (Policy), pure methods (Agent-based Modeling, Measuring). Thus, a reference may use several of these communities. We furthermore have a finer granularity of information. The effect of language is strong since French geography is distinguished as a separated category (advanced analyses could be considered to better understand this phenomenon and benefit from it: sub-communities, reconstruction of a specific network, studies by translation; but these are out of purpose in this exploratory study). We note the importance of networks, and of problematics in political sciences and socio-economic. We will use the first category in most models we will develop, but keeping in mind the importance of problematics linked to governance, we will proceed to a specific study in~\ref{sec:lutecia}.
 }{
 Nous récupérons ensuite les communautés dans le réseau par un clustering de Louvain standard sur le réseau filtré optimal. On obtient 20 communautés pour une modularité de 0.58. Celles-ci sont examinées à la main pour être nommées, les techniques de nomination automatique~\cite{yang2000improving} ne sont pas assez élaborées pour faire la distinction implicite entre champs thématiques et méthodologiques par exemple (en fait entre les domaines de connaissance, voir~\ref{sec:knowledgeframework}) qui est une dimension supplémentaire que nous ne traitons pas ici, mais nécessaire pour avoir des descriptions parlantes. Les communautés sont décrites en Table~\ref{tab:quantepistemo:semanticdomains}. On voit tout de suite la complémentarité avec l'approche par citations, puisque se dégagent ici à la fois des sujet d'étude (High Speed Rail, Maritime Networks), des domaines et méthodes (Networks, Remote Sensing, Mobility Data Mining), des domaines thématiques (Policy), des méthodes pures (Agent-based Modeling, Measuring). Ainsi, une référence peut mobiliser plusieurs de ces communautés. On a de plus une granularité plus fine de l'information. L'effet du langage est puissant puisque la géographie française se distingue en une catégorie séparée (des analyses poussées pourraient être envisagées pour mieux comprendre le phénomène et en tirer parti: sous-communautés, reconstruction d'un réseau spécifique, études par traduction ; mais celles-ci sont hors de propos dans cette étude exploratoire). On constate l'importance des réseaux, des problématiques de sciences politiques et socio-économiques. Nous mobiliserons la première catégorie dans la plupart des modèles développés, mais en gardant en tête l'importance des problématiques liées à la gouvernance, nous réaliserons un travail spécifique en~\ref{sec:lutecia}.
 }
@@ -448,7 +448,8 @@ Nous récupérons ensuite les communautés dans le réseau par un clustering de 
 
 %%%%%%%%%%%%%%%%%%
 \begin{table}
-\caption[Semantic communities][Communautés sémantiques]{Disciplines/domains/fields reconstructed from community detection in the semantic network}{\textbf{Description des communautés sémantiques.} On donne leur taille, leur proportion en quantité de mots-clés (sous la forme de \emph{multi-stems})  cumulés sur l'ensemble du corpus, et des mots-clés représentatifs sélectionnés par degré maximal.\label{tab:quantepistemo:semanticdomains}}
+\caption[Semantic communities][Communautés sémantiques]{\textbf{Description of semantic communities.} We give their size, their proportion in quantity of keywords (under the form of \emph{multi-stems}) cumulated on the full corpus, and representative keywords selected by maximal degree.\label{tab:quantepistemo:semanticdomains}}{\textbf{Description des communautés sémantiques.} On donne leur taille, leur proportion en quantité de mots-clés (sous la forme de \emph{multi-stems}) cumulés sur l'ensemble du corpus, et des mots-clés représentatifs sélectionnés par degré maximal.\label{tab:quantepistemo:semanticdomains}}
+\bpar{
 \begin{tabular}{llll}
 \hline\noalign{\smallskip}
 Name & Size & Weight & Keywords  \\
@@ -475,25 +476,57 @@ Spanish Geography & 106 & 1.26\% & \texttt{movilidad urbana, criteria, para} \\
 Measuring & 166 & 1.0\% & \texttt{score, sampl, metric} \\
 \noalign{\smallskip}\hline
 \end{tabular}
+}{
+\begin{tabular}{llll}
+\hline\noalign{\smallskip}
+Nom & Taille & Poids & Mots-clés  \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+Networks & 820 & 13.57\% & \texttt{social network, spatial network, resili} \\
+Policy & 700 & 11.8\% & \texttt{actor, decision-mak, societi} \\
+Socio-economic & 793 & 11.6\% & \texttt{neighborhood, incom, live} \\
+High Speed Rail & 476 & 7.14\% & \texttt{high-spe, corridor, hsr} \\
+French Geography & 210 & 6.08\% & \texttt{système, développement, territoire} \\
+Education & 374 & 5.43\% & \texttt{school, student, collabor} \\
+Climate Change & 411 & 5.42\% & \texttt{mitig, carbon, consumpt} \\
+Remote Sensing & 405 & 4.65\% & \texttt{classif, detect, cover} \\
+Sustainable Transport & 370 & 4.38\% & \texttt{sustain urban, travel demand, activity-bas} \\
+Traffic & 368 & 4.23\% & \texttt{traffic congest, cbd, capit} \\
+Maritime Networks & 402 & 4.2\% & \texttt{govern model, seaport, port author} \\
+Environment & 289 & 3.79\% & \texttt{ecosystem servic, regul, settlement} \\
+Accessibility & 260 & 3.23\% & \texttt{access measur, transport access, urban growth} \\
+Agent-based Modeling & 192 & 3.18\% & \texttt{agent-bas, spread, heterogen} \\
+Transportation planning & 192 & 3.18\% & \texttt{transport project, option, cba} \\
+Mobility Data Mining & 168 & 2.49\% & \texttt{human mobil, movement, mobil phone} \\
+Health Geography & 196 & 2.49\% & \texttt{healthcar, inequ, exclus} \\
+Freight and Logistics & 239 & 2.06\% & \texttt{freight transport, citi logist, modal} \\
+Spanish Geography & 106 & 1.26\% & \texttt{movilidad urbana, criteria, para} \\
+Measuring & 166 & 1.0\% & \texttt{score, sampl, metric} \\
+\noalign{\smallskip}\hline
+\end{tabular}
+}
 \end{table}
 %%%%%%%%%%%%%%%%%%
 
 
 
 %%%%%%%%%%%%%%%%%%
-\paragraph{Measures of Interdisciplinarity}{Mesures d'interdisciplinarité}
+\paragraph{Measures of interdisciplinarity}{Mesures d'interdisciplinarité}
 
 
 \bpar{
-Distribution of keywords within communities provides an article-level interdisciplinarity.
-Combination of citation and semantic layers in the hyper-network provide second order interdisciplinarity measures, that we don't use here because of the modest size of the citation network. More precisely, a reference can be viewed as a probability vector on semantic classes.
+Distribution of keywords within communities provides an article-level interdisciplinarity. The combination of citation and semantic layers in the hyper-network provide second-order interdisciplinarity measures (semantic patterns of citing or cited), that we don't use here because of the modest size of the citation network (see \ref{app:sec:cybergeo} and \ref{app:sec:patentsmining}). More precisely, a reference $i$ can be viewed as a probability vector on semantic classes $j$, that we write in a matrix form $\mathbf{P}=(p_{ij})$.
+%%%%%%
+%% -- TRAD --
+%%%%%%
 }{
 La distribution des mots clés dans les communautés permettent de définir une mesure d'interdisciplinarité au niveau de l'article. La combinaison des couches de citation et sémantique dans l'hyperréseau fournit des mesures d'interdisciplinarité au second ordre (motifs sémantiques des cités ou des citants), que nous n'utiliserons pas ici à cause de la taille modeste du réseau de citation (voir \ref{app:sec:cybergeo} et \ref{app:sec:patentsmining}). Plus précisément, une référence $i$ peut être vue comme un vecteur de probabilités sur les classes sémantiques $j$, qu'on notera sous forme matricielle $\mathbf{P}=(p_{ij})$. Celles-ci sont estimées simplement par les proportions de mots-clés classifiés dans chaque classe pour la référence. Une mesure classique d'interdisciplinarité~\cite{bergeaud2017classifying} est alors $I_i = 1 - \sum_j p_{ij}^2$. Soit $\mathbf{A}$ la matrice d'adjacence du réseau de citation, et soit $\mathbf{I}_k$ les matrices de selection des lignes correspondants à la classe $k$ de la classification de citation: $Id\cdot \mathbbm{1}_{c(i)=k}$, telle que $I_k \cdot A \cdot I_{k'}$ donne exactement les citations de $k$ vers $k'$. La proximité de citation entre les communautés de citation est alors définie par $c_{kk'} = \sum \mathbf{I}_k \cdot \mathbf{A} \cdot \mathbf{I}_{k'} /  \sum \mathbf{I}_k \cdot \mathbf{A}$. On définit la proximité sémantique en définissant une matrice de distance entre références par $\mathbf{D} = d_{ii'}=\sqrt{\frac{1}{2}\sum (p_{ij}-p{i'j})^2}$ puis la proximité sémantique par $s_{kk'} = \mathbf{I}_k \cdot \mathbf{D} \cdot \mathbf{I}_{k'} / \sum \mathbf{I}_k \sum \mathbf{I}_{k'}$.
 }
 
 
 
-\bpar{}{
+\bpar{
+
+}{
 Nous montrons en Fig.~\ref{fig:quantepistemo:interdisc} les valeurs de ces différentes mesures, ainsi que la composition sémantique des communautés de citation, pour les classes sémantiques majoritaires. La distribution de $I_i$ montre que les articles gravitant dans le domaine du LUTI sont les plus interdisciplinaires dans les termes utilisés, ce qui pourrait être lié à leur caractère appliqué. Les autres disciplines sont dans des motifs similaires, à part la géographie et la planification des infrastructures qui présentent des distributions quasi-uniformes, témoignant de l'existence de références très spécialisées dans ces classes. Ce n'est pas nécessairement étonnant vu les sous-champs pointus exhibés (sciences politiques par exemples, et de même les études prospectives type coût-bénéfices sont très étriquées). Ce premier croisement des couches nous confirme les spécificités de chaque champ. Concernant les compositions sémantiques, la plupart agissent comme validation externe vu les classes majoritaires. Le champ le moins concerné par les problème socio-économiques est la planification des infrastructure, ce qui donnera du grain à moudre aux détracteurs de la technocratie. Les questions de changement climatique et durabilité sont relativement bien répartie. Enfin, les ouvrages géographiques concernent en majorité des problèmes de gouvernance.
 }
 
@@ -536,6 +569,7 @@ Les matrices de proximité confirment la conclusion obtenue précédemment en te
 
 
 \bpar{
+
 }{
 Nous concluons cette analyse par une approche plus robuste pour quantifier les proximités entre couches de l'hyperréseau. Il est aisé de construire une matrice de corrélation entre deux classifications, par les corrélations de leur colonnes. Nous définissons les probabilités $\mathbf{P}_C$ toutes égales à 1 pour la classification de citation. La matrice de correlation de celle-ci avec $\mathbf{P}$ s'étend de -0.17 à 0.54 et a une moyenne de valeur absolue de 0.08, ce qui est significatif par rapport à des classifications aléatoire puisque un bootstrap à $b=100$ répétitions avec les matrices mélangées donne un minimum à $-0.08 \pm 0.012$, un maximum à $0.11 \pm 0.02$ et une moyenne absolue à $0.03 \pm 0.002$. Cela montre que les classifications sont complémentaires et que cette complémentarité est significative statistiquement par rapport à des classifications aléatoires. L'adéquation de la classification sémantique par rapport au réseau de citation peut également être quantifiée par la modularité multi-classes~\cite{nicosia2009extending} (voir~\ref{app:sec:patentsmining} pour une définition mathématique), qui traduit la probabilité qu'un lien soit dû à la classification étudiée, en prenant en compte l'appartenance simultanée à de multiples classes. Ainsi, la modularité multi-classes des probabilités sémantiques pour le réseau de citation est de 0.10, ce qui d'une part est significativement signe d'adéquation, un bootstrap toujours à $b=100$ donnant une valeur de $0.073 \pm 0.003$, qui reste limitée vu la valeur maximale fixée par les probabilités de citations dans leur propre réseau qui donnent une valeur de 0.81, ce qui confirme d'autre part la complémentarité des classifications.
 }
