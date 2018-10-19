@@ -331,21 +331,35 @@ Pour répondre ensuite à la question du comment, on peut regarder les échelles
 
 
 \bpar{
-We now study the influence of diverse factors on characteristics of models through simple linear regressions. In a multi-modeling approach, we propose to test all the possible models to explain each of the variables from the others. The number of observations for which all the variables have a value is very low, we need to take into account the number of observations used to fit each model. Furthermore, model performances can be characterized by complementary objectives. Following~\cite{igel2005multi}, we apply a multi-objective optimization, to simultaneously maximize the explained variance (adjusted R$^2$ in our case) and the information captured
-%%%%%%
-%% -- TRAD --
-%%%%%%
+We now study the influence of diverse factors on characteristics of models through simple linear regressions. In a multi-modeling approach, we propose to test all the possible models to explain each of the variables from the others. The number of observations for which all the variables have a value is very low, we need to take into account the number of observations used to fit each model. Furthermore, model performances can be characterized by complementary objectives. Following~\cite{igel2005multi}, we apply a multi-objective optimization, to simultaneously maximize the explained variance (adjusted R$^2$ in our case) and the information captured (corrected Akaike information criterion AICc\footnote{AIC is a measure of the information gain between two models, and allows to avoid abusive overfitting through a too large number of parameters. AICc is a version taking into account the size of the sample, the measure varying significantly for the small samples.}). It is realized conditionally to the fact of having the number of observations $N>50$ (fixed threshold regarding the distribution of $N$ on all models). The optimization procedure is detailed in Appendix~\ref{app:sec:quantepistemo} for each variable. Time scale and interdisciplinarity exhibit compromises difficult choose from, and we adjust the two candidates. Other variables exhibit dominating solutions and we adjust only a single model.
 }{
 Nous étudions à présent l'influence de divers facteurs sur les caractéristiques des modèles par des régressions linéaires simples. Dans une démarche de multi-modélisation, nous proposons de tester l'ensemble des modèles possibles pour expliquer chacune des variables à partir des autres. Le nombre d'observations pour lesquelles toutes les variables sont renseignées est très faible, il s'agit de prendre en compte le nombre d'observations utilisées pour ajuster chaque modèle. D'autre part, les performances du modèle peuvent être caractérisées par des objectifs complémentaires. Suivant~\cite{igel2005multi}, nous appliquons une optimisation multi-objectif, pour maximiser simultanément la variance expliquée (R$^2$ ajusté dans notre cas) et l'information capturée (Critère d'information d'Akaike corrigé AICc\footnote{L'AIC est une mesure du gain d'information entre deux modèles, et permet d'éviter l'ajustement abusif par un nombre trop grand de paramètres. L'AICc est une version prenant en compte la taille de l'échantillon, la mesure variant significativement pour les petits échantillons.}). Celle-ci est effectuée conditionnellement au fait d'avoir le nombre d'observations $N>50$ (seuil fixé au regard de la distribution de $N$ sur l'ensemble des modèles). La procédure d'optimisation est détaillée en Annexe~\ref{app:sec:quantepistemo} pour chaque variable. L'échelle de temps et l'interdisciplinarité présentent des compromis difficiles à départager, et nous ajustons les deux candidats. Les autres variables présentent des solutions dominantes et nous n'ajustons qu'un seul modèle.
 }
 
 
+\bpar{
+Complete regression results are given in Table~\ref{tab:quantepistemo:regressions}. Temporal and spatial scales, together with year, are the variables the best explained in the sense of the variance. Time scale is very significantly influenced by the type of model: territory which decreases it, or strong coupling which increases it. The fact to be in physics also significantly influences, and broadens the time range of models. On the contrary, engineering approaches (often optimal design of a transportation network) correspond to a short time span.
+}{
 Les résultats complets des régressions sont donnés en Table~\ref{tab:quantepistemo:regressions}. Les échelles temporelle et d'espace, ainsi que l'année, sont les variables les mieux expliquées au sens de la variance. L'échelle de temps est influencée très significativement par le type de modèle : territoire qui diminue celle-ci, ou couplage fort qui l'augmente. Le fait d'être en physique influe également significativement, et élargit la portée temporelle des modèles. Au contraire, les approches d'ingénierie (souvent design optimal d'un réseau de transport) correspondent à une courte durée.
+}
 
+
+\bpar{
+For the spatial scale, the fact to be in geography has a strong influence on the spatial range of models: indeed, regional studies and at the scale of the system of cities are indeed the prerogative of geography. The belonging to the field of transportation also increases slightly the spatial range (see significance in the complete regressions in Appendix~\ref{app:sec:quantepistemo}). No other variable has a significant influence.
+}{
 Pour l'échelle d'espace, le fait d'être en géographie a une forte influence sur la portée spatiale des modèles : en effet, les études régionales et à l'échelle du système de villes sont bien l'apanage de la géographie. L'appartenance au domaine du transport augmente aussi faiblement la portée spatiale (voir significativité dans les regressions complètes en Annexe~\ref{app:sec:quantepistemo}). Aucune autre variable n'a une influence significative.
+}
  
+ 
+ 
+\bpar{
+The level of interdisciplinarity is well explained by the year, which influences it in a negative way
+%%%%%%%
+%% -- TRAD --
+%%%%%%%
+}{
 Le niveau d'interdisciplinarité est bien expliqué par l'année, qui l'influence de manière négative, ce qui confirme une augmentation des spécialisations scientifiques dans le temps. Les études économétriques des modèles hédoniques apparaissent très spécialisées. Enfin, l'année de publication est expliquée significativement et positivement par le type territoire et par le fait d'être en transports, ce qui signifierait une recrudescence récente d'un profil particulier d'études. Un examen du corpus suggère qu'il s'agit des études sur la grande vitesse, apparaissant comme une mode scientifique récente.
-
+}
 
 
 
