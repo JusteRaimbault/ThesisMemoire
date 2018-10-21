@@ -353,10 +353,7 @@ Pour l'échelle d'espace, le fait d'être en géographie a une forte influence s
  
  
 \bpar{
-The level of interdisciplinarity is well explained by the year, which influences it in a negative way
-%%%%%%%
-%% -- TRAD --
-%%%%%%%
+The level of interdisciplinarity is well explained by the year, which influences it in a negative way, what confirms an increase in scientific specializations in time. Econometric studies of hedonic models appears to be very specialized. Finally, publication year is significantly and positively explained by the territory type and by the fact to be in transportation, what would correspond to a recent resurgence of a particular profile of studies. A study of the corpus suggests that this would be studies on high speed, which would appear as a recent scientific fashion.
 }{
 Le niveau d'interdisciplinarité est bien expliqué par l'année, qui l'influence de manière négative, ce qui confirme une augmentation des spécialisations scientifiques dans le temps. Les études économétriques des modèles hédoniques apparaissent très spécialisées. Enfin, l'année de publication est expliquée significativement et positivement par le type territoire et par le fait d'être en transports, ce qui signifierait une recrudescence récente d'un profil particulier d'études. Un examen du corpus suggère qu'il s'agit des études sur la grande vitesse, apparaissant comme une mode scientifique récente.
 }
@@ -365,12 +362,12 @@ Le niveau d'interdisciplinarité est bien expliqué par l'année, qui l'influenc
 
 %%%%%%%%%%%%%%%%%
 \begin{table}[!htbp]
-\caption[Explanation of models characteristics][Explication des caractéristiques des modèles]{\textbf{Explanation of models characteristics.}}{\textbf{Explication des caractéristiques des modèles.} Résultats de l'estimation par moindres carrés (OLS) des modèles linéaires sélectionnés, pour chacune des variables à expliquer : échelle temporelle (TEMPSCALE), échelle spatiale (SPATSCALE), indice d'interdisciplinarité (INTERDISC), année de publication (YEAR).\label{tab:quantepistemo:regressions}}
+\caption[Explanation of models characteristics][Explication des caractéristiques des modèles]{\textbf{Explanation of models characteristics.} Results of the Ordinary Least Squares (OLS) estimation of selected linear models, for each variable to be explained: temporal scale (TEMPSCALE), spatial scale (SPATSCALE), interdisciplinarity index (INTERDISC), publication year (YEAR).\label{tab:quantepistemo:regressions}}{\textbf{Explication des caractéristiques des modèles.} Résultats de l'estimation par moindres carrés (OLS) des modèles linéaires sélectionnés, pour chacune des variables à expliquer : échelle temporelle (TEMPSCALE), échelle spatiale (SPATSCALE), indice d'interdisciplinarité (INTERDISC), année de publication (YEAR).\label{tab:quantepistemo:regressions}}
 \begin{tabular}{lcccccc} 
 \footnotesize
 \\[-1.8ex]\hline 
 \hline \\[-1.8ex] 
- & \multicolumn{6}{c}{\textit{Variable expliquée:}} \\ 
+ & \multicolumn{6}{c}{\bpar{\textit{Explained variable:}}{\textit{Variable expliquée :}}} \\ 
 \cline{2-7} 
  & \multicolumn{2}{c}{TEMPSCALE} & SPATSCALE & \multicolumn{2}{c}{INTERDISC} & YEAR \\ 
  & (1) & (2) & (3) & (4) & (5) & (6)\\ 
@@ -415,9 +412,14 @@ R$^{2}$ ajusté & 0.282 & 0.336 & 0.027 & 0.136 & 0.068 & 0.281 \\
 
 
 
-\subsubsection{Random Forest Regressions}{Régressions par Forêts Aléatoires}
+\subsubsection{Random Forest regressions}{Régressions par Forêts Aléatoires}
 
+
+\bpar{
+We conclude this study by regressions and classification with random forests, which are a very flexible method allowing to unveil a structure from a dataset~\cite{liaw2002classification}. To complement the previous analysis, we propose to use it to determine the relative importances of variables for different aspects. We use each time forests of size 100000, a node size of 1 and a number of sampled variables in $\sqrt{p}$ for the classification and $p/3$ for the regression when $p$ is the total number of variables. To classify the type of models, we compare the effects of discipline, of the semantic class and of the citation class. The latest is the most important with a relative measure of 45\%, whereas the discipline accounts for 31\% ans the semantic of 23\%. This way, the disciplinary compartmentalization is found again, whereas the semantic and this partly ontologies, is the most open. This encourages us in our aim at getting out of this compartmentalization. When we apply a forest regression on interdisciplinarity, still with these three variables, we obtain that they explain 7.6\% of the total variance, what is relatively low, witnessing a semantic disparity on the whole corpus independently of the different classifications. In this case, the most important variable is the discipline (39\%) followed by the semantic (31\%) and citation (29\%), what confirms that the journal targeted strongly conditions the behavior in the language used. This alerts on the risk of a decrease in semantic wealth when targeting a particular public. This way, we have unveiled certain structures and regularities of models related to our question, which implications will be useful during the construction of our models.
+}{
 Nous concluons cette étude par des régressions et classification par forêts aléatoires, qui sont une méthode très flexible permettant de dégager une structure d'un jeu de données~\cite{liaw2002classification}. Pour compléter les analyses précédentes, nous proposons de l'utiliser pour déterminer les importances relatives des variables pour différents aspects. Nous utilisons à chaque fois des forêts de taille 100000, une taille de noeud de 1 et un nombre de variable échantillonnée en $\sqrt{p}$ pour la classification et $p/3$ pour la régression lorsque $p$ est le nombre total de variables. Pour classifier le type de modèle, nous comparons les effets de la discipline, de la classe sémantique et de la classe de citation. Cette dernière est la plus importante avec une mesure relative de 45\%, tandis que la discipline compte pour 31\% et le sémantique pour 23\%. Ainsi, le cloisonnement disciplinaire se retrouve, tandis que le sémantique et donc en partie les ontologies, est le plus ouvert. Cela nous encourage dans notre démarche de sortir de ce cloisonnement. Lorsqu'on applique une regression de forêt sur l'interdisciplinarité, toujours avec ces trois variables, on constate qu'elles expliquent 7.6\% de la variance totale, ce qui est relativement faible, témoignant d'une disparité de sémantique sur l'ensemble du corpus indépendamment des différentes classifications. Dans ce cas, la variable la plus importante est la discipline (39\%) suivie par le sémantique (31\%) et la citation (29\%), ce qui confirme que le journal visé conditionne fortement le comportement de langage employé. Cela nous alerte sur le danger de perte de richesse sémantique lorsqu'on s'adresse à un public particulier. Ainsi, nous avons pu dégager certaines structures et régularités des modèles nous concernant, qui seront riches d'enseignements lors de la construction de nos modèles.
+}
 
 
 
@@ -425,21 +427,24 @@ Nous concluons cette étude par des régressions et classification par forêts a
 \subsection{Discussion}{Discussion}
 
 
-\subsubsection{Further Developments}{Développements}
+\subsubsection{Developments}{Développements}
 
 \bpar{
-Further work may consist in the production of an automatic synthesis of this meta-analysis, from a modular modeling point of view, combined with a refined purpose and scale classification. Modular modeling consists in the integration of heterogeneous processes and implementation of processes in order to extract the set of mechanisms giving the best fit to empirical data~\cite{cottineau2015incremental}. We can thus classify models described here according to their building bricks in terms of processes implemented and thus identify possible coupling potentialities.
+A possible development could consist in the construction of an automatized approach to this meta-analysis, from the point of view of modular modeling, combined to a classification of the aim and the scale. Modular modeling consists in the integration of heterogeneous processes and the implementation of these processes in the aim of extracting mechanisms giving the highest proximity to empirical stylized facts or to data~\cite{cottineau2015incremental}. The idea would be to be able to automatically extract the modular structure of existing models, starting from full texts as proposed in~\ref{sec:quantepistemo}, in order to classify these bricks in an endogeneous way and to identify potential couplings for new models.
 }{
 Un développement possible pourrait consister en la mise en place d'une approche automatique à cette méta-analyse, du point de vue de la modélisation modulaire, combiné avec une classification du but et de l'échelle. La modélisation modulaire consiste en l'intégration de processus hétérogènes et d'implémentation de ces processus dans le but d'extraire les mécanismes donnant la meilleure proximité à des faits stylisés empiriques ou à des données~\cite{cottineau2015incremental}. L'idée serait de pouvoir extraire automatiquement la structure modulaire des modèles existants, à partir des textes complets comme proposé en~\ref{sec:quantepistemo}, afin de classifier ces briques de manière endogène et identifier des couplages potentiels pour des nouveaux modèles.
 }
 
 
 
-\subsubsection{Lessons for Modeling}{Leçons pour la modélisation}
+\subsubsection{Lessons for modeling}{Leçons pour la modélisation}
 
 
+\bpar{
+We can summarize the main points obtained from this meta-analysis that will influence our position and our modeling choice. First of all, the interdisciplinary presence of approaches realizing a strong coupling confirms our need to build bridges and to couple approaches, and also retrospectively confirms the conclusions of~\ref{sec:quantepistemo} on the consequence of discipline compartmentalization in terms of the models formulated. Secondly, the importance of the vocabulary of networks in a large part of models will lead us to confirm this anchorage. The specificity of TOD and accessibility approaches, relatively close to the LUTI models, will be of secondary importance for us. The restricted span of works from physics, confirmed by the majority of criteria studied, suggests to remain cautious of these works and the absence of thematic meaning in the models. The wealth of temporal and spatial scales covered by geographical and economical models confirms the importance of varying these in our models, ideally to reach multi-scale models. Finally, the relative importance of classification variables on the type of model also suggest the direction of interdisciplinary bridges to cross ontologies.
+}{
 Nous pouvons résumer les points principaux issus de cette méta-analyse qui joueront sur notre attitude et nos choix de modélisation. Tout d'abord, la présence interdisciplinaire des approches effectuant un couplage fort confirme notre besoin de faire des ponts et de coupler les approches, et confirme également rétrospectivement les conclusions de~\ref{sec:quantepistemo} sur les conséquences du cloisonnement des disciplines en terme de modèles formulés. Ensuite, l'importance du vocabulaire des réseaux dans une grande partie des modèles nous poussera à confirmer cet ancrage. La spécificité des approches TOD et d'accessibilité, assez proches des modèles LUTI, seront secondaires pour nous. La portée restreinte des travaux issus de la physique, confirmée par la majorité des critères étudiés, nous pousse à nous méfier de ces travaux et de l'absence de sens thématique aux modèles. La richesse des échelles temporelles et spatiales couvertes par les modèles géographiques et économiques nous confirme l'importance de varier celles-ci dans nos modèles, idéalement de parvenir à des modèles multi-échelles. Enfin, les importances relatives des variables de classification sur le type de modèle vont également dans le sens de ponts interdisciplinaires pour croiser les ontologies.
-
+}
 
 
 
