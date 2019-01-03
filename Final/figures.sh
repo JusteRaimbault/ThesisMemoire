@@ -5,17 +5,22 @@
 TARGET=$1
 
 # general
-#LANGUAGE="FR"
-LANGUAGE="EN"
+LANGUAGE="FR"
+#LANGUAGE="EN"
 
-FIGDIR=Figures/Final
+#FIGDIR=Figures/Final
+FIGDIR=Figures/FinalLowRes
 
 # quality
-JPGQUALITY=50
-PDFRESOLUTION=200
+#JPGQUALITY=50
+JPGQUALITY=40
+
+#PDFRESOLUTION=200
+PDFRESOLUTION=100
 
 # size parameters
-WIDTH=2000
+#WIDTH=2000
+WIDTH=400
 HORIZONTALPADDING=10
 VERTICALPADDING=10
 
@@ -1017,8 +1022,10 @@ then
   # fig:app:macrocoevol:behavior-time
   FIGNAME=A-macrocoevol-behavior-time
   echo $FIGNAME
-  convert -density $PDFRESOLUTION Figures/MacroCoEvol/closenessSummaries_meansynthRankSize1_gravityWeight0_001.pdf -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/MacroCoEvol/closenessSummaries_mean_gravityWeight0_001.jpg
-  convert -density $PDFRESOLUTION Figures/MacroCoEvol/populationEntropiessynthRankSize1_gravityWeight0_001.pdf -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/MacroCoEvol/populationEntropies_gravityWeight0_001.jpg
+  #convert -density $PDFRESOLUTION Figures/MacroCoEvol/closenessSummaries_meansynthRankSize1_gravityWeight0_001.pdf -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/MacroCoEvol/closenessSummaries_mean_gravityWeight0_001.jpg
+  #convert -density $PDFRESOLUTION Figures/MacroCoEvol/populationEntropiessynthRankSize1_gravityWeight0_001.pdf -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/MacroCoEvol/populationEntropies_gravityWeight0_001.jpg
+  convert -density $PDFRESOLUTION Figures/MacroCoEvol/closenessSummaries_meansynthRankSize1_gravityWeight0_001.pdf -resize "$WIDTH"x -quality $JPGQUALITY Figures/MacroCoEvol/closenessSummaries_mean_gravityWeight0_001.jpg
+  convert -density $PDFRESOLUTION Figures/MacroCoEvol/populationEntropiessynthRankSize1_gravityWeight0_001.pdf -resize "$WIDTH"x -quality $JPGQUALITY Figures/MacroCoEvol/populationEntropies_gravityWeight0_001.jpg
   montage Figures/MacroCoEvol/closenessSummaries_mean_gravityWeight0_001.jpg Figures/MacroCoEvol/populationEntropies_gravityWeight0_001.jpg -tile 1x2 -geometry +0+"$VERTICALPADDING" -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
   rm Figures/MacroCoEvol/closenessSummaries_mean_gravityWeight0_001.jpg Figures/MacroCoEvol/populationEntropies_gravityWeight0_001.jpg
 
@@ -1026,8 +1033,8 @@ then
   # fig:app:macrocoevol:behavior-aggreg
   FIGNAME=A-macrocoevol-behavior-aggreg
   echo $FIGNAME
-  convert -density $PDFRESOLUTION Figures/MacroCoEvol/complexityAccessibility_synthrankSize1_nwGmax0_05.pdf -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/MacroCoEvol/complexityAccessibility_synthrankSize1_nwGmax0_05.jpg
-  convert -density $PDFRESOLUTION Figures/MacroCoEvol/rankCorrAccessibility_synthrankSize1_nwGmax0_05.pdf -resize "$((WIDTH / 2))"x -quality $JPGQUALITY Figures/MacroCoEvol/rankCorrAccessibility_synthrankSize1_nwGmax0_05.jpg
+  convert -density $PDFRESOLUTION Figures/MacroCoEvol/complexityAccessibility_synthrankSize1_nwGmax0_05.pdf -resize "$WIDTH"x -quality $JPGQUALITY Figures/MacroCoEvol/complexityAccessibility_synthrankSize1_nwGmax0_05.jpg
+  convert -density $PDFRESOLUTION Figures/MacroCoEvol/rankCorrAccessibility_synthrankSize1_nwGmax0_05.pdf -resize "$WIDTH"x -quality $JPGQUALITY Figures/MacroCoEvol/rankCorrAccessibility_synthrankSize1_nwGmax0_05.jpg
   montage Figures/MacroCoEvol/complexityAccessibility_synthrankSize1_nwGmax0_05.jpg Figures/MacroCoEvol/rankCorrAccessibility_synthrankSize1_nwGmax0_05.jpg -tile 1x2 -geometry +0+"$VERTICALPADDING" -resize "$WIDTH"x -quality $JPGQUALITY $FIGDIR/"$FIGNAME".jpg
   rm Figures/MacroCoEvol/complexityAccessibility_synthrankSize1_nwGmax0_05.jpg Figures/MacroCoEvol/rankCorrAccessibility_synthrankSize1_nwGmax0_05.jpg
 

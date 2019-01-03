@@ -1,0 +1,709 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: /Users/juste/ComplexSystems/CityNetwork/Docs/ThesisMemoire/Final/main.aux
+The style file: biblatex.bst
+A level-1 auxiliary file: FrontBackMatter/Titlepage.aux
+A level-1 auxiliary file: FrontBackMatter/Titleback.aux
+A level-1 auxiliary file: FrontBackMatter/Abstract.aux
+A level-1 auxiliary file: FrontBackMatter/Foreword.aux
+A level-1 auxiliary file: FrontBackMatter/Publications.aux
+A level-1 auxiliary file: FrontBackMatter/Acknowledgments.aux
+A level-1 auxiliary file: FrontBackMatter/Contents.aux
+A level-1 auxiliary file: Content/Introduction.aux
+A level-1 auxiliary file: Content/Part1Intro.aux
+A level-1 auxiliary file: Content/Thematic.aux
+A level-1 auxiliary file: Content/NetworkTerritories.aux
+A level-1 auxiliary file: Content/CaseStudies.aux
+A level-1 auxiliary file: Content/Qualitative.aux
+A level-1 auxiliary file: Content/ThematicConclusion.aux
+A level-1 auxiliary file: Content/ModelingInteractions.aux
+A level-1 auxiliary file: Content/ModelingSA.aux
+A level-1 auxiliary file: Content/QuantEpistemo.aux
+A level-1 auxiliary file: Content/Modelography.aux
+A level-1 auxiliary file: Content/ModelingInteractionsConclusion.aux
+A level-1 auxiliary file: Content/Positioning.aux
+A level-1 auxiliary file: Content/Computation.aux
+A level-1 auxiliary file: Content/Reproducibility.aux
+A level-1 auxiliary file: Content/Epistemology.aux
+A level-1 auxiliary file: Content/PositioningConclusion.aux
+A level-1 auxiliary file: Content/Part1Conclusion.aux
+A level-1 auxiliary file: Content/Part2Intro.aux
+A level-1 auxiliary file: Content/EvolutiveUrban.aux
+A level-1 auxiliary file: Content/StaticCorrelations.aux
+A level-1 auxiliary file: Content/CausalityRegimes.aux
+A level-1 auxiliary file: Content/InteractionGibrat.aux
+A level-1 auxiliary file: Content/EvolutiveUrbanConclusion.aux
+A level-1 auxiliary file: Content/Morphogenesis.aux
+A level-1 auxiliary file: Content/InterdiscMorphogenesis.aux
+A level-1 auxiliary file: Content/DensityGeneration.aux
+A level-1 auxiliary file: Content/CorrelatedSyntheticData.aux
+A level-1 auxiliary file: Content/MorphogenesisConclusion.aux
+A level-1 auxiliary file: Content/Part2Conclusion.aux
+A level-1 auxiliary file: Content/Part3Intro.aux
+A level-1 auxiliary file: Content/MacroCoevolution.aux
+A level-1 auxiliary file: Content/MacroCoevolExplo.aux
+A level-1 auxiliary file: Content/MacroCoevolModel.aux
+A level-1 auxiliary file: Content/MacroCoevolutionConclusion.aux
+A level-1 auxiliary file: Content/MesoCoevolution.aux
+A level-1 auxiliary file: Content/NetworkGrowth.aux
+A level-1 auxiliary file: Content/MesoCoevolModel.aux
+A level-1 auxiliary file: Content/Lutecia.aux
+A level-1 auxiliary file: Content/MesoCoevolutionConclusion.aux
+A level-1 auxiliary file: Content/Part3Conclusion.aux
+A level-1 auxiliary file: Content/Part4Intro.aux
+A level-1 auxiliary file: Content/TheoreticalOpening.aux
+A level-1 auxiliary file: Content/Contributions.aux
+A level-1 auxiliary file: Content/Theory.aux
+A level-1 auxiliary file: Content/KnowledgeFramework.aux
+A level-1 auxiliary file: Content/TheoreticalOpeningConclusion.aux
+A level-1 auxiliary file: Content/Opening.aux
+A level-1 auxiliary file: Content/Conclusion.aux
+A level-1 auxiliary file: FrontBackMatter/Bibliography.aux
+A level-1 auxiliary file: Appendices/SupplementaryInformation.aux
+A level-1 auxiliary file: Appendices/SupplementaryChapter1.aux
+A level-1 auxiliary file: Appendices/SupplementaryChapter2.aux
+A level-1 auxiliary file: Appendices/SupplementaryChapter4.aux
+A level-1 auxiliary file: Appendices/SupplementaryChapter5.aux
+A level-1 auxiliary file: Appendices/SupplementaryChapter6.aux
+A level-1 auxiliary file: Appendices/SupplementaryChapter7.aux
+A level-1 auxiliary file: Appendices/SupplementaryChapter8.aux
+A level-1 auxiliary file: Appendices/Methodology.aux
+A level-1 auxiliary file: Appendices/RobutnessDiscrepancy.aux
+A level-1 auxiliary file: Appendices/CSFramework.aux
+A level-1 auxiliary file: Appendices/Cybergeo.aux
+Reallocated cite_list (elt_size=4) to 1500 items from 750.
+Reallocated type_list (elt_size=4) to 1500 items from 750.
+Reallocated entry_exists (elt_size=4) to 1500 items from 750.
+Reallocated cite_info (elt_size=4) to 1500 items from 750.
+A level-1 auxiliary file: Appendices/Thematic.aux
+A level-1 auxiliary file: Content/EnergyPrice.aux
+A level-1 auxiliary file: Appendices/MigrationDynamics.aux
+A level-1 auxiliary file: Appendices/SyntheticData.aux
+A level-1 auxiliary file: Appendices/CybergeoNetworks.aux
+A level-1 auxiliary file: Appendices/PatentsMining.aux
+A level-1 auxiliary file: Appendices/EcoGeo.aux
+A level-1 auxiliary file: Appendices/MediationEcotox.aux
+A level-1 auxiliary file: Appendices/Data.aux
+A level-1 auxiliary file: Appendices/Tools.aux
+A level-1 auxiliary file: Appendices/Softwares.aux
+A level-1 auxiliary file: Appendices/Source.aux
+A level-1 auxiliary file: Appendices/Workflow.aux
+A level-1 auxiliary file: Appendices/Reflexivity.aux
+A level-1 auxiliary file: FrontBackMatter/BackPage.aux
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 123845 items from 5000.
+Database file #1: main-blx.bib
+Database file #2: /Users/juste/ComplexSystems/CityNetwork/Biblio/Bibtex/CityNetwork.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Database file #3: /Users/juste/ComplexSystems/CityNetwork/Biblio/Bibtex/selfcit.bib
+Repeated entry---line 255 of file /Users/juste/ComplexSystems/CityNetwork/Biblio/Bibtex/selfcit.bib
+ : @inproceedings{raimbault2015hybrid
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 263 of file /Users/juste/ComplexSystems/CityNetwork/Biblio/Bibtex/selfcit.bib
+ : @conference{raimbault2015labex
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 296 of file /Users/juste/ComplexSystems/CityNetwork/Biblio/Bibtex/selfcit.bib
+ : @inproceedings{raimbault2016cautious
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 312 of file /Users/juste/ComplexSystems/CityNetwork/Biblio/Bibtex/selfcit.bib
+ : @inproceedings{raimbault2016indirect
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 328 of file /Users/juste/ComplexSystems/CityNetwork/Biblio/Bibtex/selfcit.bib
+ : @inproceedings{raimbault2016models
+ :                                   ,
+I'm skipping whatever remains of this entry
+Database file #4: Biblio/transportationEquilibrium.bib
+Repeated entry---line 24 of file Biblio/transportationEquilibrium.bib
+ : @article{grimm2005pattern
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 85 of file Biblio/transportationEquilibrium.bib
+ : @article{kryvobokov2013comparison
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 96 of file Biblio/transportationEquilibrium.bib
+ : @article{tsai2005quantifying
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 170 of file Biblio/transportationEquilibrium.bib
+ : @article{leurent2014user
+ :                         ,
+I'm skipping whatever remains of this entry
+Database file #5: Biblio/robustnessDiscrepancy.bib
+Repeated entry---line 15 of file Biblio/robustnessDiscrepancy.bib
+ : @article{guerois2009dynamique
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 49 of file Biblio/robustnessDiscrepancy.bib
+ : @article{ram2013git
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 96 of file Biblio/robustnessDiscrepancy.bib
+ : @article{brunsdon1998geographically
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 131 of file Biblio/robustnessDiscrepancy.bib
+ : @article{newman2011complex
+ :                           ,
+I'm skipping whatever remains of this entry
+Database file #6: Biblio/syntheticData.bib
+Repeated entry---line 24 of file Biblio/syntheticData.bib
+ : @article{chicheportiche2013nested
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 33 of file Biblio/syntheticData.bib
+ : @article{pigozzi1980interurban
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 45 of file Biblio/syntheticData.bib
+ : @incollection{pumain2012urban
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 56 of file Biblio/syntheticData.bib
+ : @article{girres2010quality
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 68 of file Biblio/syntheticData.bib
+ : @article{offner1996reseaux
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 76 of file Biblio/syntheticData.bib
+ : @phdthesis{schmitt2014modelisation
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 84 of file Biblio/syntheticData.bib
+ : @article{sanders1997simpop
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 95 of file Biblio/syntheticData.bib
+ : @article{brunsdon1998geographically
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 107 of file Biblio/syntheticData.bib
+ : @book{gell1995quark
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 132 of file Biblio/syntheticData.bib
+ : @incollection{banos2012towards
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 142 of file Biblio/syntheticData.bib
+ : @article{barndorff2011multivariate
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 311 of file Biblio/syntheticData.bib
+ : @inproceedings{pritchard2009advances
+ :                                     ,
+I'm skipping whatever remains of this entry
+Database file #7: Biblio/causalityRegimes.bib
+Repeated entry---line 4 of file Biblio/causalityRegimes.bib
+ : @article{guerois2009dynamique
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16 of file Biblio/causalityRegimes.bib
+ : @article{pumain2010theorie
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 42 of file Biblio/causalityRegimes.bib
+ : @article{brunsdon1998geographically
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 54 of file Biblio/causalityRegimes.bib
+ : @article{pumain2003approche
+ :                            ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 200 of file Biblio/causalityRegimes.bib
+ : 
+ : @article{crozethalshs01094554,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Database file #8: Biblio/energyPrice.bib
+Repeated entry---line 51 of file Biblio/energyPrice.bib
+ : @article{tsai2005quantifying
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 112 of file Biblio/energyPrice.bib
+ : @article{dupuy2015sciences
+ :                           ,
+I'm skipping whatever remains of this entry
+Database file #9: Biblio/knowledgeFramework.bib
+I was expecting a `,' or a `}'---line 73 of file Biblio/knowledgeFramework.bib
+ :   
+ :   author={Raimbault, Juste},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 181 of file Biblio/knowledgeFramework.bib
+ : @article{pumain2002role
+ :                        ,
+I'm skipping whatever remains of this entry
+Database file #10: Biblio/spaceMatters.bib
+Repeated entry---line 7 of file Biblio/spaceMatters.bib
+ : @incollection{pumain2012urban
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 17 of file Biblio/spaceMatters.bib
+ : @phdthesis{schmitt2014modelisation
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 42 of file Biblio/spaceMatters.bib
+ : @book{gell1995quark
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 74 of file Biblio/spaceMatters.bib
+ : @article{10.1371/journal.pone.0178165
+ :                                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 106 of file Biblio/spaceMatters.bib
+ : @article{reuillon2013openmole
+ :                              ,
+I'm skipping whatever remains of this entry
+Database file #11: Biblio/patentsMining.bib
+Repeated entry---line 23 of file Biblio/patentsMining.bib
+ : @article{pumain2010theorie
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 100 of file Biblio/patentsMining.bib
+ : @book{holland2012signals
+ :                         ,
+I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 260000 items from 195000.
+Repeated entry---line 127 of file Biblio/patentsMining.bib
+ : @article{clauset2004finding
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 136 of file Biblio/patentsMining.bib
+ : @article{nicosia2009extending
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 243 of file Biblio/patentsMining.bib
+ : @article{li2014disambiguation
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 457 of file Biblio/patentsMining.bib
+ : @inproceedings{bird2006nltk
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 661 of file Biblio/patentsMining.bib
+ : @article{choi2014patent
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 827 of file Biblio/patentsMining.bib
+ : @article{chavalarias2013phylomemetic
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 852 of file Biblio/patentsMining.bib
+ : @article{shibata2008detecting
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 930 of file Biblio/patentsMining.bib
+ : @article{gerken2012new
+ :                       ,
+I'm skipping whatever remains of this entry
+Database file #12: Biblio/indirectBibliometrics.bib
+Repeated entry---line 6 of file Biblio/indirectBibliometrics.bib
+ : @incollection{fecher2014open
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 28 of file Biblio/indirectBibliometrics.bib
+ : @article{newman2003structure
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 60 of file Biblio/indirectBibliometrics.bib
+ : @article{blondel2008fast
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 222 of file Biblio/indirectBibliometrics.bib
+ : @book{bais2010praise
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 282 of file Biblio/indirectBibliometrics.bib
+ : @book{cronin2014beyond
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 292 of file Biblio/indirectBibliometrics.bib
+ : @misc{mendeley
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 299 of file Biblio/indirectBibliometrics.bib
+ : @article{chavalarias2013phylomemetic
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 312 of file Biblio/indirectBibliometrics.bib
+ : @article{pumain2005cumulativite
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 509 of file Biblio/indirectBibliometrics.bib
+ : @article{2009arXiv0907.2221B
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 526 of file Biblio/indirectBibliometrics.bib
+ : @article{dupuy2015sciences
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 536 of file Biblio/indirectBibliometrics.bib
+ : @inproceedings{bird2006nltk
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 549 of file Biblio/indirectBibliometrics.bib
+ : @article{shibata2008detecting
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 561 of file Biblio/indirectBibliometrics.bib
+ : @article{choi2014patent
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 586 of file Biblio/indirectBibliometrics.bib
+ : @article{noruzi2005google
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 674 of file Biblio/indirectBibliometrics.bib
+ : @article{moreno2016uncertainty
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 688 of file Biblio/indirectBibliometrics.bib
+ : @article{10.1371/journal.pone.0147913
+ :                                      ,
+I'm skipping whatever remains of this entry
+Database file #13: Biblio/morphogenesis.bib
+Repeated entry---line 593 of file Biblio/morphogenesis.bib
+ : @article{levy2005formes
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 603 of file Biblio/morphogenesis.bib
+ : @article{desmarais1992premisses
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 617 of file Biblio/morphogenesis.bib
+ : @article{chavalarias2013phylomemetic
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 631 of file Biblio/morphogenesis.bib
+ : @book{holland2012signals
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 653 of file Biblio/morphogenesis.bib
+ : @article{whitehand1999urban
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 663 of file Biblio/morphogenesis.bib
+ : @article{dollens2014alan
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 690 of file Biblio/morphogenesis.bib
+ : @article{bedau2002downward
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 815 of file Biblio/morphogenesis.bib
+ : @book{bourgine2010morphogenesis
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 911 of file Biblio/morphogenesis.bib
+ : @article{bourgine2004autopoiesis
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 935 of file Biblio/morphogenesis.bib
+ : @article{mehaffy2007notes
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 956 of file Biblio/morphogenesis.bib
+ : @article{achibet2014model
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 967 of file Biblio/morphogenesis.bib
+ : @article{thom1974stabilite
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 978 of file Biblio/morphogenesis.bib
+ : @article{makse1998modeling
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 988 of file Biblio/morphogenesis.bib
+ : @inproceedings{bonin2012modele
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 997 of file Biblio/morphogenesis.bib
+ : @article{moudon1997urban
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1086 of file Biblio/morphogenesis.bib
+ : @book{archer_margaret_1999
+ :                           ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1104 of file Biblio/morphogenesis.bib
+ :     
+ :     note = {Google-Books-ID: fDgecHQLmCEC},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 1111 of file Biblio/morphogenesis.bib
+ : @book{freud_totem_1989
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1261 of file Biblio/morphogenesis.bib
+ : @article{Heisenberg2013
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1275 of file Biblio/morphogenesis.bib
+ : @article{Guillot2013
+ :                     ,
+I'm skipping whatever remains of this entry
+Database file #14: Biblio/density.bib
+Repeated entry---line 84 of file Biblio/density.bib
+ : @article{frankhauser1998fractal
+ :                                ,
+I'm skipping whatever remains of this entry
+Database file #15: Biblio/interactionGibrat.bib
+Repeated entry---line 14 of file Biblio/interactionGibrat.bib
+ : @article{nitsch2005zipf
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 49 of file Biblio/interactionGibrat.bib
+ : @article{masucci2013gravity
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 123 of file Biblio/interactionGibrat.bib
+ : @article{raimbault2016models
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 131 of file Biblio/interactionGibrat.bib
+ : @book{sanders1992systeme
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 141 of file Biblio/interactionGibrat.bib
+ : @phdthesis{bretagnolle:tel-00459720
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 169 of file Biblio/interactionGibrat.bib
+ : @article{krugman1998space
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 182 of file Biblio/interactionGibrat.bib
+ : @article{reuillon2013openmole
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 195 of file Biblio/interactionGibrat.bib
+ : @article{favaro2011gibrat
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 208 of file Biblio/interactionGibrat.bib
+ : @article{bretagnolle2000long
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 218 of file Biblio/interactionGibrat.bib
+ : @incollection{pumain2012multi
+ :                              ,
+I'm skipping whatever remains of this entry
+Database file #16: Biblio/migrationDynamics.bib
+Repeated entry---line 120 of file Biblio/migrationDynamics.bib
+ : @article{de2007netlogo
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 144 of file Biblio/migrationDynamics.bib
+ : @article{florida2008rise
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 154 of file Biblio/migrationDynamics.bib
+ : @article{grimm2005pattern
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 163 of file Biblio/migrationDynamics.bib
+ : @book{hall2006polycentric
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 199 of file Biblio/migrationDynamics.bib
+ : @article{reuillon2013openmole
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 226 of file Biblio/migrationDynamics.bib
+ : @article{wilensky1999netlogo
+ :                             ,
+I'm skipping whatever remains of this entry
+Database file #17: Biblio/cybergeoNetworks.bib
+Repeated entry---line 83 of file Biblio/cybergeoNetworks.bib
+ : @article{maisonobe2013diffusion
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 106 of file Biblio/cybergeoNetworks.bib
+ : @incollection{fecher2014open
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 117 of file Biblio/cybergeoNetworks.bib
+ : @article{nicosia2009extending
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 129 of file Biblio/cybergeoNetworks.bib
+ : @article{wilson2017good
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 155 of file Biblio/cybergeoNetworks.bib
+ : @article{chavalarias2013phylomemetic
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 168 of file Biblio/cybergeoNetworks.bib
+ : @book{cronin2014beyond
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 187 of file Biblio/cybergeoNetworks.bib
+ : @article{shibata2008detecting
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 295 of file Biblio/cybergeoNetworks.bib
+ : @inproceedings{raimbault2016indirect
+ :                                     ,
+I'm skipping whatever remains of this entry
+Database file #18: Biblio/mediationEcotox.bib
+Repeated entry---line 11 of file Biblio/mediationEcotox.bib
+ : @article{grimm2005pattern
+ :                          ,
+I'm skipping whatever remains of this entry
+Database file #19: Biblio/governance.bib
+Repeated entry---line 6 of file Biblio/governance.bib
+ : @article{mimeur:hal-01616746
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16 of file Biblio/governance.bib
+ : @article{jacobs2016transport
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 40 of file Biblio/governance.bib
+ : @article{li2016integrated
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 104 of file Biblio/governance.bib
+ : @article{xie2009jurisdictional
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 115 of file Biblio/governance.bib
+ : @article{levinson2012forecasting
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 127 of file Biblio/governance.bib
+ : @article{liao2017ouverture
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 149 of file Biblio/governance.bib
+ : @article{xie2009modeling
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 160 of file Biblio/governance.bib
+ : @article{courtat2011mathematics
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 171 of file Biblio/governance.bib
+ : @phdthesis{schmitt2014modelisation
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 178 of file Biblio/governance.bib
+ : @article{raimbault2016models
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 186 of file Biblio/governance.bib
+ : @article{hou2011transport
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 225 of file Biblio/governance.bib
+ : @phdthesis{bretagnolle:tel-00459720
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 256 of file Biblio/governance.bib
+ : @article{xu2005city
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 268 of file Biblio/governance.bib
+ : @book{hall2006polycentric
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 305 of file Biblio/governance.bib
+ : @book{lowry1964model
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 311 of file Biblio/governance.bib
+ : @book{ordeshook1986game
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 316 of file Biblio/governance.bib
+ : @article{wegener2004land
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 332 of file Biblio/governance.bib
+ : @article{Roumboutsos2008209
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 342 of file Biblio/governance.bib
+ : @inproceedings{tretyakov2011fast
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 352 of file Biblio/governance.bib
+ : @article{wilensky1999netlogo
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 359 of file Biblio/governance.bib
+ : @article{le2015modeling
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 370 of file Biblio/governance.bib
+ : @phdthesis{le2010approche
+ :                          ,
+I'm skipping whatever remains of this entry
+Biblatex version: 3.3
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 855 entries,
+            6256 wiz_defined-function locations,
+            5625 strings with 231594 characters,
+and the built_in function-call counts, 4893658 in all, are:
+= -- 329659
+> -- 102806
+< -- 33154
++ -- 114442
+- -- 35270
+* -- 357284
+:= -- 452055
+add.period$ -- 0
+call.type$ -- 855
+change.case$ -- 854
+chr.to.int$ -- 526
+cite$ -- 1708
+duplicate$ -- 532299
+empty$ -- 459449
+format.name$ -- 57816
+if$ -- 1032368
+int.to.chr$ -- 0
+int.to.str$ -- 2676
+missing$ -- 0
+newline$ -- 28667
+num.names$ -- 49545
+pop$ -- 291324
+preamble$ -- 2
+purify$ -- 25747
+quote$ -- 0
+skip$ -- 195008
+stack$ -- 0
+substring$ -- 512271
+swap$ -- 142968
+text.length$ -- 22553
+text.prefix$ -- 877
+top$ -- 1
+type$ -- 29008
+warning$ -- 0
+while$ -- 54654
+width$ -- 0
+write$ -- 27812
+(There were 133 error messages)
