@@ -23,25 +23,31 @@
 
 
 \bpar{
-Let $A$ be an alphabet, $A^{\ast}$ corresponding words and $T = \cup_{k\in \mathbb{N}} {A^{\ast}}^k$ texts of finite length on it. A reference is for the algorithm a record with text fields representing title, abstract and keywords. Set of references at iteration $n$ will be denoted $\mathcal{C} \subset T^3$. We assume the existence of a set of keywords $\mathcal{K}_n$, initial keywords being $\mathcal{K}_0$. An iteration goes as follows :
-
-\begin{enumerate}
-\item A raw intermediate corpus $\mathcal{R}_n$ is obtained through a catalog request providing previous keywords $\mathcal{K}_{n-1}$.
-\item Overall corpus is actualized by $\mathcal{C}_n = \mathcal{C}_{n-1} \cup \mathcal{R}_n$.
-\item New keywords $\mathcal{K}_n$ are extracted from corpus through Natural Language Processing treatment, given a parameter $N_k$ fixing the number of keywords.
-\end{enumerate}
-
-The algorithm stops when corpus size becomes stable or a user-defined maximal number of iterations has been reached. Fig.~\ref{fig:quantepistemo:algo} shows the global workflow.
+Let $A$ be an alphabet (an arbitrary set of symbols), $A^{\ast}$ corresponding words (strings of finite length on it). Texts of finite length on it are then $T = \cup_{k\in \mathbb{N}} {A^{\ast}}^k$. What we call a reference is for the algorithm a record with text fields representing title, abstract and keywords. Set of references at iteration $n$ will be denoted $\mathcal{C}_n \subset T^3$: it is a subset of text triplets. We assume the existence of a set of keywords $\mathcal{K}_n$, initial keywords being $\mathcal{K}_0$, specified by the user\footnote{We could also start from a corpus $\mathcal{C}_0$, but it is more the spirit of the methodology presented in the next sub-section. We remain here for this preliminary exploration by assuming the necessarily arbitrary biased aspect of this specification. The choice of the initial corpus must thus be done with a good knowledge of existing domains, and necessarily done after the literature review of~\ref{sec:modelingsa}.}. An iteration proceeds the following way:
 }{
 Soit $A$ un alphabet (un ensemble arbitraire de symboles), $A^{\ast}$ les mots correspondants (chaînes de longueur finie sur l'alphabet). Les textes de longueur finie sur celui-ci sont donc $T = \cup_{k\in \mathbb{N}} {A^{\ast}}^k$. Ce qu'on nomme une référence est pour l'algorithme un enregistrement avec des champs textuels représentant le titre, le résumé et les mots-clés. L'ensemble de références à l'itération $n$ est ainsi noté $\mathcal{C}_n \subset T^3$ : il s'agit d'un sous-ensemble de triplets de textes. Nous supposons l'existence d'un ensemble de mots-clés $\mathcal{K}_n$, les mots-clés initiaux étant $\mathcal{K}_0$, spécifiés par l'utilisateur\footnote{On pourrait également partir d'un corpus $\mathcal{C}_0$, mais il s'agit plutôt de l'esprit de la méthodologie présentée dans la sous-section suivante. Nous nous en tiendrons ici pour cette exploration préliminaire en assumant le caractère arbitraire forcément biaisé de cette spécification. Le choix du corpus initial doit donc être fait en bonne connaissance des domaines existants, et fait nécessairement suite à la revue de littérature de~\ref{sec:modelingsa}.}. Une itération procède de la manière suivante :
+}
 
+
+\bpar{
+\begin{enumerate}
+\item A raw intermediate corpus $\mathcal{R}_n$ is obtained through a catalog request\footnote{The catalog is a function providing references as an answer to a request composed by regular expressions of keywords. In practice, we use the online bibliographic catalog Mendeley. Catalog dependency should surely introduce a bias which can not be controlled, since a sensitivity analysis or a cross-search through diverse catalogs being out of the scope of this exploratory analysis.} to which we provide the previous keywords $\mathcal{K}_{n-1}$.
+\item Overall corpus is actualized by $\mathcal{C}_n = \mathcal{C}_{n-1} \cup \mathcal{R}_n$.
+\item The new keywords $\mathcal{K}_n$ are extracted from corpus through Natural Language Processing (NLP) treatment, given a parameter $N_k$ fixing the number of keywords extracted at this stage.
+\end{enumerate}
+}{
 \begin{enumerate}
 \item Un corpus intermédiaire brut $\mathcal{R}_n$ est obtenu par une requête à un catalogue\footnote{Le catalogue est une fonction fournissant des références en réponse à une requête composée d'expression régulières de mots-clés. En pratique, nous utilisons le catalogue bibliographique en ligne Mendeley. La dépendance au catalogue devant sûrement introduire un biais que nous ne pouvons contrôler, une analyse de sensibilité ou le croisement de divers catalogues étant hors de propos pour cette analyse exploratoire.}
  auquel on fourni les mots-clés précédents $\mathcal{K}_{n-1}$.
 \item Le corpus total est actualisé par $\mathcal{C}_n = \mathcal{C}_{n-1} \cup \mathcal{R}_n$.
 \item Les nouveaux mot-clés $\mathcal{K}_n$ sont extraits du corpus par Traitement du Language Naturel (NLP), étant donné un paramètre fixé $N_k$ donnant le nombre de mot-clés extraits à cette étape.
 \end{enumerate}
+}
 
+
+\bpar{
+The algorithm stops when corpus size becomes stable (experiments on tested requests shows that for these, the corpus does not contain new references after a certain number of iterations) or when a maximal number of iterations defined by the user is reached. Fig.~\ref{fig:quantepistemo:algo} synthesizes the global workflow.
+}{
 L'algorithme s'arrête quand la taille du corpus ne varie plus (l'expérience sur les requêtes testées montre pour celles-ci que le corpus ne contient plus de nouvelles références après un certain nombre d'itérations) ou quand un nombre maximal d'itérations défini par l'utilisateur est atteint. La figure~\ref{fig:quantepistemo:algo} synthétise le processus général.
 }
 
@@ -52,26 +58,27 @@ L'algorithme s'arrête quand la taille du corpus ne varie plus (l'expérience su
 
 
 \bpar{
-Because of the heterogeneity of operations required by the algorithm (references organisation, catalog requests, text processing), it was found a reasonable choice to implement it in Java. Source code is available on the Github repository of the project\footnote{at \texttt{https://github.com/JusteRaimbault/CityNetwork/tree/master/Models/QuantEpsitemo/AlgoSR}}. Catalog request, consisting in retrieving a set of references from a set of keywords, is done using the Mendeley software API \cite{mendeley} as it allows an open access to a large database. Keyword extraction is done by Natural Language Processing (NLP) techniques, following the workflow given in \cite{chavalarias2013phylomemetic}, calling a Python script that uses \cite{bird2006nltk}.
+Because of the heterogeneity of operations required by the algorithm (references organisation, catalog requests, text processing), it was found a reasonable choice to implement it in Java. Source code is available on the open repository of the project\footnote{at the adress \texttt{https://github.com/JusteRaimbault/CityNetwork/tree/master/Models/QuantEpsitemo/AlgoSR}}. Catalog requests, consisting in retrieving a set of references from a set of keywords, are done using the Mendeley software API \cite{mendeley} as it allows an open access to a large database. Keyword extraction is done by Natural Language Processing (NLP) techniques, following the workflow given in~\cite{chavalarias2013phylomemetic}, through a Python script that uses \cite{bird2006nltk}.
 }{
 De par l'hétérogénéité des opérations requises par l'algorithme (organisation des références, requêtes au catalogue, analyse textuelle), le language Java s'est présenté comme une alternative raisonnable. Le code source est disponible sur le dépôt ouvert du projet\footnote{à l'adresse \url{https://github.com/JusteRaimbault/CityNetwork/tree/master/Models/QuantEpistemo/AlgoSR}}. Les requêtes au catalogue, qui consistent à récupérer un ensemble de références à partir d'un ensemble de mots-clés, sont faites via l'API du logiciel Mendeley~\cite{mendeley} qui permet un accès ouvert à une base de données conséquente. L'extraction des mots-clés est effectuée par techniques d'Analyse Textuelle (NLP) selon le processus donné dans~\cite{chavalarias2013phylomemetic}, via un script Python qui utilise~\cite{bird2006nltk}.
 }
 
 
-\paragraph{Convergence and Sensitivity Analysis}{Convergence et analyse de sensibilité}
+\paragraph{Convergence and sensitivity analysis}{Convergence et analyse de sensibilité}
 
 
-%\comment{(Florent) avec quels mots clés as tu validé empiriquement la convergence de l'algo?}
 
 \bpar{
-A formal proof of algorithm convergence is not possible as it will depend on the empirical unknown structure of request results and keywords extraction. We need thus to study empirically its behavior. Good convergence properties but various sensitivities to $N_k$ were found as presented in Fig.~\ref{fig:app:quantepistemo:sensitivity-algosr}. We also studied the internal lexical consistence of final corpuses as a function of keywords number. As expected, small number yields more consistent corpuses, but the variability when increasing stays reasonable.
+A formal proof of algorithm convergence is not possible as it will depend on the empirical unknown structure of request results and keywords extraction. We need thus to study empirically its behavior. Good convergence properties but various sensitivities to $N_k$ were found as presented in Fig.~\ref{fig:app:quantepistemo:sensitivity-algosr}. We also study the internal lexical consistence of final corpuses as a function of keywords number. As expected, small number yields more consistent corpuses, but the variability when increasing stays reasonable.
 }{
 Une preuve formelle de convergence de l'algorithme n'est guère envisageable puisque qu'elle dépendra de la structure empirique inconnue des résultats de requête et d'extraction de mots-clés. Il est donc nécessaire d'étudier le comportement de l'algorithme de manière empirique. Comme présenté en Fig.~\ref{fig:app:quantepistemo:sensitivity-algosr}, l'algorithme a de bonnes propriétés de convergence mais diverses sensibilités à $N_k$. Nous étudions également la cohérence lexicale interne des corpus finaux et fonction du nombre de mots-clés. Comme attendu, des valeurs faibles produisent des corpus plus cohérents, mais la variabilité lorsque qu'elles augmentent reste raisonnable.
 }
 
-
-
+\bpar{
+We take the weakest assumption for the parameter $N_k=100$. Indeed, the larger $N_k$ is, the less constrained the explored domain will be, what increases the chances of overlap between two corpuses originating from different initial requests. In this case, a small final distance between corpuses will be more significant for larger $N_k$ values.
+}{
 Nous prenons l'hypothèse la plus faible pour le paramètre $N_k=100$. En effet, plus $N_k$ est grand, moins le domaine exploré sera restreint, ce qui augmente les chances de recouvrement de deux corpus provenant de requêtes initiales différentes. Dans ce cas, une faible distance finale entre corpus sera plus significative pour des valeurs de $N_k$ grandes.
+}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -79,7 +86,7 @@ Nous prenons l'hypothèse la plus faible pour le paramètre $N_k=100$. En effet,
 %\includegraphics[width=\linewidth]{Figures/QuantEpistemo/explo}
 %\includegraphics[width=\linewidth]{Figures/QuantEpistemo/lexicalConsistence_MeanSd}
 \includegraphics[width=\linewidth,height=0.85\textheight]{Figures/Final/A-quantepistemo-sensitivity-algosr.jpg}
-\appcaption{Convergence and sensitivity analysis. Left : Plots of number of references as a function of iteration, for various queries linked to our theme (see further), for various values of $N_k$ (from 2 to 30). We obtain a rapid convergence for most cases, around 10 iterations needed. Final number of references appears to be very sensitive to keyword number depending on queries, what seems logical since encountered landscape should strongly vary depending on terms. Right : Mean lexical consistence and standard error bars for various queries, as a function of keyword number. Lexical consistence is defined though co-occurrences of keywords by, with $N$ final number of keywords, $f$ final step, and $c(i)$ co-occurrences in references, $k = \frac{2}{N(N-1)}\cdot \sum_{i,j \in \mathcal{K}_f}{\left| c(i) - c(j) \right|}$. The stability confirms the consistence of final corpuses.\label{fig:app:quantepistemo:sensitivity-algosr}}{\textbf{Convergence et analyse de sensibilité de l'algorithme de revue systématique.} (\textit{Haut}) Graphes des nombres de références en fonction de l'itération, pour différentes requêtes liées à notre thème, et pour différentes valeurs de $N_k$ (de 2 à 30, couleur). On obtient une convergence rapide dans la majorité des cas, autour de 10 itérations étant nécessaires. Le nombre final de références semble très sensible au nombre de mots-clés selon les requêtes, ce qui confirme une forte variabilité du paysage rencontré selon les termes. (\textit{Bas}) Consistence lexicale moyenne et déviation standard sur différentes requêtes, en fonction de $N_k$. La consistence lexicale est définie par les co-occurrences des mots-clés, comme $k = \frac{2}{N_k(N_k-1)}\cdot \sum_{i,j \in \mathcal{K}_f}{\left| c(i) - c(j) \right|}$, avec $f$ temps final, $c(i)$ co-occurrence des mots dans les références. La stabilisation confirme la consistence des corpus finaux.\label{fig:app:quantepistemo:sensitivity-algosr}}
+\appcaption{\textbf{Convergence and sensitivity analysis of the algorithmic systematic review.} (\textit{Top}) Plots of number of references as a function of iteration, for various queries linked to our theme (see further), for various values of $N_k$ (from 2 to 30). We obtain a rapid convergence for most cases, around 10 iterations needed. Final number of references appears to be very sensitive to keyword number depending on queries, what confirms a strong variability of the encountered landscape depending on terms. (\textit{Bottom}) Mean lexical consistence and standard error bars for various queries, as a function of $n_k$. Lexical consistence is defined though co-occurrences of keywords by, with $N$ final number of keywords, $f$ final step, and $c(i)$ co-occurrences in references, $k = \frac{2}{N(N-1)}\cdot \sum_{i,j \in \mathcal{K}_f}{\left| c(i) - c(j) \right|}$. The stability confirms the consistence of final corpuses.\label{fig:app:quantepistemo:sensitivity-algosr}}{\textbf{Convergence et analyse de sensibilité de l'algorithme de revue systématique.} (\textit{Haut}) Graphes des nombres de références en fonction de l'itération, pour différentes requêtes liées à notre thème, et pour différentes valeurs de $N_k$ (de 2 à 30, couleur). On obtient une convergence rapide dans la majorité des cas, autour de 10 itérations étant nécessaires. Le nombre final de références semble très sensible au nombre de mots-clés selon les requêtes, ce qui confirme une forte variabilité du paysage rencontré selon les termes. (\textit{Bas}) Consistence lexicale moyenne et déviation standard sur différentes requêtes, en fonction de $N_k$. La consistence lexicale est définie par les co-occurrences des mots-clés, comme $k = \frac{2}{N_k(N_k-1)}\cdot \sum_{i,j \in \mathcal{K}_f}{\left| c(i) - c(j) \right|}$, avec $f$ temps final, $c(i)$ co-occurrence des mots dans les références. La stabilisation confirme la consistence des corpus finaux.\label{fig:app:quantepistemo:sensitivity-algosr}}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -92,18 +99,36 @@ Nous prenons l'hypothèse la plus faible pour le paramètre $N_k=100$. En effet,
 
 %----------------------------------------------------------------------------------------
 
-\subsection{Hypernetwork analysis}{Bibliométrie indirecte}
+\subsection{Indirect bibliometrics}{Bibliométrie indirecte}
 
 
 %%
 
 \paragraph{Initial corpus}{Corpus initial}
 
+\bpar{
+The Table~\ref{tab:app:quantepistemo:corpus} gives the composition of the initial corpus for the construction of the citation network.
+}{
 Le tableau~\ref{tab:app:quantepistemo:corpus} donne la composition du corpus initial pour la construction du réseau de citation.
+}
+
 
 %%%%%%%%%%%%%
 \begin{table}
 \apptabcaption{\textbf{Composition of the initial corpus for the construction of the citation network.}\label{tab:app:quantepistemo:corpus}}{\textbf{Composition du corpus initial pour la construction du réseau de citation.}\label{tab:app:quantepistemo:corpus}}
+\bpar{
+\begin{tabular}{|l|p{6cm}|l|}
+	\hline
+	Discipline & Title & Reference \\\hline
+	Political science & \textit{Les effets structurants du transport: mythe politique, mystification scientifique} & \cite{offner1993effets} \\\hline 
+	Interdisciplinary & \textit{Réseaux et territoires-significations croisées} & \cite{offner1996reseaux} \\\hline
+	Geography & \textit{Villes et réseaux de transport: des interactions dans la longue durée (France, Europe, Etats-Unis)} & \cite{bretagnolle:tel-00459720} \\\hline
+	Transportation & Land-use transport interaction: state of the art & \cite{wegener2004land} \\\hline
+	Economics & The co-evolution of land use and road networks & \cite{levinson2007co} \\\hline
+	Economics & Modeling the growth of transportation networks: a comprehensive review & \cite{xie2009modeling} \\\hline
+	Physics & Co-evolution of density and topology in a simple model of city formation & \cite{barthelemy2009co} \\\hline
+	\end{tabular}
+}{
 	\begin{tabular}{|l|p{6cm}|l|}
 	\hline
 	Domaine & Titre & Référence \\\hline
@@ -115,6 +140,7 @@ Le tableau~\ref{tab:app:quantepistemo:corpus} donne la composition du corpus ini
 	Économie & Modeling the growth of transportation networks: a comprehensive review & \cite{xie2009modeling} \\\hline
 	Physique & Co-evolution of density and topology in a simple model of city formation & \cite{barthelemy2009co} \\\hline
 	\end{tabular}
+}
 \end{table}
 %%%%%%%%%%%%%
 
@@ -123,7 +149,11 @@ Le tableau~\ref{tab:app:quantepistemo:corpus} donne la composition du corpus ini
 
 \paragraph{Sensitivity analysis}{Analyse de sensibilité}
 
+\bpar{
+The sensitivity analysis allowing to fix the optimal parameters for the semantic network is shown in Fig.~\ref{fig:app:quantepistemo:sensitivity}.
+}{
 L'analyse de sensibilité permettant de fixer les paramètres optimaux pour le réseau sémantique est montrée en Fig.~\ref{fig:app:quantepistemo:sensitivity}.
+}
 
 % degré non pondéré ? -> justifié dans le Cybergeo paper
 
@@ -134,23 +164,28 @@ L'analyse de sensibilité permettant de fixer les paramètres optimaux pour le r
 %\includegraphics[width=0.49\linewidth]{Figures/Quantepistemo/pareto-modularity-vertices}\\
 %\includegraphics[width=\linewidth]{Figures/Quantepistemo/sensitivity_freqmin0_normalized}
 \includegraphics[width=\linewidth]{Figures/Final/A-quantepistemo-sensitivity.jpg}
-\appcaption{\textbf{Sensitivity analysis of network indicators to filtering parameters.}\label{fig:app:quantepistemo:sensitivity}}{\textbf{Analyse de sensibilité des propriétés modulaires du réseau sémantique en fonction des paramètres de filtrage.} \textit{(Haut Gauche)} Front de Pareto du nombre de communauté et du nombre de sommets (deux objectifs à maximiser), la couleur donnant la valeur de $\theta_w$ ; \textit{(Haut Droite)} Front de Pareto de la modularité en fonction du nombre de sommets, pour $\theta_w$ variant ; \textit{(Bas)} Valeurs des objectifs possibles (modularité, nombre de communautés, nombre de composantes connexes, nombre de sommets, densité, équilibre de taille entre communautés), chaque objectif étant normalisé dans $\left[0;1\right]$, en fonction des paramètres $\theta_w$ et $k_{max}$.\label{fig:app:quantepistemo:sensitivity}}
+\appcaption{\textbf{Sensitivity analysis of modular properties of the semantic network as a function of filtering parameters.} \textit{(Top Left)} Pareto front of the number of communities and the number of vertices (two objectives to be maximized), the color giving the value of $\theta_w$; \textit{(Top Right)} Pareto front of the modularity as a function of number of vertices, for varying $\theta_w$; (\textit{Bottom}) Values of possible objectives (modularity, number of communities, number of connnected components, number of vertices, density, size balance between communities), each objective being normalized in $\left[0;1\right]$, as a function of parameters $\theta_w$ and $k_{max}$.\label{fig:app:quantepistemo:sensitivity}}{\textbf{Analyse de sensibilité des propriétés modulaires du réseau sémantique en fonction des paramètres de filtrage.} \textit{(Haut Gauche)} Front de Pareto du nombre de communauté et du nombre de sommets (deux objectifs à maximiser), la couleur donnant la valeur de $\theta_w$ ; \textit{(Haut Droite)} Front de Pareto de la modularité en fonction du nombre de sommets, pour $\theta_w$ variant ; \textit{(Bas)} Valeurs des objectifs possibles (modularité, nombre de communautés, nombre de composantes connexes, nombre de sommets, densité, équilibre de taille entre communautés), chaque objectif étant normalisé dans $\left[0;1\right]$, en fonction des paramètres $\theta_w$ et $k_{max}$.\label{fig:app:quantepistemo:sensitivity}}
 \end{figure}
 %%%%%%%%%%%%%%%%%%
 
 
 
-\paragraph{Semantic Network}{Réseau Sémantique}
+\paragraph{Semantic network}{Réseau sémantique}
 
 % Visualisation du réseau sémantique.
 
+\bpar{
+A visualization of the semantic network is given in Fig~\ref{fig:app:quantepistemo:semanticnw}.
+}{
 Une visualisation du réseau sémantique est donnée en Fig.~\ref{fig:app:quantepistemo:semanticnw}.
+}
+
 
 %%%%%%%%%%%%%%%%%%
 \begin{figure}
 %\includegraphics[width=\linewidth]{Figures/Quantepistemo/semantic}
 \includegraphics[width=\linewidth]{Figures/Final/A-quantepistemo-semanticnw.jpg}
-\appcaption{\textbf{Semantic network of domains.} Network is constructed by co-occurrences of most relevant keywords. Filtering parameters are here taken according to the multi-objective optimization done in Fig.~\ref{fig:sensitivity}, i.e. $(k_{max}=,e_{th}=,f_{min},f_{max}=)$. The graph spatialization algorithm (Fruchterman-Reingold), despite its stochastic and path-dependent character, unveils information. A zoomable vectorial file (\texttt{.svg}) of the network is available as Supplementary Material.\label{fig:app:quantepistemo:semanticnw}}{\textbf{Réseau sémantique des domaines.} La couleur des liens donne la communauté et la taille des mots-clés est fixée par leur degré.\label{fig:app:quantepistemo:semanticnw}}
+\appcaption{\textbf{Semantic network of domains.} The color of links gives the community and the size of keywords is fixed by their degree.\label{fig:app:quantepistemo:semanticnw}}{\textbf{Réseau sémantique des domaines.} La couleur des liens donne la communauté et la taille des mots-clés est fixée par leur degré.\label{fig:app:quantepistemo:semanticnw}}
 \end{figure}
 %%%%%%%%%%%%%%%%%%
 
@@ -178,10 +213,15 @@ Une visualisation du réseau sémantique est donnée en Fig.~\ref{fig:app:quante
 
 
 
-\subsection{Systematic Review Methodology}{Méthodologie de la revue systématique}
+\subsection{Systematic review methodology}{Méthodologie de la revue systématique}
 
 
-Pour le choix des mots-clés initiaux pour la constitution indirecte (via requête sémantique), une alternative possible est d'extraire les mots-clés pertinents par sous-communautés du réseau de citations, puis sélectionner les plus pertinents ensuite pour chaque domaine. Nous faisons le choix de les extraire sur le corpus complet, puis de les récupérer par sous-communautés ensuite. Pour un petit corpus, la deuxième option est plus souhaitable, puisque la notion de pertinence moins importante que pour des très grands corpus, ou certains mots pertinents pourront être noyés et des moins pertinents ressortir de manière fortuite. En d'autre termes, la méthode de selection des mots-clés parait plus robuste sur des petits corpus, comme le suggère la comparaison de cette application avec celle faite sur le journal Cybergeo et celle faite sur le corpus de brevets (voir~\ref{app:sec:patentsmining}).
+
+\bpar{
+For the choice of initial keywords for the indirect construction (through semantic request), a possible alternative is to extract the relevant keywords for each sub-community of the citation network, and then select the most relevant for each domain. We make the choice of extracting them on the complete corpus, and then to collect them by sub-community thereafter. For a small corpus, the second option is more suitable, since the notion of relevance is less importance than for very large corpuses, in which some relevant words may be drowned and less relevant to emerge in a spurious way. In other words, the keyword selection method appears to be more robust on smaller corpuses, as suggest the comparison of this application with the one done on the Cybergeo journal and the one done on the patent corpus (see~\ref{app:sec:patentsmining}).
+}{
+Pour le choix des mots-clés initiaux pour la construction indirecte (via requête sémantique), une alternative possible est d'extraire les mots-clés pertinents par sous-communautés du réseau de citations, puis sélectionner les plus pertinents ensuite pour chaque domaine. Nous faisons le choix de les extraire sur le corpus complet, puis de les récupérer par sous-communautés ensuite. Pour un petit corpus, la deuxième option est plus souhaitable, puisque la notion de pertinence moins importante que pour des très grands corpus, ou certains mots pertinents pourront être noyés et des moins pertinents ressortir de manière fortuite. En d'autre termes, la méthode de selection des mots-clés parait plus robuste sur des petits corpus, comme le suggère la comparaison de cette application avec celle faite sur le journal Cybergeo et celle faite sur le corpus de brevets (voir~\ref{app:sec:patentsmining}).
+}
 
 %(mentionner Patents et Cybergeo, ressemblances et différences).
 
@@ -192,28 +232,56 @@ Pour le choix des mots-clés initiaux pour la constitution indirecte (via requê
 %computer sci, neurosci, geology, chem/bio terrorism WTF ? , theoretical physics, eco des orgs, socio (aids ethiopia ?), target tracking, rice storage culinary qual, bulimic, smart cities, bullshit territorialité Die, chinese migrants !, chinese tourist HongKong, papier CN desakota (cité migrdyn), health, hydrology, paysage hautes corbières, musical implication network, finance capitalism, produit territoire pomme des alpes, mobilité sociale, vibration pont hsr, ontological knowledge industri., signal processing, anger/agression, flocks/schools, friendship and mobility, consumer brand,  aghion ? , colorectal cancer texas, lidar urban, mediteranean cities, sun and sand tourism, gender car use, gold rush movies, urban informatics, "best outside US", badger, robots beacon, milieux innovateurs, politique univ villes la rochelle etc, cosmology, economie de la qualité,  handbook adult resilience, stock price, archeo chefferie, speculative urb, Mendoza arg, subway platfrom ventilation, magaliths, crowding HK light rail !, terrritoire familiaux naples classes sup, performing arts series, sncf tunnel rig, china snow disaster; fabriq rue paris 19e, geopol inuit, espace public beyrouth, greenway., desire named streetcar, jeddah, french competitino rail myth, Equip the warrior instead of manning the equipment, aparheid namibia, baselIII finance, tokyo, espace transfrtontalier, transport proteins !, hedonic rail road noise, croissance syst urbain loi metropol, maritime nw indonesia, eco sociale au quebec, first world urban activism, hybrid.. , gentrif nvel urba, [before] Estimation of local spatial scale : otpicians !, stations de montange, street gang sptail pattern LA, SFI adress !, bogota BRT, transport noise, brussel urban geology, drosohiplia embryo
 
 
-\subsubsection{Article screening}{Première revue du corpus}
+\subsubsection{First corpus review}{Première revue du corpus}
 
+\bpar{
+The methods used do not allow to be cleared from a ``noise'', i.e. of articles that are not relevant to the subject, even with a very low tolerance threshold. We obtained for example articles as absurd as gender and car use, colorectal cancer in Texas, vibration mechanics at the passage of a high speed train, protein transport within the cell, public space in Beyrouth, spatial patterns of \emph{street gangs} in Los Angeles, urban geology in Brussels. This confirms that the manual filtering stage is essential.
+}{
 Les méthodes utilisées ne permettent pas de s'affranchir d'un ``bruit'', c'est-à-dire d'article ne relevant a priori pas même de loin à la thématique. Nous avons obtenu par exemple des articles aussi divers qu'incongrus sur le genre et l'usage de la voiture, le cancer colorectal au Texas, la mécanique des vibrations au passage d'un train à grande vitesse, le transport des protéines dans la cellule, l'espace public à Beyrouth, les motifs spatiaux des \emph{street gangs} à Los Angeles, la géologie urbaine à Bruxelles. Cela confirme que l'étape de filtrage manuel est essentielle.
+}
 
+
+\bpar{
+This noise can for example be due to:
+\begin{itemize}
+	\item Effective citations for diverse reasons, but having only a low relevance in the citing article.
+	\item Noise intrinsic to the keyword search.
+	\item Catalog classification errors.
+\end{itemize}
+}{
 Ce bruit peut être du par exemple à :
 \begin{itemize}
 	\item Des citations effectives pour diverses raisons, mais n'ayant que peu de pertinence dans l'article citant.
 	\item Du bruit intrinsèque à la recherche par mots-clés.
 	\item Des erreurs de classification du catalogue.
 \end{itemize}
+}
 
 
 
 \subsubsection{Remarks on manual screening}{Remarques sur la classification manuelle}
 
+\bpar{
+During the manual classification achieved when screening abstracts, the following points appear: 
+}{
 Lors de la classification manuelle opérée lors de l'inspection des résumés, les points suivants ressortent :
+}
 
+%%%%%
+%% -- TRAD --
+%%%%%
+
+
+\bpar{
+\begin{itemize}
+	\item The ``a priori'' disciplines
+\end{itemize}
+}{
 \begin{itemize}
 	\item Les disciplines ``a priori'' sont jugées par le journal dans lequel l'article a été publié. En l'occurence, nous opérons les choix particuliers suivants (pour d'autres journaux comme des journaux de physique il n'y a pas d'ambiguïté) : Journal of Transport Geography, Environment and Planning B : geography ; Journal of Transport and Land-Use, Transportation Research : Transportation.
 	\item La géographie en notre sens inclut l'urbanisme et les études urbaines si celles-ci ne sont pas trop proches de la planification (urbain durable par exemple).
 \end{itemize}
-
+}
 
 
 
