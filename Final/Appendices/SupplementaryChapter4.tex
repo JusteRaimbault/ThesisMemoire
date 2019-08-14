@@ -674,13 +674,6 @@ En utilisant le fait que $\cosh u \sim_0 1 + u^2/2$ et que $\sinh u \sim_0 u$, o
 
 
 
-%%%%%%%%%%
-%% -- TRAD --
-%%%%%%%%%%
-
-
-
-
 
 %----------------------------------------------------------------------------------------
 
@@ -820,16 +813,33 @@ En utilisant le fait que $\cosh u \sim_0 1 + u^2/2$ et que $\sinh u \sim_0 u$, o
 
 % autocorrelation structure : http://www.jstor.org/stable/pdf/2984853.pdf
 
+\bpar{
+We calculate here the theoretical values of lagged correlations for a simple auto-regressive process. We recall the framework, namely $\vec{X}(t)$ which is a stochastic process following the auto-regression equation
+}{
 Calculons ici les valeurs théoriques des corrélations retardées pour un processus auto-régressif simple. Nous rappelons le cadre, à savoir $\vec{X}(t)$ qui est un processus stochastique suivant l'équation d'auto-régression
+}
+
 \[
 \vec{X}(t) = \sum_{\tau > 0} \mathbf{A}(\tau) \cdot \vec{X}(t - \tau ) + \vec{\varepsilon}(t)
 \]
+\bpar{
+and we situate in the case where $\mathbf{A}(\tau) = 0$ for $\tau \neq \tau_0$ and
+}{
 et nous nous plaçons dans le cas où $\mathbf{A}(\tau) = 0$ pour $\tau \neq \tau_0$ et 
+}
 \[
 \mathbf{A}(\tau_0) = \left( {\begin{array}{cc} 0 & a \\ a & 0 \\ \end{array}} \right)\]
+\bpar{
+with $-1<a<1$. We furthermore assume $\vec{\varepsilon}$ white noise and write $\vec{\varepsilon} = (\varepsilon_X,\varepsilon_Y)$ and assume $\Varb{\varepsilon_X} = \Varb{\varepsilon_Y} = \sigma^2$.
+}{
 avec $-1<a<1$. Nous supposons de plus $\vec{\varepsilon}$ bruit blanc et notons $\vec{\varepsilon} = (\varepsilon_X,\varepsilon_Y)$ et supposons $\Varb{\varepsilon_X} = \Varb{\varepsilon_Y} = \sigma^2$.
+}
 
+\bpar{
+By writing $\vec{X} = (X,Y)$, the process is specified by
+}{
 En notant $\vec{X} = (X,Y)$, le processus est spécifié par
+}
 \[
 \begin{cases}
 	X(t) = a\cdot Y(t-\tau_0) + \varepsilon_X \\
@@ -838,9 +848,17 @@ En notant $\vec{X} = (X,Y)$, le processus est spécifié par
 \]
 
 
+\bpar{
+By considering the variance in the two equations and taking the difference, we obtain that necessarily $\Varb{X} = \Varb{Y}$ since $\alpha^2 \neq 1$. The sum then gives $\Varb{X} = \Varb{Y} = \frac{\sigma^2}{1 - a^2}$.
+}{
 En prenant la variance dans les deux équations et en faisant la différence, on obtient que nécessairement $\Varb{X} = \Varb{Y}$ car $\alpha^2 \neq 1$. La somme donne alors $\Varb{X} = \Varb{Y} = \frac{\sigma^2}{1 - a^2}$.
+}
 
+\bpar{
+We then compute
+}
 Nous calculons alors 
+}
 
 \[
 \begin{split}
@@ -851,9 +869,17 @@ Nous calculons alors
 \end{split}
 \]
 
+\bpar{
+It is in fact possible to compute the lagged correlation for an arbitrary $\tau$. By stationarity of the process, we have for $\tau > 0$, $\rhob{X(t)}{Y(t-\tau)} = \rhob{X(\tau)}{Y(0)}$.
+}{
 Il est en fait possible de calculer la corrélation retardée pour $\tau$ quelconque. Par stationnarité du processus, on a pour $\tau > 0$, $\rhob{X(t)}{Y(t-\tau)} = \rhob{X(\tau)}{Y(0)}$.
+}
 
+\bpar{
+In a similar way than previously, we develop for $\tau > 0$
+}{
 De la même manière que précédemment, nous développons pour $\tau > 0$
+}
 
 \[
 \begin{split}
@@ -865,32 +891,56 @@ De la même manière que précédemment, nous développons pour $\tau > 0$
 \end{split}
 \]
 
+\bpar{
+and thus by recurrence, for $k\in \mathbb{N}$,
+}{
 et donc par récurrence, pour $k\in \mathbb{N}$, 
+}
 
 \[
 \rhob{X(\tau)}{Y(0)} = a^{2k}\cdot \rhob{X(\tau-2k\tau_0)}{Y(0)}
 \]
 
+\bpar{
+If $\tau \notin (2 \mathbb{N} + 1) \tau_0$, we go down to $\rhob{X(\tau')}{Y(0)}$ such that $\tau' < \tau_0$ and the correlation therefore vanishes.
+}{
 Si $\tau \notin (2 \mathbb{N} + 1) \tau_0$, on descend à $\rhob{X(\tau')}{Y(0)}$ tel que $\tau' < \tau_0$ et la corrélation est donc nulle.
+}
 
+\bpar{
+If $\tau \in (2 \mathbb{N} + 1) \tau_0$, we have then
+}{
 Si $\tau \in (2 \mathbb{N} + 1) \tau_0$, on a alors
+}
 
 \[
 \rhob{X((2k+1)\tau_0)}{Y(0)} = a^{2k+1}
 \]
 
+\bpar{
+For $\tau < 0 $, the computation is similar with an exchange of variables.
+}{
 Pour $\tau < 0 $, le calcul est similaire en échangeant les variables.
+}
 
 
+\bpar{
+This simple auto-regressive model allows thus simply controlling the lagged correlations at given orders.
+}
 Ce modèle simple auto-régressif permet ainsi de contrôler simplement les corrélations retardées à des ordres donnés.
+}
 
 
 
 
-\subsubsection{Urban Morphogenesis}{Morphogenèse Urbaine}
+\subsubsection{Urban morphogenesis}{Morphogenèse urbaine}
 
 
-La Fig.\ref{fig:app:causalityregimes:clustering} donne, pour l'analyse non-supervisée menée sur les caractéristiques issues des corrélations retardées, le comportement des résultats du clustering en fonction du nombre de cluster $k$, qui permet de lire une transition en fonction de $k$. Nous donnons aussi que la répartition des clusters dans un plan principal pour $k=6$.
+\bpar{
+The Fig.~\ref{fig:app:causalityregimes:clustering} gives, for the unsupervised analysis done of features issued from lagged correlations, the behavior of clustering results as a function of number of cluster $k$, which allows reading a transition as a function of $k$. We also give the repartition of clusters in a principal plan for $k=6$.
+}{
+La Fig.~\ref{fig:app:causalityregimes:clustering} donne, pour l'analyse non-supervisée menée sur les caractéristiques issues des corrélations retardées, le comportement des résultats du clustering en fonction du nombre de cluster $k$, qui permet de lire une transition en fonction de $k$. Nous donnons aussi la répartition des clusters dans un plan principal pour $k=6$.
+}
 
 %%%%%%%%%%%%%%
 \begin{figure}
@@ -898,7 +948,7 @@ La Fig.\ref{fig:app:causalityregimes:clustering} donne, pour l'analyse non-super
 %\includegraphics[width=0.49\linewidth]{Figures/CausalityRegimes/dccoef-knum_valuesFALSEtheta05-3.pdf}\\
 %\includegraphics[width=0.4\linewidth]{Figures/CausalityRegimes/clusters-PCA-features_valuesFALSEtheta2_k6}
 \includegraphics[width=\linewidth]{Figures/Final/A-causalityregimes-clustering.jpg}
-\appcaption{\label{fig:app:causalityregimes:clustering}}{\textbf{Identification de régimes d'interactions endogènes par classification non-supervisée.} (\textit{Haut Gauche}) Variance inter-cluster comme fonction du nombre de clusters. (\textit{Haut Droite}) Dérivée de la variance inter-cluster. (\textit{Bas}) \emph{Features} dans un plan principal (81\% de variance expliquée par les deux premières composantes).\label{fig:app:causalityregimes:clustering}}
+\appcaption{\textbf{Identification of endogenous interaction regimes through unsupervised classification.} (\textit{Top Left}) Inter-cluster variance as a function of number of clusters. (\textit{Top Right}) Derivative of the inter-cluster variance. (\textit{Bottom}) Features in a principal plan (81\% of explained variance by the two first components).\label{fig:app:causalityregimes:clustering}}{\textbf{Identification de régimes d'interactions endogènes par classification non-supervisée.} (\textit{Haut Gauche}) Variance inter-cluster comme fonction du nombre de clusters. (\textit{Haut Droite}) Dérivée de la variance inter-cluster. (\textit{Bas}) \emph{Features} dans un plan principal (81\% de variance expliquée par les deux premières composantes).\label{fig:app:causalityregimes:clustering}}
 \end{figure}
 %%%%%%%%%%%%%%
 
@@ -907,7 +957,11 @@ La Fig.\ref{fig:app:causalityregimes:clustering} donne, pour l'analyse non-super
 \subsection{South Africa}{Afrique du Sud}
 
 
+\bpar{
+The Fig.~\ref{fig:app:causalityregimes:sudafcorrs} gives the behavior of estimated correlations, in terms of average absolute correlation, and of proportion of significant correlations, as a function of $d_0$ and of $T_W$. It also gives the lagged correlation profiles for the weighted accessibilities, at the origin and at the destination.
+}{
 La Fig.~\ref{fig:app:causalityregimes:sudafcorrs} donne le comportement des corrélations estimées, en termes de corrélation absolue moyenne, et de proportion de corrélations significatives, en fonction de $d_0$ et de $T_W$. Elle donne également les profils de corrélations retardées pour les accessibilité pondérées, à l'origine et à la destination.
+}
 
 
 %%%%%%%%%%%%%%
@@ -916,7 +970,7 @@ La Fig.~\ref{fig:app:causalityregimes:sudafcorrs} donne le comportement des corr
 %\includegraphics[width=0.49\linewidth]{Figures/CausalityRegimes/significantcorrs}\\
 %\includegraphics[width=\linewidth]{Figures/CausalityRegimes/laggedCorrs_Tw3}
 \includegraphics[width=\linewidth]{Figures/Final/A-causalityregimes-sudafcorrs.jpg}
-\appcaption{\label{fig:app:causalityregimes:sudafcorrs}}{\textit{(Haut Gauche)} Corrélations absolues moyennes sur l'ensemble des retards, en fonction de la taille de la fenêtre temporelle $T_W$ (en nombre d'observations temporelles), pour différentes valeurs du paramètre de décroissance $d_0$ ; \textit{(Haut Droite)} Proportion de corrélations significatives, en fonction de $T_W$ pour $d_0$ variable ; \textit{(Bas)} Corrélations retardées en fonction du délai $\tau$, pour la taille optimale $T_W=3$, sur les différentes périodes successives (colonnes), pour les différents degrés de pondérations (première ligne $w_i=1$, deuxième ligne $w_i = 1,w_j=P_j/\sum_k P_k$, troisième ligne $w_i = P_i/\sum_k P_k,w_j=P_j/\sum_k P_k$), et pour $d_0$ variable (couleur).\label{fig:app:causalityregimes:sudafcorrs}}
+\appcaption{\textbf{Behavior of empirical correlations in the case of South Africa.} \textit{(Top left)} Average absolute correlations for all delays, as a function of time window duration $T_W$ (in number of temporal observations), for different values of the decay parameter $d_0$; \textit{(Top Right)} Proportion of significant correlations, as a function of $T_W$ for varying $d_0$; \textit{(Bottom)} Lagged correlations as a function of delay $\tau$, for the optimal size $T_W=3$, on the different successive periods (columns), for different levels of weighting (first row $w_i=1$, second row $w_i = 1,w_j=P_j/\sum_k P_k$, third row $w_i = P_i/\sum_k P_k,w_j=P_j/\sum_k P_k$), and for varying $d_0$ (color). \label{fig:app:causalityregimes:sudafcorrs}}{\textbf{Comportement des corrélations empiriques dans le cas de l'Afrique du Sud.} \textit{(Haut Gauche)} Corrélations absolues moyennes sur l'ensemble des retards, en fonction de la taille de la fenêtre temporelle $T_W$ (en nombre d'observations temporelles), pour différentes valeurs du paramètre de décroissance $d_0$ ; \textit{(Haut Droite)} Proportion de corrélations significatives, en fonction de $T_W$ pour $d_0$ variable ; \textit{(Bas)} Corrélations retardées en fonction du délai $\tau$, pour la taille optimale $T_W=3$, sur les différentes périodes successives (colonnes), pour les différents degrés de pondérations (première ligne $w_i=1$, deuxième ligne $w_i = 1,w_j=P_j/\sum_k P_k$, troisième ligne $w_i = P_i/\sum_k P_k,w_j=P_j/\sum_k P_k$), et pour $d_0$ variable (couleur).\label{fig:app:causalityregimes:sudafcorrs}}
 \end{figure}
 %%%%%%%%%%%%%%
 

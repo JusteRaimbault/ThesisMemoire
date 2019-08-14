@@ -3,11 +3,16 @@
 
 % Chapter 
 
-%\chapter{Methodological Developments}{Développements Méthodologiques} % Chapter title
+
+\bpar{
+\chapter{Methodological Developments}
+\markboth{\thechapter\space Methodological Developments}{\thechapter\space Methodological Developments}
+}{
 \chapter{Développements méthodologiques}
-
-
 \markboth{\thechapter\space Développements Méthodologiques}{\thechapter\space Développements Méthodologiques}
+}
+
+
 
 
 \label{app:methodology} % For referencing the chapter elsewhere, use \autoref{ch:name} 
@@ -21,28 +26,69 @@
 %This chapter gathers various methodological and technical developments, that have the common points to be not essential to the core of the thesis and difficult to digest.
 
 
+\bpar{
+This appendix gathers different methodological developments which are indirectly used, or allows deepening connected issues but which are not crucial for our main argumentation.
+}{
+Cette annexe rassemble différents développements méthodologiques qui sont utilisés indirectement, ou permet de creuser des questions liées mais non centrales à notre fil principal.
+}
 
-Cette annexe rassemble différents développements méthodologiques qui sont utilisés indirectement, ou permettre de creuser des questions liées mais non centrales à notre fil principal.
-
+\bpar{
+The first three sections relate to questions raising in the study of urban or territorial systems.
+\begin{enumerate}
+	\item A formal link between different stochastic models of urban growth allows introducing a general frame for this kind of approach, and illustrate the implicit link between our mesoscopic approach and our macroscopic approach.
+	\item The sensitivity of scaling laws to the definition of the city is analytically studied for a simple model of urban system. This perspective reinforces the methodology of sensitivity analysis of models to the spatial configuration introduced in~\ref{sec:computation}.
+	\item The literature and formal context of the notion of synthetic data also allows to situate it.
+\end{enumerate}
+}{
 Les trois premières sections traitent des questions se posant particulièrement lors de l'étude des systèmes urbains ou territoriaux.
 \begin{enumerate}
 	\item Un lien formel entre différents modèles stochastiques de croissance urbaine permet de poser un cadre général pour ce genre d'approche, et d'illustrer le lien implicite entre notre approche mesoscopique et notre approche macroscopique.
 	\item La sensibilité des lois d'échelles à la définition de la ville est étudiée analytiquement pour un modèle simple de système urbain. Cette perspective renforce la méthodologie d'analyse de sensibilité des modèles à la configuration spatiale introduite en~\ref{sec:computation}.
 	\item Le contexte bibliographique et formel de la notion de données synthétiques permet également de situer celle-ci.
 \end{enumerate}
+}
+% TODO idea revenir sur le general framework of urb growth - plus travailler les liens formels ?
+% TODO aussi revenir sur formal analysis of scaling variability ? - pourrait faire un bon CEUS (juste spatialiser les entites implique une variation des exposants de scaling) 
+% (spacematters : ? position ? speeder ? du freeriding ? mais idee de base :..)
 
+
+\bpar{
+We then develop general methodological frameworks linked to the study of systems.
+}{
 Nous développons ensuite des cadres méthodologiques généraux liés à l'étude des systèmes.
+}
 
+\bpar{
+\begin{enumerate}\setcounter{enumi}{4}
+	\item In the context of systems including multi-attribute optimizations, a method for the sensitivity analysis to the structure of data is introduced. It is not directly applied in our work but suggests directions for the application of mesoscopic morphogenesis models, since these are based on a similar optimization by agents.
+	\item a general framework for the modeling of socio-technical complex systems, sets the first bricks on the one hand of a formalization of the \emph{applied perspectivism} but also of the formalization of the knowledge framework suggested in~\ref{sec:knowledgeframework}.
+\end{enumerate}
+}{
 \begin{enumerate}\setcounter{enumi}{4}
 	\item Dans le cadre de systèmes incluant des optimisation multi-attributs, une méthode d'analyse de sensibilité à la structure des données, est introduite. Elle n'est pas directement appliquée dans notre travail mais suggère des pistes pour l'application des modèles mesoscopiques de morphogenèse, puisque ceux-ci se basent sur une telle optimisation par les agents.
 	\item Un cadre général pour la modélisation des systèmes complexes socio-techniques, pose les premières bases d'une part d'une formalisation du \emph{perspectivisme appliqué} mais également de la formalisation du cadre de connaissances suggérée en~\ref{sec:knowledgeframework}.
 \end{enumerate}
+}
+% idees / liens entre trucs unrelated : cf rq Denise sur broadness of reach (50 years ?) !
+% TODO rq le sociotech cs framework usable ? bof would need examples. work more on the algebraic structure to find a usefullness ?
+% TODO plus republier le knowledge framework mais plus empirically grounded cette fois (mais du coup de revisiter en inductif) (rq : deja cette remarque plus haut)
 
+
+\bpar{
+Finally, the last development is focused on quantitative epistemology methods.
+}{
 Enfin, le dernier développement concerne les méthodes d'épistémologie quantitative.
+}
 
+\bpar{
+\begin{enumerate}\setcounter{enumi}{4}
+	\item The technical details of the method used in~\ref{sec:quantepistemo} are developed in the context of an application to the corpus of the journal \emph{Cybergeo}. The considerations are fundamentally methodological, and must also be put in perspective with the companion thematical paper that we adapt in~\ref{app:sec:cybergeonetworks}.
+\end{enumerate}
+}{
 \begin{enumerate}\setcounter{enumi}{4}
 	\item Les détails techniques de la méthode utilisée en~\ref{sec:quantepistemo} sont développés dans le cadre d'application au corpus de la revue \emph{Cybergeo}. Les considérations sont fondamentalement méthodologiques, et doivent être également mises en perspective avec l'article thématique companion que nous adaptons en~\ref{app:sec:cybergeonetworks}.
 \end{enumerate}
+}
 
 
 %\stars
@@ -63,14 +109,14 @@ Enfin, le dernier développement concerne les méthodes d'épistémologie quanti
 
 \newpage
 
-\section{An unified framework for stochastic models of urban growth}{Modèles stochastiques de croissance urbaine}
+\section{Stochastic models of urban growth}{Modèles stochastiques de croissance urbaine}
 
 
 \label{app:sec:stochurbgrowth}
 
 
 \bpar{
-Urban growth modeling fall in the case of tentatives to find self-consistent rules reproducing dynamics of an urban system, and thus in our logic of system morphogenesis. We examine here methodological issues linked to different frameworks of urban growth.
+The different stochastic models of urban growth that we have developed follow the same logic of autonomous rules to reproduce the dynamics of urban systems. We propose here from a methodological viewpoint to highlight the links between the different frameworks, in order to formulate a unified framework.
 }{
 Les différents modèles stochastiques de croissance urbaine que nous avons développé suivent la même logique de règles autonomes pour reproduire les dynamiques des systèmes urbains. Nous proposons ici d'un point de vue méthodologique de mettre en valeur les liens entre les différents cadres, afin d'en formuler un cadre unifié.
 }
@@ -82,18 +128,17 @@ Les différents modèles stochastiques de croissance urbaine que nous avons dév
 
 
 \bpar{
-Various stochastic models aiming to reproduce population patterns on large temporal and spatial scales (city systems) have been discussed across various fields of the literature, from economics to geography, including models proposed by physicists. We propose here a general framework that allows to include different famous models (in particular Gibrat, Simon and Preferential Attachment model) within an unified vision. %It brings first an insight into epistemological debates on the relevance of models. 
-Furthermore, bridges between models lead to the possible transfer of analytical results to some models that are not directly tractable.
+Diverse stochastic models of urban growth aiming at reproducing population trajectories, or stylized facts on these, often on long time scales or large spatial spans (systems of cities) have been proposed by the literature in various fields, from economics or physics to geography (see for example~\ref{sec:interactiongibrat} and \ref{sec:densitygeneration} for reviews at different scales). We propose here a general approach which allows making a link between different existing models, more particularly the Gibrat model, the Simon model, and the preferential attachment model.
 }{
-Divers modèles stochastiques de croissance urbaine visant à reproduire des trajectoires de population, ou des faits stylisés sur celles-ci, souvent sur de longues échelles de temps et de grandes étendues spatiales (systèmes de villes) ont été proposé par la littérature dans des champs variés, de l'économie ou la physique à la géographie (voir par exemple~\ref{sec:interactiongibrat} et \ref{sec:densitygeneration} pour des revues à différentes échelles). Nous proposons ici une approche générale permettant de faire le liens entre plusieurs modèles existant, plus particulièrement les modèles de Gibrat, de Simon et d'attachement préférentiel.
+Divers modèles stochastiques de croissance urbaine visant à reproduire des trajectoires de population, ou des faits stylisés sur celles-ci, souvent sur de longues échelles de temps et de grandes étendues spatiales (systèmes de villes) ont été proposé par la littérature dans des champs variés, de l'économie ou la physique à la géographie (voir par exemple~\ref{sec:interactiongibrat} et \ref{sec:densitygeneration} pour des revues à différentes échelles). Nous proposons ici une approche générale permettant de faire le lien entre plusieurs modèles existant, plus particulièrement les modèles de Gibrat, de Simon et d'attachement préférentiel.
 }
-
+% TODO really test the deterministic/stichastic aspect of intgib
+% TODO also come back on ergod/nonstat (cf calculs at frog april)
 
 \bpar{
-Seminal models of urban growth are Simon~\cite{simon1955class} (later generalized as e.g. \cite{haran1973modified}) and Gibrat models. Many examples of variants and extensions can be given across disciplines. \cite{benguigui2007dynamic} give an equation-based dynamical model, whereas \cite{gabaix1999zipf} shows that the Gibrat model produces Zipf's law in a stationary state. \cite{Gabaix20042341} reviews urban growth approaches in economics. A model adapted from evolutive urban theory is described in~\cite{favaro2011gibrat} and extends the Gibrat model by adding propagation of innovation between cities. The question of empirical scales at which it is consistent to study urban growth was also tackled in the particular case of France~\cite{bretagnolle2002time}, which shows that long time scales (more than a few decade) are appropriate to study dynamics of urban systems at a small spatial scale. 
-%We stay to a certain level of tractability to include models as essence of our approach is links between models but do not make ontologic assumptions \comment[JR]{sens ?}.
+Seminal models of urban growth are the Gibrat model (see~\ref{sec:interactiongibrat}) and the Simon model~\cite{simon1955class} (which has more recently been generalized, see e.g. \cite{haran1973modified}). Many extensions have been given across disciplines. \cite{benguigui2007dynamic} give an equation-based dynamical model, whereas \cite{gabaix1999zipf} shows that the Gibrat model produces Zipf's law in a stationary state. \cite{Gabaix20042341} reviews urban growth approaches in economics. A model adapted from evolutive urban theory is described in~\cite{favaro2011gibrat} and extends the Gibrat model by adding propagation of innovation between cities. The question of empirical scales at which it is consistent to study urban growth was also tackled in the particular case of France~\cite{bretagnolle2002time}, which shows that long time scales (more than a few decade) are appropriate to study dynamics of urban systems at a small spatial scale.
 }{
-Des modèles fondamentaux de croissance urbaine sont les modèles de Gibrat (voir~\ref{sec:interactiongibrat}) et le modèle de Simon~\cite{simon1955class} (qui a plus récemment été généralisé, voir par exemple~\cite{haran1973modified}). Diverses extensions on été données selon les disciplines. \cite{benguigui2007dynamic} donne un modèle de système dynamique, tandis que \cite{gabaix1999zipf} montre que le modèle de Gibrat produit la loi de Zipf pour la distribution de la taille des villes dans l'état stationnaire. Les approches en économie sont revues par \cite{Gabaix20042341}. Un modèle inspiré par la Théorie Evolutive des Villes est décrit dans~\cite{favaro2011gibrat} et étend le modèle de Gibrat par l'addition de la propagation de l'innovation entre les villes. La question des échelles empiriques auxquelles ce type d'approche est pertinent a été traité dans le cas particulier de la France par~\cite{bretagnolle2002time}, qui montre que de longues échelles de temps (supérieures à quelques décades) sont appropriées pour étudier la dynamique des systèmes urbains à une petite échelle spatiale.
+Des modèles fondamentaux de croissance urbaine sont les modèles de Gibrat (voir~\ref{sec:interactiongibrat}) et le modèle de Simon~\cite{simon1955class} (qui a plus récemment été généralisé, voir par exemple~\cite{haran1973modified}). Diverses extensions ont été données selon les disciplines. \cite{benguigui2007dynamic} donne un modèle de système dynamique, tandis que \cite{gabaix1999zipf} montre que le modèle de Gibrat produit la loi de Zipf pour la distribution de la taille des villes dans l'état stationnaire. Les approches en économie sont revues par \cite{Gabaix20042341}. Un modèle inspiré par la Théorie Evolutive des Villes est décrit dans~\cite{favaro2011gibrat} et étend le modèle de Gibrat par l'addition de la propagation de l'innovation entre les villes. La question des échelles empiriques auxquelles ce type d'approche est pertinent a été traité dans le cas particulier de la France par~\cite{bretagnolle2002time}, qui montre que de longues échelles de temps (supérieures à quelques décades) sont appropriées pour étudier la dynamique des systèmes urbains à une petite échelle spatiale.
 }
 
 
@@ -106,8 +151,7 @@ Des modèles fondamentaux de croissance urbaine sont les modèles de Gibrat (voi
 %\paragraph{Presentation}
 
 \bpar{
-What we propose as a framework can be understood as a meta-model, i.e. a modular general modeling process within each model can be understood as a limit case or as a specific case of another model. More simply it should be a diagram of formal relations between models.\comment{(Florent) à ce stade on ne sait pas si tu vas faire 1 ou N modèles, c'est un choix qu'il te faut défendre avant d'en arriver là}
-The ontological aspect is also tackled by embedding the diagram into an ontological state space (which discretization corresponds to the ``bricks'' of the incremental construction of~\cite{cottineau2015incremental}). It constructs a sort of model classification or modelography. \comment{(Florent) PAS UTILE ICI JE PENSE}
+The framework we introduce can be understood as a meta-model, in the sense that eaach model can be understood as an extension or a limit case of an other model.
 }{
 Le cadre que nous introduisons peut se comprendre comme un meta-modèle, au sens où chaque modèle peut être compris comme extension ou cas limite d'un autre modèle. 
 }
@@ -139,7 +183,7 @@ Le cadre que nous introduisons peut se comprendre comme un meta-modèle, au sens
 \subsubsection{Generalization of Preferential Attachment}{Généralisation de l'Attachement Préférentiel}
 
 \bpar{
-\cite{yamasaki2006preferential} give a generalization of the classical Preferential Attachment Network Growth model, as a birth and death model with evolving entities. More precisely, network units gain and lose population (equivalent to links connexions) at fixed probabilities, and new unit can be created at a fixed rate.
+\cite{yamasaki2006preferential} give a generalization of the classical preferential attachment model for network growth, as a birth and death model with evolving entities. More precisely, network nodes gain and lose population units at fixed probabilities, and new nodes can be created at an also fixed rate.
 }{
 \cite{yamasaki2006preferential} donne une généralisation du modèle classique d'attachement préférentiel pour la croissance des réseaux, comme un modèle de vie et mort avec des entités évolutives. Plus précisément, les noeuds du réseau gagnent et perdent des unités de population à des probabilités fixes, et de nouveaux noeuds peuvent être ajoutés à un taux également fixe.
 }
@@ -148,7 +192,7 @@ Le cadre que nous introduisons peut se comprendre comme un meta-modèle, au sens
 
 
 \bpar{
-Let consider a strictly positive growth Gibrat model given by $P_i(t)=R_i(t)\cdot P_{i}(t-1)$ with $R_i(t)>1$, $\mu_i(t)=\Eb{R_i(t)}$ and $\sigma_i(t)=\Eb{R_i(t)^2}$. On the other hand, we take a simple preferential attachment, with fixed attachment probability $\lambda \in [0,1]$ and new arrivants number $m>0$. We derive that Gibrat model can be statistically equivalent to a limit of the preferential attachment model, assuming that the moment-generating function of $R_i(t)$ exists. Classical distributions that could be used in that case, e.g. log-normal distribution, are entirely defined by two first moments, making this assumption reasonable.
+Let consider a strictly positive growth Gibrat model given by $P_i(t)=R_i(t)\cdot P_{i}(t-1)$ with $R_i(t)>1$, $\mu_i(t)=\Eb{R_i(t)}$ and $\sigma_i(t)=\Eb{R_i(t)^2}$. The $P_i$ are the populations of cities while $R_i$ are random growth rates. On the other hand, we take a simple preferential attachment, with fixed attachment probability $\lambda \in [0,1]$ and new arrivants number $m>0$, what gives in expectancy $\mu_i(t+1) - \mu_i(t) = m\cdot \lambda$. We derive that Gibrat model can be statistically equivalent to a limit of the preferential attachment model, assuming that the moment-generating functions of $R_i(t)$ exist. Classical distributions that could be used in that case, e.g. log-normal distribution, are entirely defined by two first moments, making this assumption reasonable.
 }{
 Considérons un modèle de croissance strictement positive de Gibrat donnée par $P_i(t)=R_i(t)\cdot P_{i}(t-1)$ avec $R_i(t)>1$, $\mu_i(t)=\Eb{P_i(t)}$, $\lambda_i(t)=\Eb{R_i(t)}$ et $\sigma_i(t)=\Eb{R_i(t)^2}$. Les $P_i$ sont les populations des villes tandis que $R_i$ sont des taux de croissance aléatoires. D'autre part, soit un modèle simple d'attachement préférentiel, avec une probabilité d'attachement $\lambda \in [0,1]$ et un nombre de nouveau arrivants $m>0$, ce qui revient en espérance à $\mu_i(t+1) - \mu_i(t) = m\cdot \lambda$. Il est possible de dériver que le Gibrat est statistiquement équivalent à une limite de l'attachement préférentiel, sous l'hypothèse que toutes les fonctions génératrices des moments de $R_i(t)$ existent. Les distributions classiques qui peuvent être utilisées dans ce cas, e.g. une distribution normale ou log-normale, sont entièrement déterminées par leur deux premiers moments, ce qui rend cette hypothèse raisonnable.
 }
@@ -171,7 +215,7 @@ The limit of a Preferential Attachment model when $\lambda \ll 1$ is a linear-gr
 \begin{proof}
 
 \bpar{
-Starting with first moment, we denote $\bar{P}_i(t)=\Eb{P_i(t)}$. Independence of Gibrat growth rate yields directly $\bar{P}_i(t)=\Eb{R_i(t)}\cdot \bar{P}_i(t-1)$. Starting for the preferential attachment model, we have $\bar{P}_i(t) = \Eb{P_i(t)} = \sum_{k=0}^{+\infty}{k\Pb{P_i(t)=k}}$. But
+Starting with first moment, we denote $\bar{P}_i(t)=\Eb{P_i(t)}$. Independence of Gibrat growth rates yields directly $\bar{P}_i(t)=\Eb{R_i(t)}\cdot \bar{P}_i(t-1)$. Starting for the preferential attachment model, we have $\bar{P}_i(t) = \Eb{P_i(t)} = \sum_{k=0}^{+\infty}{k\Pb{P_i(t)=k}}$. But on the other hand,
 }{
 S'intéressant au premier moment, nous notons $\bar{P}_i(t)=\mu_i(t)=\Eb{P_i(t)}$. L'indépendance entre les taux de croissance de Gibrat donne directement $\bar{P}_i(t)=\Eb{R_i(t)}\cdot \bar{P}_i(t-1)$. En partant du modèle d'attachement préférentiel, nous avons $\bar{P}_i(t) = \Eb{P_i(t)} = \sum_{k=0}^{+\infty}{k\Pb{P_i(t)=k}}$. Mais par ailleurs,
 }
@@ -210,7 +254,7 @@ où le second évènement correspond à la ville $i$ étant augmentée $\delta$ 
 
 
 \bpar{
-As it is not expected to have $\bar{P}_i(t)\ll P(t)$ (fat tail distributions), a limit can be taken only through $\lambda$. Taking $\lambda \ll 1$ yields, as $0 < \bar{P}_i(t)/P(t) < 1$, that $q=\lambda\cdot\frac{\bar{P}_i(t-1)}{P_0 + m\cdot (t-1)} \ll 1$ and thus we can expand in first order of $q$, what gives $\bar{P}_i(t)=\bar{P}_i(t-1)\cdot \left[1 + \left(1+\frac{1}{\bar{P}_i(t-1)}\right)q + o(q))\right]$
+As it is not expected to have $\bar{P}_i(t)\ll P(t)$ (fat tail distributions), a limit can be taken only through $\lambda$. Taking $\lambda \ll 1$ yields, since $0 < \bar{P}_i(t)/P(t) < 1$, we obtain $q=\lambda\cdot\frac{\bar{P}_i(t-1)}{P_0 + m\cdot (t-1)} \ll 1$ and thus we can expand in first order of $q$. It finally yields
 }{
 On s'attend à ce que pour la majorité des villes, $\bar{P}_i(t)\ll P(t)$ (distributions fortement dissymétriques), la limite peut être prise pour $\lambda$ uniquement. En prenant $\lambda \ll 1$, comme $0 < \bar{P}_i(t)/P(t) < 1$, nous obtenons $q=\lambda\cdot\frac{\bar{P}_i(t-1)}{P_0 + m\cdot (t-1)} \ll 1$, qui peut être développée au premier ordre en $q$. Cela donne finalement
 }
@@ -219,20 +263,24 @@ On s'attend à ce que pour la majorité des villes, $\bar{P}_i(t)\ll P(t)$ (dist
 \bar{P}_i(t)=\bar{P}_i(t-1)\cdot \left[1 + \left(1+\frac{1}{\bar{P}_i(t-1)}\right)q + o(q))\right]
 \]
 
+\bpar{
+and therefore
+}{
 et donc
+}
 
 \[
 \bar{P}_i(t) \simeq \left[1 + \frac{\lambda}{P_0 + m\cdot (t-1)}\right]\cdot \bar{P}_i(t-1)
 \]
 
 \bpar{
-It means that this limit is equivalent in expectancy to a Gibrat model with $\mu_i(t) = \mu(t)=1 + \frac{\lambda}{P_0 + m\cdot (t-1)}$.
+This means that this limit is equivalent in expectancy to a Gibrat model with $\mu_i(t) = \mu(t)=1 + \frac{\lambda}{P_0 + m\cdot (t-1)}$.
 }{
 Cela signifie que cette limite est équivalente en espérance à un modèle de Gibrat avec $\mu_i(t) = \mu(t)=1 + \frac{\lambda}{P_0 + m\cdot (t-1)}$.
 }
 
 \bpar{
-For the second moment, we can do an analog computation. We have still \[\Eb{P_i(t)^2} = \Eb{R_i(t)^2}\cdot \Eb{P_i(t-1)^2}\]
+For the second moment, we can do a similar computation. We have still \[\Eb{P_i(t)^2} = \Eb{R_i(t)^2}\cdot \Eb{P_i(t-1)^2}\]
 and
 \[\Eb{P_i(t)^2}=\sum_{k=0}^{+\infty}{k^2 \Pb{P_i(t)=k}}\] 
 }{
@@ -282,11 +330,12 @@ Une reformulation du modèle de Simon le présente comme un cas particulier de l
 \subsubsection{Link between Favaro-Pumain and Gibrat}{Lien entre Favaro-Pumain et Gibrat}
 
 \bpar{
-\cite{favaro2011gibrat} generalizes Gibrat models with innovation propagation dynamics. Theoretically, a process-based model equivalent to the Favaro-Pumain should then fill the missing case in model classification at the corresponding discretization. Simpop models do not fill that case as they stay at the scale of city systems, as for Marius models~\cite{cottineau2014evolution}. These must also have their counterparts in discrete microscopic formulation.
+\cite{favaro2011gibrat} generalizes Gibrat models with innovation propagation dynamics. Theoretically, a microsocpic equivalent should be formulated if we consider all models in a typology by ontology and by paradigm. The MMaruis models~\cite{cottineau2014evolution} correspond to a Gibrat paradigm, and should also have their counterpart in terms of microscopic formulation. 
 }{
 \cite{favaro2011gibrat} généralise le modèle de Gibrat avec les dynamiques de propagation de l'innovation. En théorie, un équivalent microscopique devrait pouvoir être formulé si on considère l'ensemble des modèles dans une typologie par ontologie et par paradigme. %Les modèles Simpop restent dans la catégorie
 Les modèles Marius~\cite{cottineau2014evolution} correspondent à un paradigme de Gibrat, et devraient aussi avoir leur contrepartie en termes de formulation microscopique.
 }
+% TODO rq interessant cette typologie trous a buocher et correspondance abm / dynsis en quelque sorte. a creuser aussi ?
 
 %\comment{(Florent) la encore tu parles de modèles que tu ne décris pas par ailleurs ; or Personnes connaissant FavaraoPumain $\cap$ Personnes connaissant Gibrat $\cap$ \ldots = quelques personnes sur terre! }[voir revues main text]
 
@@ -317,13 +366,13 @@ Les modèles Marius~\cite{cottineau2014evolution} correspondent à un paradigme 
 
 
 
-\section{Sensitivity of Urban Scaling Laws to Spatial Extent}{Sensibilité des lois d'échelle urbaines}
+\section{Sensitivity of urban scaling laws}{Sensibilité des lois d'échelle urbaines}
 
 \label{app:sec:scaling}
 
 
 \bpar{
-At the center of evolutive urban theory are hierarchy and associated scaling laws. We develop here a brief methodological investigation on the sensitivity of scaling laws to city definition.
+At the center of evolutive urban theory are hierarchy and associated scaling laws. We develop here a brief methodological development on the sensitivity of scaling laws to the definition of cities.
 }{
 Au centre de la théorie évolutive des villes se trouvent la hiérarchie et les lois d'échelle associées. Nous proposons ici un bref développement méthodologique sur la sensibilité des lois d'échelle à la définition de la ville. %\comment{(Florent) présenté comme cela ce n'est pas évident de comprendre le rapport avec ta thèse}
 }
@@ -335,28 +384,30 @@ Au centre de la théorie évolutive des villes se trouvent la hiérarchie et les
 
 
 \bpar{
-Scaling laws have been shown to be universal of urban systems at many scales and for many indicators. Recent studies question however the consistence of scaling exponents determination, as their value can vary significantly depending on thresholds used to define urban entities on which quantities are integrated, even crossing the qualitative border of linear scaling, from infra-linear to supra-linear scaling. We use a simple theoretical model of spatial distribution of densities and urban functions to show analytically that such behavior can be derived as a consequence of the type of spatial distribution and the method used. Numerical simulation confirm the theoretical results and reveals that results are reasonably independent of spatial kernel used to distribute density.
+Scaling laws have been shown to be universal of urban systems at many scales and for many socio-economic or technical indicators (GDP, education, employment, crime, infrastructure stock, housing stock). Recent studies question however the consistence of scaling exponents determination, as their value can vary significantly depending on thresholds used to define urban entities on which quantities are integrated, even crossing the qualitative border of linear scaling, from infra-linear to supra-linear scaling. We use a simple theoretical model of spatial distribution of densities and urban functions to show analytically that such behavior can be derived as a consequence of the type of spatial distribution and the method used.
+%Numerical simulation confirm the theoretical results and reveals that results are reasonably independent of spatial kernel used to distribute density.
 }{
 Les lois d'échelle ont été montrées universelles des systèmes urbains à de nombreuses échelles et pour différents indicateurs socio-économiques ou techniques (PIB, éducation, emploi, crime, stock d'infrastructures, stock de logement). Des études récentes questionnent toutefois la cohérence de la détermination des exposants d'échelle, puisque leur valeur peut varier significativement selon les seuils utilisés pour définir les entités urbaines sur lesquelles les quantités urbaines sont intégrées, franchissant même dans certains cas la barrière qualitative de l'échelle linéaire, d'une loi infra-linéaire à une loi super-linéaire. Nous utilisons un modèle théorique simple de distribution spatiale des densités et des fonctions urbaines pour montrer analytiquement qu'un tel comportement peut être dérivé comme conséquence du type de distribution spatiale et de la méthode utilisée. %Les simulations numériques confirment les résultats théoriques et révèle que les résultats sont raisonnablement indépendants du noyau spatial utilisé pour distribuer la densité.
 }
 
 
 \bpar{
-Scaling laws for urban systems, starting from the well-known rank-size Zipf's law for city size distribution~\cite{gabaix1999zipf}, have been shown to be a recurrent feature of urban systems, at many scales and for many types of indicators. They reside in the empirical constatation that indicators computed on elements of an urban system, that can be cities for system of cities, but also smaller entities at a smaller scale, do fit relatively well a power-law distribution as a function of entity size, i.e. that for entity $i$ with population $P_i$, we have for an integrated quantity $A_i$, the relation $A_i \simeq A_0\cdot \left(\frac{P_i}{P_0}\right)^{\alpha}$. Scaling exponent $\alpha$ can be smaller or greater than 1, leading to infra or supralinear effects. Various thematic interpretation of this phenomena have been proposed, typically under the form of processes analysis. The economic literature has produced abundant work on the subject (see~\cite{Gabaix20042341} for a review), but that are generally weakly spatial, thus of poor interest to our approach that deals precisely with spatial organization. Simple economic rules such as energetic equilibria can lead to simple power-laws~\cite{bettencourt2008large} but are difficult to fit empirically. A interesting proposition by \noun{Pumain} is that they are intrinsically due to the evolutionary character of city systems, where complex emergent interaction between cities generate such global distributions~\cite{pumain2006evolutionary}. Although a tempting parallel can be done with self-organizing biological systems, \noun{Pumain} insists on the fact that the ergodicity assumption for such systems is not reasonable in the case of geographical systems and that the analogy can difficultly be exploited~\cite{pumain2012urban}. Other explanations have been proposed at other scales, such as the urban growth model at the mesoscopic scale (city scale) given in~\cite{louf2014congestion} that shows that the congestion within transportation networks may be one reason for city shapes and corresponding scaling laws. Note that ``classic'' urban growth models such as Gibrat's model do provide first order approximation of scaling systems, but that interactions between agents have to be incorporated into the model to obtain better fit on real data, such as the Favaro-Pumain model for innovation cycles propagation proposed in~\cite{favaro2011gibrat}, that generalize a Gibrat model for French cities with an ontology similar to Simpop models.
+Scaling laws for urban systems, starting from the well-known rank-size Zipf's law for city size distribution~\cite{gabaix1999zipf}, have been shown to be a recurrent feature of urban systems, at many scales and for many types of indicators. They reside in the empirical constatation that indicators computed on elements of an urban system, that can be cities for system of cities, but also smaller entities at a smaller scale, do fit relatively well a power-law distribution as a function of entity size, i.e. that for entity $i$ with population $P_i$, we have for an integrated quantity $A_i$, the relation $A_i \simeq A_0\cdot \left(\frac{P_i}{P_0}\right)^{\alpha}$. Scaling exponent $\alpha$ can be smaller or greater than 1, leading to infra or supralinear effects. Various thematic interpretation of this phenomena have been proposed, typically under the form of processes analysis. The economic literature has produced abundant work on the subject (see~\cite{Gabaix20042341} for a review), but that are generally weakly spatial, thus of poor interest to our approach that deals precisely with spatial organization. Simple economic rules such as energetic equilibria can lead to simple power-laws~\cite{bettencourt2008large} but are difficult to fit empirically. A interesting proposition by \noun{Pumain} is that they are intrinsically due to the evolutionary character of city systems, and that these laws correspond to different maturity levels in innovation cycles with hierarchically propagate within systems of cities~\cite{pumain2006evolutionary}. Although a tempting parallel can be done with self-organizing biological or physical systems, \cite{pumain2012urban} insists on the fact that the ergodicity assumption (see~\ref{sec:staticcorrelations}) for such systems is not reasonable in the case of geographical systems and that the analogy can difficultly be exploited in the case of physical systems. Other explanations have been proposed at other scales, such as the urban growth model at the mesoscopic scale (city scale) given in~\cite{louf2014congestion} which shows that the congestion within transportation networks may be one reason for city shapes and corresponding scaling laws. We can note that ``classical'' urban growth models such as Gibrat model~\cite{favaro2011gibrat} do provide first order approximation of scaling systems, but that interactions between agents have to be incorporated into the model to obtain better fit on real data, such as the Favaro-Pumain model for innovation cycles propagation proposed in~\cite{favaro2011gibrat}, which generalize a Gibrat model for French cities with an ontology similar to Simpop models.
 }{
-Les lois d'échelle pour les systèmes urbains, en commençant par la bien connue loi rang-taille de Zipf pour la distribution des tailles des villes~\cite{gabaix1999zipf}, sont une caractéristique récurrente des systèmes urbains, à différentes échelles et pour différents types d'indicateurs. Elles reposent sur la constatation empirique que des indicateurs calculés sur des éléments du système urbain, qui peuvent être les villes dans le cas d'un système de villes, mais aussi des entités plus petites à une plus petite échelle, suivent relativement bien une distribution en loi de puissance en fonction de la taille de l'entité, i.e. pour l'entité $i$ avec population $P_i$, on a pour une quantité intégrée $A_i$, la relation $A_i \simeq A_0\cdot \left(\frac{P_i}{P_0}\right)^{\alpha}$. Les exposants d'échelle $\alpha$ peuvent être plus petits ou plus grands que 1, menant à des effets infra ou supra-linéaires. Diverses interprétations thématiques de ce phénomène ont été proposées, typiquement sous la forme d'analyse des processus. La littérature économique contient une production abondante sur le sujet (voir~\cite{Gabaix20042341} pour une revue), mais est généralement faiblement spatiale, donc de faible intérêt pour notre approche qui s'intéresse particulièrement à l'organisation spatiale. Des règles économiques simples comme un équilibre énergétique peut conduire à de simples lois d'échelles~\cite{bettencourt2008large} mais sont difficiles à ajuster empiriquement. Une proposition intéressante par \noun{Pumain} est qu'elles sont intrinsèquement dues au caractère évolutionnaire des systèmes de villes, et que ces lois correspondent à différents niveaux de maturité dans les cycles d'innovation qui se diffusent hiérarchiquement dans les systèmes de villes~\cite{pumain2006evolutionary}. Même si un parallèle tentant peut être fait avec les système biologiques ou physiques auto-organisés, \cite{pumain2012urban} insiste sur le fait que l'hypothèse d'ergodicité (voir~\ref{sec:staticcorrelations}) pour de tels systèmes n'est pas raisonnable dans le cas de système géographiques et que l'analogie est difficilement exploitable dans le cas des systèmes physiques. D'autres explications ont été proposées à d'autres échelles, comme le modèle de croissance urbaine à échelle mesoscopique (échelle de la ville) donné dans~\cite{louf2014congestion} qui montre que la congestion dans les réseaux de transport pourrait être une raison de la forme des villes et des lois d'échelle correspondantes. On peut noter que les modèles ``classiques'' de croissance urbaine comme le modèle de Gibrat~\cite{favaro2011gibrat} fournissent une approximation au premier ordre des systèmes % scaling systems = systèmes scalant ? ~ systèmes exhibant des lois d'échelle <- too long..
+Les lois d'échelle pour les systèmes urbains, en commençant par la bien connue loi rang-taille de Zipf pour la distribution des tailles des villes~\cite{gabaix1999zipf}, sont une caractéristique récurrente des systèmes urbains, à différentes échelles et pour différents types d'indicateurs. Elles reposent sur la constatation empirique que des indicateurs calculés sur des éléments du système urbain, qui peuvent être les villes dans le cas d'un système de villes, mais aussi des entités plus petites à une plus petite échelle, suivent relativement bien une distribution en loi de puissance en fonction de la taille de l'entité, i.e. pour l'entité $i$ avec population $P_i$, on a pour une quantité intégrée $A_i$, la relation $A_i \simeq A_0\cdot \left(\frac{P_i}{P_0}\right)^{\alpha}$. Les exposants d'échelle $\alpha$ peuvent être plus petits ou plus grands que 1, menant à des effets infra ou supra-linéaires. Diverses interprétations thématiques de ce phénomène ont été proposées, typiquement sous la forme d'analyse des processus. La littérature économique contient une production abondante sur le sujet (voir~\cite{Gabaix20042341} pour une revue), mais est généralement faiblement spatiale, donc de faible intérêt pour notre approche qui s'intéresse particulièrement à l'organisation spatiale. Des règles économiques simples comme un équilibre énergétique peut conduire à de simples lois d'échelles~\cite{bettencourt2008large} mais sont difficiles à ajuster empiriquement. Une proposition intéressante par \noun{Pumain} est qu'elles sont intrinsèquement dues au caractère évolutionnaire des systèmes de villes, et que ces lois correspondent à différents niveaux de maturité dans les cycles d'innovation qui se diffusent hiérarchiquement dans les systèmes de villes~\cite{pumain2006evolutionary}. Même si un parallèle tentant peut être fait avec les systèmes biologiques ou physiques auto-organisés, \cite{pumain2012urban} insiste sur le fait que l'hypothèse d'ergodicité (voir~\ref{sec:staticcorrelations}) pour de tels systèmes n'est pas raisonnable dans le cas de systèmes géographiques et que l'analogie est difficilement exploitable dans le cas des systèmes physiques. D'autres explications ont été proposées à d'autres échelles, comme le modèle de croissance urbaine à échelle mesoscopique (échelle de la ville) donné dans~\cite{louf2014congestion} qui montre que la congestion dans les réseaux de transport pourrait être une raison de la forme des villes et des lois d'échelle correspondantes. On peut noter que les modèles ``classiques'' de croissance urbaine comme le modèle de Gibrat~\cite{favaro2011gibrat} fournissent une approximation au premier ordre des systèmes % scaling systems = systèmes scalant ? ~ systèmes exhibant des lois d'échelle <- too long..
  exhibant des lois d'échelles, mais que les interactions entre agents doivent être incorporées dans le modèle pour obtenir un résultat plus fidèle aux données réelles, comme le modèle de Favaro-Pumain pour la propagation des cycles d'innovation proposé dans~\cite{favaro2011gibrat}, qui généralise un modèle de Gibrat pour la croissance des villes françaises avec une ontologie similaire à celle des modèles Simpop.
 %\comment{(Florent) ok : modèles qui reproduisent scaling, est-ce un des critères de validation des modèles que tu vas développer ?}
 }
+% TODO rq : cf last rq Florent : finalement pas vraiment car unilayer ; now yes in the scaling project !
 
-%\comment{IDEE - take the FavaroPumain again, try to fit/compare with the IntGib-network model ? -- sort of benchmark, should be easy to implement}
+%\comment{IDEE - take the FavaroPumain again, try to fit/compare with the IntGib-network model ? -- sort of benchmark, should be easy to implement} => Done for CCS18 !
 
 %\cite{louf2014scaling} \comment{should not cite this ``paper''} 
 
 \bpar{
-However, the incautious application of scaling exponents computations was recently pointed as misleading in most cases, as~\cite{arcaute2015constructing} shows the variability of computed exponents to the parameters defining urban areas, such as density thresholds. \cite{} studies empirically for France the influence of 3 parameters playing a role in city definition, that are a density threshold $\theta$ to delimitate boundaries of an urban area, a number of commuters threshold $\theta_c$ that is the proportion of commuters going to core area over which the unity is considered belonging to the area, and a cut-off parameter $P_c$ under which entities are not taken into account for the linear regression providing the scaling exponent. Remarquable results are that exponents can significantly vary and move from infra-linear to supra-linear when threshold varies. A systematic exploration of parameter space produces phase diagrams of exponents for various quantities. One question raising immediately is how these variation can be explained by the features of spatial distribution of variables. Do they result from intrinsic mechanisms present in the system or can they be explained more simply by the fact that the system is particularly spatialized ? We prove on a toy analytical model that even simple distributions can lead to such significant variations in the exponents, along one dimension of parameters (density threshold), directing the response towards the second explanation.
+However, the incautious application of scaling exponents computations was recently pointed as misleading in most cases, as~\cite{arcaute2015constructing} shows the variability of computed exponents to the parameters defining urban areas, such as density thresholds. \cite{cottineau2015scaling} studies empirically for France the influence of 3 parameters playing a role in city definition, that are a density threshold $\theta$ to delimitate boundaries of an urban area, a number of commuters threshold $\theta_c$ that is the proportion of commuters going to core area over which the unity is considered belonging to the area, and a cut-off parameter $P_c$ below which entities are not taken into account for the linear regression providing the scaling exponent. Significant results are that exponents can move from infra-linear to supra-linear when threshold varies. A systematic exploration of parameter space produces phase diagrams of exponents for various quantities. One question raising immediately is how these variations can be explained by the features of spatial distribution of variables. Do they result from intrinsic mechanisms present in the system or can they be explained more simply by the fact that the system is spatialized in a particular way? We prove on a toy analytical model that even simple distributions can lead to such significant variations in the exponents, along one dimension of parameters (density threshold), directing the response towards the second explanation.
 }{
-Cependant, l'application sans vergogne de l'estimation des exposants de lois d'échelle a été récemment rappelé comme pouvant mener à des interprétations divergentes, comme~\cite{arcaute2015constructing} qui montre la variabilité des exposants calculés aux paramètres définissant les aires urbaines françaises, comme le seuil de densité. \cite{} étudie empiriquement pour la France l'influence des 3 paramètres jouant un rôle dans la définition de la ville, qui sont un seuil de densité $\theta$ pour délimiter les limites d'une aire urbaine, un seuil du nombre de navetteurs $\theta_c$ qui correspond à la proportion de ceux-ci devant travailler dans la zone centrale pour que la zone considérée y soit associée, et un paramètre de cut-off $P_c$ en dessous duquel les entités ne sont pas prises en compte pour la régression linéaire fournissant l'exposant d'échelle. Un résultat significatif est que les exposants peuvent varier d'un comportement sous-linéaire à un comportement super-linéaire que les seuils varient. Une exploration systématique de l'espace des paramètres produit les diagrammes de phase des exposants pour diverses quantités. Une question qui est directement soulevée est la manière dont ces variations peuvent être expliquées par les caractéristiques de la distribution spatiale des variables. Résultent-elles de mécanismes intrinsèques au système ou peuvent-elles être expliquées simplement par le fait que le système est spatialisé d'une façon particulière ? Nous montrons avec un exemple analytique simplifié que même des distributions spatiales élémentaires induisent une variation significative des exposants le long d'une dimension des paramètres (seuil de densité), suggérant une réponse positive à la deuxième hypothèse.
+Cependant, l'application sans vergogne de l'estimation des exposants de lois d'échelle a été récemment rappelé comme pouvant mener à des interprétations divergentes, comme~\cite{arcaute2015constructing} qui montre la variabilité des exposants calculés aux paramètres définissant les aires urbaines françaises, comme le seuil de densité. \cite{cottineau2015scaling} étudie empiriquement pour la France l'influence des 3 paramètres jouant un rôle dans la définition de la ville, qui sont un seuil de densité $\theta$ pour délimiter les limites d'une aire urbaine, un seuil du nombre de navetteurs $\theta_c$ qui correspond à la proportion de ceux-ci devant travailler dans la zone centrale pour que la zone considérée y soit associée, et un paramètre de cut-off $P_c$ en dessous duquel les entités ne sont pas prises en compte pour la régression linéaire fournissant l'exposant d'échelle. Un résultat significatif est que les exposants peuvent varier d'un comportement sous-linéaire à un comportement super-linéaire que les seuils varient. Une exploration systématique de l'espace des paramètres produit les diagrammes de phase des exposants pour diverses quantités. Une question qui est directement soulevée est la manière dont ces variations peuvent être expliquées par les caractéristiques de la distribution spatiale des variables. Résultent-elles de mécanismes intrinsèques au système ou peuvent-elles être expliquées simplement par le fait que le système est spatialisé d'une façon particulière ? Nous montrons avec un exemple analytique simplifié que même des distributions spatiales élémentaires induisent une variation significative des exposants le long d'une dimension des paramètres (seuil de densité), suggérant une réponse positive à la deuxième hypothèse.
 }
 
 
@@ -368,7 +419,11 @@ Cependant, l'application sans vergogne de l'estimation des exposants de lois d'�
 % \comment{mention way of fitting ; golden standard to fit power laws ? check thèse d'Olivier pour voir si le cutoff est appliqué ?}
 %The derivations in the simple case of exponential mixture density, are done in Appendix~\ref{app:technical}.
 
+\bpar{
+We derive in the following the expression of the variation of scaling exponents in the simple case of an exponential mixture distribution.
+}{
 Nous dérivons par la suite l'expression de la variation des exposants d'échelle dans le cas simple d'une distribution en mixture d'exponentielle.
+}
 
 
 \bpar{
@@ -382,7 +437,7 @@ d(\vec{x}) = \sum_{i=1}^{N}{d_i(\vec{x})} = \sum_{i=1}^{N}{d_i^0\cdot \exp{\left
 \]
 
 \bpar{
-where $r_i$ are spread parameters of kernels, $d_i^0$ densities at origins, $\vec{x}_i$ positions of centers. We furthermore assume the following constraints :
+where $r_i$ are span parameters of kernels, $d_i^0$ densities at origin points, $\vec{x}_i$ positions of centers. We furthermore assume the following constraints:
 }{
 où $r_i$ sont les paramètres d'étendue des noyaux, $d_i^0$ les densités aux points d'origine et $\vec{x}_i$ les positions des centres. Nous supposons de plus les contraintes suivantes :
 }
@@ -390,7 +445,7 @@ où $r_i$ sont les paramètres d'étendue des noyaux, $d_i^0$ les densités aux 
 \bpar{
 \begin{enumerate}
 \item To simplify, cities are monocentric, in the sense that for all $i\neq j$, we have $\norm{\vec{x}_i - \vec{x}_j}\gg r_i$.
-\item It allows to impose structural scaling in the urban system by the simple constraint on city populations $P_i$. One can compute by integration that $P_i=2\pi d_i^0 r_i^2$, what gives by injection into the scaling hypothesis $\ln{P_i}=\ln{P_{max}}-\alpha \ln{i}$, the following relation between parameters : $\ln{\left[d_i^0 r_i^2\right]}=K' - \alpha \ln{i}$.
+\item It allows to impose ``structural'' scaling in the urban system by the simple constraint on city populations $P_i$. One can compute by integration that $P_i=2\pi d_i^0 r_i^2$, what gives by injection into the scaling hypothesis $\ln{P_i}=\ln{P_{max}}-\alpha \ln{i}$, the following relation between parameters: $\ln{\left[d_i^0 r_i^2\right]}=K' - \alpha \ln{i}$.
 \end{enumerate}
 }{
 \begin{enumerate}
@@ -402,19 +457,20 @@ où $r_i$ sont les paramètres d'étendue des noyaux, $d_i^0$ les densités aux 
 \bpar{
 To study scaling relations, we consider a random scalar spatial variable $a(\vec{x})$ representing one aspect of the city, that can be everything but has the dimension of a spatial density, such that the indicator $A(D)=\Eb{\iint_D{a(\vec{x})d\vec{x}}}$ represents the expected quantity of $a$ in area $D$. We make the assumption that $a\in \{0;1\}$ (``counting'' indicator) and that its law is given by $\Pb{a(\vec{x})=1}=f(d(\vec{x}))$. Following the empirical work done in~\cite{cottineau2015scaling}, the integrated indicator on city $i$ as a function of $\theta$ is given by
 }{
-Pour étudier les relations de lois d'échelles, nous considérons une variable aléatoire scalaire dans l'espace $a(\vec{x})$ représentant un aspect de la ville, qui peut être n'importe lequel mais a la dimension physique d'une densité spatiale, de telle façon que l'indicateur $A(D)=\Eb{\iint_D{a(\vec{x})d\vec{x}}}$ représente la quantité espérée de $a$ dans la zone $D$. Nous faisons l'hypothèse que $a\in \{0;1\}$ (indicateur de comptage) et que sa loi est donnée par $\Pb{a(\vec{x})=1}=f(d(\vec{x}))$. Suivant le travail empirique fait par~\cite{}, l'indicateur intégré sur la ville $i$ en fonction de $\theta$ est donné par
+Pour étudier les relations de lois d'échelles, nous considérons une variable aléatoire scalaire dans l'espace $a(\vec{x})$ représentant un aspect de la ville, qui peut être n'importe lequel mais a la dimension physique d'une densité spatiale, de telle façon que l'indicateur $A(D)=\Eb{\iint_D{a(\vec{x})d\vec{x}}}$ représente la quantité espérée de $a$ dans la zone $D$. Nous faisons l'hypothèse que $a\in \{0;1\}$ (indicateur de comptage) et que sa loi est donnée par $\Pb{a(\vec{x})=1}=f(d(\vec{x}))$. Suivant le travail empirique fait par~\cite{cottineau2015scaling}, l'indicateur intégré sur la ville $i$ en fonction de $\theta$ est donné par
 }
 \[
 A_i(\theta) = A(D(\vec{x}_i, \theta))
 \]
 \bpar{
-where $D(\vec{x}_i, \theta)$ is the area centered in $\vec{x}_i$ where $d(\vec{x})>\theta$. Assumption 1 ensures that the area are roughly disjoint circles. We take furthermore a simple amenity such that it follows a local scaling law in the sense that $f(d)=\lambda\cdot d^\beta$. It seems a reasonable assumption since it was shown that many urban variable follow a fractal behavior at the intra-urban scale~\cite{keersmaecker2003using} and that it implies a power-law distribution~\cite{chen2010characterizing}. We make the additional assumption that $r_i=r_0$ does not depend on $i$, what is reasonable if the urban system is considered from a large scale. The estimated scaling exponent $\alpha(\theta)$ is then the result of the log-regression of $(A_i(\theta))_i$ against $(P_i(\theta))_i$ where $P_i(\theta)=\iint_{D(\vec{x}_i,\theta)}{d}$.
+where $D(\vec{x}_i, \theta)$ is the area centered in $\vec{x}_i$ where $d(\vec{x})>\theta$. Assumption 1 above ensures that the area are roughly disjoint circles. We take furthermore a simple amenity such that it follows a local scaling law in the sense that $f(d)=\lambda\cdot d^\beta$. It seems a reasonable assumption since it was shown that many urban variables follow a fractal behavior at the intra-urban scale~\cite{keersmaecker2003using} what implies a power-law distribution~\cite{chen2010characterizing}. We make the additional assumption that $r_i=r_0$ does not depend on $i$, what is reasonable if the urban system is considered at a small scale. The estimated scaling exponent $\alpha(\theta)$ is then the result of the log-regression\footnote{We do not situate within the context of a refined estimation of scaling laws, which assumes a cut-off~\cite{newman2005power}.} of $(A_i(\theta))_i$ against $(P_i(\theta))_i$ where $P_i(\theta)=\iint_{D(\vec{x}_i,\theta)}{d}$.
 }{
 où $D(\vec{x}_i, \theta)$ est la zone centrée en $\vec{x}_i$ telle que $d(\vec{x})>\theta$. L'hypothèse 1 ci-dessus assure que les zones sont des cercles relativement disjoint. Nous considérons de plus une aménité qui suit implement une loi d'échelle locale au sens que $f(d)=\lambda\cdot d^\beta$. Cette hypothèse semble raisonnable puisqu'il a été montré que de nombreuses variables urbaines suivent un comportement fractal à l'échelle intra-urbaine~\cite{keersmaecker2003using} ce qui implique une distribution en loi puissance~\cite{chen2010characterizing}. Nous faisons l'hypothèse supplémentaire que $r_i=r_0$ ne dépend pas de $i$, ce qui est raisonnable si le système urbain est considéré à une petite échelle. L'exposant d'échelle estimé $\alpha(\theta)$ est alors pris comme le résultat de la régression logarithmique\footnote{Nous ne nous plaçons pas dans le cas d'une estimation raffinée des lois d'échelle, qui suppose un cut-off~\cite{newman2005power}.} de $(A_i(\theta))_i$ contre $(P_i(\theta))_i$ où $P_i(\theta)=\iint_{D(\vec{x}_i,\theta)}{d}$.
 }
+% TODO shitty jstification the fractal / intra scaling ?
 
 %%%%%%%%%%%%%%%%%%%%
-\subsection{Analytical Derivation of Sensitivity}{Dérivation Analytique de la Sensibilité}
+\subsection{Analytical derivation of sensitivity}{Dérivation analytique de la sensibilité}
 
 \bpar{
 With above notations, let derive the expression of estimated exponent for quantity $a$ as a function of density threshold parameter $\theta$. The quantity computed for a given city $i$ is, thanks to the monocentric assumption and in a spatial range and a range for $\theta$ such that $\theta \gg \sum_{j\neq i}{d_j(\vec{x})}$, allowing to approximate $d(\vec{x})\simeq d_i(\vec{x})$ on $D(\vec{x}_i,\theta)$, is computed by
@@ -440,7 +496,7 @@ P_i(\theta) = 2\pi d_i^0 r_0^2 \left[1 + \ln{\left[\frac{\theta}{d_i^0}\right]}\
 \]
 
 \bpar{
-The Ordinary-Least-Square estimation, solving the problem $\inf_{\alpha,C}\norm{(\ln{A_i(\theta)} - C - \alpha \ln{P_i(\theta)})_i}^2$, gives the value $\alpha(\theta) = \frac{\Covb{(\ln{A_i(\theta)})_i}{(\ln{P_i(\theta)})_i}}{\Varb{(\ln{P_i(\theta)})_i}}$. As we work on city boundaries, threshold is expected to be significantly smaller than center density, i.e. $\theta / d_i^0 \ll 1$. We can develop the expression in the first order of $\theta / d_i^0$ and use the global scaling law for city sizes, what gives
+The Ordinary-Least-Square estimation, solving the problem $\inf_{\alpha,C}\norm{(\ln{A_i(\theta)} - C - \alpha \ln{P_i(\theta)})_i}^2$, gives the value $\alpha(\theta) = \frac{\Covb{(\ln{A_i(\theta)})_i}{(\ln{P_i(\theta)})_i}}{\Varb{(\ln{P_i(\theta)})_i}}$. As we work on city boundaries, the threshold is expected to be significantly smaller than center density, i.e. $\theta / d_i^0 \ll 1$. We can develop the expression in the first order of $\theta / d_i^0$ and use the global scaling law for city sizes, what gives
 }{
 L'estimation par Moindres-carrés, pour résoudre le problème $\inf_{\alpha,C}\norm{(\ln{A_i(\theta)} - C - \alpha \ln{P_i(\theta)})_i}^2$, donne la valeur $\alpha(\theta) = \frac{\Covb{(\ln{A_i(\theta)})_i}{(\ln{P_i(\theta)})_i}}{\Varb{(\ln{P_i(\theta)})_i}}$. Comme nous travaillons aux limites de la ville, le seuil est supposé être significativement plus petit que la densité au centre, i.e. $\theta / d_i^0 \ll 1$. Nous pouvons développer l'expression au premier ordre en $\theta / d_i^0$ et utiliser la loi d'échelle globale pour les tailles des villes, ce qui donne
 }
@@ -471,7 +527,7 @@ Le développement des variances et covariances donne finalement une expression d
 
 
 \bpar{
-This rational fraction in $\theta$ and $\ln\theta$ predicts the evolution of the scaling exponent when the threshold varies.
+This rational fraction in $\theta$ and $\ln\theta$ gives the theoretical expression of the scaling exponent when the threshold varies.
 %We study numerically its behavior in the next section, among other numerical experiments.
 }{
 Cette fraction rationnelle en $\theta$ et $\ln\theta$ donne l'expression théorique de l'évolution des exposants d'échelle quand le seuil varie.
@@ -699,7 +755,7 @@ Cette fraction rationnelle en $\theta$ et $\ln\theta$ donne l'expression théori
 
 
 
-\section{Generation of Correlated Synthetic Data}{Génération de données synthétiques corrélées}
+\section{Generation of correlated synthetic data}{Génération de données synthétiques corrélées}
 
 \label{app:sec:syntheticdata}
 
@@ -707,12 +763,16 @@ Cette fraction rationnelle en $\theta$ et $\ln\theta$ donne l'expression théori
 
 %\stars
 
+\bpar{
+\textit{This section corresponds to the introduction and the formalization of~\cite{raimbault2016generation}.}
+}{
 \textit{Cette section correspond à l'introduction et la formalisation de~\cite{raimbault2016generation}.}
+}
 
 \stars
 
 \bpar{
-Generation of hybrid synthetic data resembling real data to some criteria is an important methodological and thematic issue in most disciplines which study complex systems. Interdependencies between constituting elements, materialized within respective relations, lead to the emergence of macroscopic patterns. Being able to control the dependance structure and level within a synthetic dataset is thus a source of knowledge on system mechanisms. We propose a methodology consisting in the generation of synthetic datasets on which correlation structure is controlled. The method is applied in a first example on financial time-series and allows to understand the role of interferences between components at different scales on performances of a predictive model. A second application on a geographical system is then proposed, in which the weak coupling between a population density model and a network morphogenesis model allows to simulate territorial configurations. The calibration on morphological objective on european data and intensive model exploration unveils a large spectrum of feasible correlations between morphological and network measures. We demonstrate therein the flexibility of our method and the variety of possible applications.
+Generation of hybrid synthetic data resembling real data to some criteria is an important methodological and thematic issue in most disciplines which study complex systems. Interdependencies between constituting elements, materialized within respective relations, lead to the emergence of macroscopic patterns. Being able to control the dependance structure and level within a synthetic dataset is thus a source of knowledge on system mechanisms. We propose a methodology consisting in the generation of synthetic datasets on which correlation structure is controlled. The method is illustrated on financial time-series in~\ref{app:sec:syntheticdata-finance} and allows to understand the role of interferences between components at different scales on performances of a predictive model. The section~\ref{sec:correlatedsyntheticdata} furthermore proposes an application to a geographical system, in which the weak coupling between a population density model and a network morphogenesis model allows simulating territorial configurations. The intensive exploration of the model unveils a large spectrum of feasible correlations between morphological and network measures. We demonstrate therein the various application possibilities and the potentialities of the method.
 }{
 La génération de données synthétiques hybrides similaires à des données réelles présente des enjeux méthodologiques et thématiques pour la plupart des disciplines dont l'objet est l'étude de systèmes complexes. Comme l'interdépendance entre les éléments constitutifs d'un système, matérialisée par leur relations, conduit à l'émergence de ses propriétés macroscopiques, une possibilité de contrôle de l'intensité des dépendances dans un jeu de données synthétiques est un instrument de connaissance du comportement du système. Nous proposons une méthodologie de génération de données synthétiques hybrides sur lequel la structure de correlation est contrôlée. La méthode est illustrée sur des séries temporelles financières en~\ref{app:sec:syntheticdata-finance} et permet l'étude de l'interférence entre composantes à différentes fréquences sur la performance d'un modèle prédictif, en fonction des correlations entre composantes à différentes échelles. La section~\ref{sec:correlatedsyntheticdata} propose par ailleurs une application à un système géographique, dans laquelle le couplage faible d'un modèle de distribution de densité de population avec un modèle de génération de réseau permet la simulation de configurations territoriales. L'exploration intensive du modèle permet l'obtention d'un large spectre de valeurs pour la matrice de correlation entre mesures morphologiques et mesures du réseau. On démontre ainsi les possibilités d'applications variées et les potentialités de la méthode.
 }
@@ -723,17 +783,16 @@ La génération de données synthétiques hybrides similaires à des données r�
 \subsection{Context}{Contexte}
 
 \bpar{
-
-The use of synthetic data, in the sense of statistical populations generated randomly under constraints of patterns proximity to the studied system, is a widely used methodology, and more particularly in disciplines related to complex systems such as therapeutic evaluation~\cite{abadie2010synthetic}, territorial science~\cite{moeckel2003creating,pritchard2009advances}, machine learning~\cite{bolon2013review} or bio-informatics~\cite{van2006syntren}. It can consist in data desegregation by creation of a microscopic population with fixed macroscopic properties, or in the creation of new populations at the same scale than a given sample, with criteria of proximity to the real sample. These criteria will depend on expected applications and can for example vary from a restrictive statistical fit on given indicators, to weaker assumptions of similarity in aggregated patterns. In the case of chaotic systems, or systems where emergence plays a strong role, a microscopic property does not directly imply given macroscopic patterns, which reproduction is indeed one aim of modeling and simulation practices in complexity science. With the rise of new computational paradigms~\cite{arthur2015complexity}, data (simulated, measured or hybrid) shape our understanding of complex systems. Methodological tools for data-mining and modeling and simulation (including the generation of synthetic data) are therefore crucial to be developed.
+The use of synthetic data, in the sense of statistical populations generated randomly under constraints of patterns proximity to the studied system, is a widely used methodology, and more particularly in disciplines related to complex systems such as therapeutic evaluation~\cite{abadie2010synthetic}, territorial science~\cite{moeckel2003creating,pritchard2009advances}, machine learning~\cite{bolon2013review} or bio-informatics~\cite{van2006syntren}. It can consist in data desegregation by creation of a microscopic population with fixed macroscopic properties, or in the creation of new populations at the same scale than a given sample, with criteria of proximity to the real sample. The level of this criteria will depend on expected applications and can for example vary from a restrictive statistical fit on given indicators, to weaker assumptions of similarity in aggregated patterns, i.e. the existence of similar macroscopic patterns. In the case of chaotic systems, or systems where emergence plays a strong role, a microscopic property does not directly imply given macroscopic patterns, which reproduction is indeed one aim of modeling and simulation practices in complexity science. With the rise of new computational paradigms~\cite{arthur2015complexity}, data (simulated, measured or hybrid) shape our understanding of complex systems. Methodological tools for data-mining and modeling and simulation (including the generation of synthetic data) are therefore crucial to be developed.
 }{
-L'utilisation de données synthétiques, au sens de populations statistiques d'individus générées aléatoirement sous la contrainte de reproduire certaines caractéristiques du système étudié, est une pratique méthodologique largement répandue dans de nombreuses disciplines, et particulièrement pour des problématiques liées aux systèmes complexes, telles que par exemple l'évaluation thérapeutique~\cite{abadie2010synthetic}, l'étude des systèmes territoriaux~\cite{moeckel2003creating,pritchard2009advances}, l'apprentissage statistique~\cite{bolon2013review} ou la bio-informatique~\cite{van2006syntren}. Il peut s'agir d'une désagrégation par création d'une population au niveau microscopique présentant des caractéristiques macroscopiques données, ou bien de la création de nouvelles populations au même niveau d'agrégation qu'un échantillon donné avec un critère de ressemblance aux données réelles.  Le niveau de ce critère peut dépendra des applications attendues et peut par exemple aller de la fidélité des distributions statistiques pour un certain nombre d'indicateurs à des contraintes plus faibles de valeurs pour des indicateurs agrégés, c'est-à-dire l'existence de motifs macroscopiques similaires. Dans le cas de systèmes chaotiques ou présentant de fortes caractéristiques d'émergence, une contrainte microscopique n'implique pas nécessairement le respect des motifs macroscopiques, et arriver à les reproduire est justement un des enjeux des pratiques de modélisation et simulation en sciences de la complexité. La donnée, qu'elle soit simulée, mesurée ou hybride est au coeur de l'étude des systèmes complexes de par la maturation de nouvelles approches computationelles~\cite{arthur2015complexity}, il est donc essentiel d'étudier des procédures d'extraction d'information des données (fouille de données) et de simulation d'une information similaire (génération de données synthétiques).
+L'utilisation de données synthétiques, au sens de populations statistiques d'individus générées aléatoirement sous la contrainte de reproduire certaines caractéristiques du système étudié, est une pratique méthodologique largement répandue dans de nombreuses disciplines, et particulièrement pour des problématiques liées aux systèmes complexes, telles que par exemple l'évaluation thérapeutique~\cite{abadie2010synthetic}, l'étude des systèmes territoriaux~\cite{moeckel2003creating,pritchard2009advances}, l'apprentissage statistique~\cite{bolon2013review} ou la bio-informatique~\cite{van2006syntren}. Il peut s'agir d'une désagrégation par création d'une population au niveau microscopique présentant des caractéristiques macroscopiques données, ou bien de la création de nouvelles populations au même niveau d'agrégation qu'un échantillon donné avec un critère de ressemblance aux données réelles. Le niveau de ce critère dépendra des applications attendues et peut par exemple aller de la fidélité des distributions statistiques pour un certain nombre d'indicateurs à des contraintes plus faibles de valeurs pour des indicateurs agrégés, c'est-à-dire l'existence de motifs macroscopiques similaires. Dans le cas de systèmes chaotiques ou présentant de fortes caractéristiques d'émergence, une contrainte microscopique n'implique pas nécessairement le respect des motifs macroscopiques, et arriver à les reproduire est justement un des enjeux des pratiques de modélisation et simulation en sciences de la complexité. La donnée, qu'elle soit simulée, mesurée ou hybride est au coeur de l'étude des systèmes complexes de par la maturation de nouvelles approches computationelles~\cite{arthur2015complexity}, il est donc essentiel d'étudier des procédures d'extraction d'information des données (fouille de données) et de simulation d'une information similaire (génération de données synthétiques).
 }
 
 
 
 
 \bpar{
-Whereas first order (in the sense of distribution moments) is generally well used, it is not systematic nor simple to control generated data structure at second order, i.e. covariance structure between generated variables. Some specific examples can be found, such as in~\cite{ye2011investigation} where the sensitivity of discrete choices models to the distributions of inputs and to their dependance structure is examined. It is also possible to interpret complex networks generative models~\cite{newman2003structure} as the production of an interdependence structure for a system, contained within link topology. We introduce here a generic method taking into account dependance structure for the generation of synthetic datasets, more precisely with the mean of controlled correlation matrices.
+Whereas first order (in the sense of distribution moments) is generally well used, it is not systematic nor simple to control generated data structure at the second order, i.e. the covariance structure between generated variables. Some specific examples can be found, such as in~\cite{ye2011investigation} where the sensitivity of discrete choices models to the distributions of inputs and to their dependance structure is examined. It is also possible to interpret complex networks generative models~\cite{newman2003structure} as the production of an interdependence structure for a system, contained within link topology. We introduce here a generic method taking into account interdependence structure for the generation of synthetic datasets, under the form of correlations.
 }{
 Si le premier ordre est de manière générale bien maîtrisé, il n'est pas systématique ni aisé de contrôler le second ordre, c'est-à-dire les structures de covariance entre les variables générées, même si des exemples spécifiques existent, comme dans~\cite{ye2011investigation} où la sensibilité des sorties de modèles de choix discrets à la forme des distributions des variables aléatoires ainsi qu'à leur structures de dépendance. Il est également possible d'interpréter les modèles de génération de réseaux complexes~\cite{newman2003structure} comme la création d'une structure d'interdépendance au sein d'un système, représentée par la topologie des liens. Nous proposons ici une méthode générique prenant en compte l'interdépendance lors de la génération de données synthétiques, sous la forme de correlations.
 }
@@ -741,7 +800,7 @@ Si le premier ordre est de manière générale bien maîtrisé, il n'est pas sys
 
 
 \bpar{
-Domain-specific methods aforementioned are too broad to be summarized into a same formalism. We propose a framework as generic as possible, centered on the control of correlations structure in synthetic data.
+Domain-specific methods aforementioned are too broad to be summarized into a same formalism. We propose here a generic formulation which does not depend on the application domain, centered on the control of correlations structure in synthetic data.
 }{
 L'ensemble des méthodologies mentionnées en introduction sont trop variées pour être résumées par un même formalisme. Nous proposons ici une formulation générique ne dépendant pas du domaine d'application, ciblée sur le contrôle de la structure de correlation des données synthétiques.
 }
@@ -755,7 +814,7 @@ L'ensemble des méthodologies mentionnées en introduction sont trop variées po
 Let $\vec{X}_I$ a multidimensional stochastic process (that can be indexed e.g. with time in the case of time-series, but also space, or discrete set abstract indexation). We assume given a real dataset $\mathbf{X}=(X_{i,j})$, interpreted as a set of realizations of the stochastic process. We propose to generate a statistical population $\mathbf{\tilde{X}}=\tilde{X}_{i,j}$ such that
 \begin{enumerate}
 \item a given criteria of proximity to data is verified, i.e. given a precision $\varepsilon$ and an indicator $f$, we have $\norm{f(\mathbf{X})-f(\mathbf{\tilde{X}})} < \varepsilon$
-\item level of correlation is controlled, i.e. given a matrix $R$ fixing correlation structure (symmetric matrix with coefficients in $[-1,1]$ and unity diagonal), we have $\hat{\Var{}}\left[(\tilde{X}_i)\right] = \Sigma R \Sigma$, where the standard deviation diagonal matrix $\Sigma$ is estimated on the synthetic population.
+\item level of correlation is controlled, i.e. given a matrix $R$ fixing the covariance structure, $\Varb{(\tilde{X}_i)} = R$, where the variance/covariance matrix is estimated on the synthetic population.
 \end{enumerate}
 }{
 Soit un processus stochastique multidimensionnel $\vec{X}_I$ (l'ensemble d'indexation pouvant être par exemple le temps dans le cas de séries temporelles, l'espace, ou une indexation quelconque). On se propose, à partir d'un jeu de réalisations $\mathbf{X}=(X_{i,j})$, de générer une population statistique $\mathbf{\tilde{X}}=\tilde{X}_{i,j}$ telle que
@@ -767,12 +826,11 @@ Soit un processus stochastique multidimensionnel $\vec{X}_I$ (l'ensemble d'index
 
 
 \bpar{
-The second requirement will generally be conditional to parameter values determining generation procedure, either generation models being simple or complex ($R$ itself is a parameter). Formally, synthetic processes are parametric families $\tilde{X}_i[\vec{\alpha}]$. \comment{explicit the fact that real data may come out of different parameter values ?}
-We propose to apply the methodology on very different examples, both typical of complex systems : financial high-frequency time-series and territorial systems. We illustrate the flexibility of the method, and claim to help building interdisciplinary bridges by methodology transposition and reasoning analogy. In the first case, proximity to data is the equality of signals at a fundamental frequency, to which higher frequency synthetic components with controlled correlations are superposed. It follows a logic of hybrid data for which hypothesis or model testing is done on a more realistic context than on purely synthetic data. This example that has no thematic link with the thesis, is presented in Appendix~\ref{app:syntheticdata}. In the second case, morphological calibration of a population density distribution model allows to respect real data proximity. Correlations of urban form with transportation network measures are empirically obtained by exploration of coupling with a network morphogenesis model. The control is in this case indirect as feasible space is empirically determined.
+The second requirement will generally be conditional to parameter values determining generation procedure, either generation models being simple or complex. Formally, synthetic processes are parametric families $\tilde{X}_i[\vec{\alpha}]$. We propose to apply the methodology on very different examples, both typical of complex systems: financial high-frequency time-series and territorial systems. We illustrate the flexibility of the method, and claim to help building interdisciplinary bridges by methodology transposition and reasoning analogy. In the first case, proximity to data is the equality of signals at a fundamental frequency, to which higher frequency synthetic components with controlled correlations are superposed. It follows a logic of hybrid data for which hypothesis or model testing is done on a more realistic context than on purely synthetic data. This example is presented in Appendix~\ref{app:sec:syntheticdata-finance}. In the second case, morphological calibration of a population density distribution model allows to respect real data proximity. Correlations of urban form with transportation network measures are empirically obtained by exploration of coupling with a network morphogenesis model. The control is in this case indirect as feasible space is empirically determined.
 }{
 La satisfaction du deuxième point sera généralement conditionnée par la valeur de paramètres, dont dépendra la procédure de génération, qu'il s'agisse de modèles simples ou complexes. Formellement, les processus synthétiques sont des familles paramétriques $\tilde{X}_i[\vec{\alpha}]$. Nous proposons de décliner cette méthode sur deux exemples très différents mais tous deux typiques des systèmes complexes : des séries temporelles financières à haute fréquence, et les systèmes territoriaux. On illustre ainsi la flexibilité de la logique, ouvrant des portes interdisciplinaires par l'exportation de méthodes ou raisonnements par exemple. Dans le premier cas, la proximité aux données est l'égalité des signaux à une fréquence fondamentale, auxquels on superpose des composantes synthétiques dont il est facile de contrôler le niveau de correlation. On se place dans une logique de données hybrides, pour tester des hypothèses ou modèles dans un contexte plus proche de la réalité que sur des données purement synthétiques. Cet exemple est présenté en Appendice~\ref{app:sec:syntheticdata-finance}. Dans le deuxième cas, la calibration morphologique d'un modèle de distribution de densité de peuplement permet de respecter le critère de proximité aux données. Les correlations de la forme urbaine avec celle d'un réseau de transport sont ensuite obtenues empiriquement par exploration du couplage avec un modèle de génération de réseau. Leur contrôle est dans ce cas indirect puisque constaté empiriquement.
 }
-
+% \comment{explicit the fact that real data may come out of different parameter values ?}
 
 
 \stars
