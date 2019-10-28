@@ -104,7 +104,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 123845 items from 5000.
+Reallocated field_info (elt_size=4) to 124540 items from 5000.
 Database file #1: main-blx.bib
 Database file #2: /Users/juste/ComplexSystems/CityNetwork/Biblio/Bibtex/CityNetwork.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
@@ -662,48 +662,53 @@ Repeated entry---line 370 of file Biblio/governance.bib
  : @phdthesis{le2010approche
  :                          ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "raffestion1978construits"
+Warning--I didn't find a database entry for "hagget1970network"
+Warning--I didn't find a database entry for "10.1371/jjournal.pone.0178165"
+Warning--I didn't find a database entry for "doi10.1068/b39089"
+Warning--I didn't find a database entry for "MANCMANC1073"
 Biblatex version: 3.3
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 855 entries,
             6256 wiz_defined-function locations,
-            5625 strings with 231594 characters,
-and the built_in function-call counts, 4893658 in all, are:
-= -- 329659
-> -- 102806
-< -- 33154
-+ -- 114442
-- -- 35270
-* -- 357284
-:= -- 452055
+            5627 strings with 231615 characters,
+and the built_in function-call counts, 4895084 in all, are:
+= -- 329817
+> -- 102724
+< -- 33087
++ -- 114465
+- -- 35259
+* -- 357610
+:= -- 452472
 add.period$ -- 0
 call.type$ -- 855
 change.case$ -- 854
 chr.to.int$ -- 526
 cite$ -- 1708
-duplicate$ -- 532299
-empty$ -- 459449
-format.name$ -- 57816
-if$ -- 1032368
+duplicate$ -- 532310
+empty$ -- 459661
+format.name$ -- 57822
+if$ -- 1032500
 int.to.chr$ -- 0
-int.to.str$ -- 2676
+int.to.str$ -- 2674
 missing$ -- 0
 newline$ -- 28667
-num.names$ -- 49545
-pop$ -- 291324
+num.names$ -- 49472
+pop$ -- 291362
 preamble$ -- 2
-purify$ -- 25747
+purify$ -- 25683
 quote$ -- 0
-skip$ -- 195008
+skip$ -- 194717
 stack$ -- 0
-substring$ -- 512271
-swap$ -- 142968
-text.length$ -- 22553
+substring$ -- 512992
+swap$ -- 142907
+text.length$ -- 22552
 text.prefix$ -- 877
 top$ -- 1
 type$ -- 29008
 warning$ -- 0
-while$ -- 54654
+while$ -- 54688
 width$ -- 0
 write$ -- 27812
 (There were 133 error messages)

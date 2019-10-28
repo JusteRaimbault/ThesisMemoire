@@ -1,7 +1,6 @@
 
 
-%\section[Description of implementations][Description des implémentations]{Architecture and Sources for Algorithms and Models of Simulation}{Description des implémentations des algorithmes et des modèles de simulation} % Chapter title
-\section{Architecture and Sources for Algorithms and Models of Simulation}{Description des implémentations des algorithmes et des modèles de simulation}
+\section{Description of algorithms and simulation models implementations}{Description des implémentations des algorithmes et des modèles de simulation}
 
 \label{app:code} % For referencing the chapter elsewhere, use \autoref{ch:name} 
 
@@ -21,13 +20,13 @@
 
 
 \bpar{
-And yet it is. It makes no sense to put code listings in the core of the text if there is no particular algorithmic detail that requires attention. As soon as implementation biases are avoided, architecture and source for a computational model should be independent from its formal description (but provided along model description with source code as already mentioned before).
+It is in our sense not particularly relevant to make the main text less readable with code listing as soon as there are no algorithmic details requiring a particular focus. As soon as the implementation biases are avoided, the architecture and the source code of the implementation of a simulation model should be independent of its formal description (but naturally provided with it, as we developed in~\ref{sec:reproducibility}).
 }{
 Il n'est à notre sens pas particulièrement pertinent d'alourdir un corps de texte avec du listing de code s'il n'y a pas de détails algorithmique nécessitant une attention particulière. Tant que les biais d'implémentation sont évités, l'architecture et le code source de l'implémentation d'un modèle de simulation devraient être indépendants de sa description formelle (mais naturellement fournis avec celle-ci, comme nous l'avons développé en~\ref{sec:reproducibility}).
 }
 
 \bpar{
-We give in this appendix architectural details on main models of simulation or algorithms we used. Langage and size (in code lines) are provided, along with architectural remarkable features. See \url{https://github.com/JusteRaimbault/CityNetwork/tree/master/Models} for all models, empirical analysis and small experiments.
+We give thus in this section the list and a minimal description of simulation models and algorithms implementations we used. The language and the size (in terms of lines of code) are given, and also particular details when they are worth noticing. All models and analyses are gathered at \url{https://github.com/JusteRaimbault/CityNetwork/tree/master/Models}.
 }{
 Nous donnons ainsi dans cette section la liste et une description minimale des implémentations des modèles de simulation et des algorithmes que nous avons utilisé. Le langage et la taille (en termes de nombre de lignes de code) sont fournis, ainsi que les détails à noter le cas échéant. L'ensemble des modèles et des analyses sont regroupés à \url{https://github.com/JusteRaimbault/CityNetwork/tree/master/Models}.
 }
@@ -36,12 +35,12 @@ Nous donnons ainsi dans cette section la liste et une description minimale des i
 
 %\newpage
 
-\subsection{Algorithmic Systematic Review}{Revue Systématique Algorithmique}
+\subsection{Algorithmic systematic review}{Revue systématique algorithmique}
 
-\paragraph{Objective}{Objectifs}
+\paragraph{Objectives}{Objectifs}
 
 \bpar{
-Implement systematic literature review algorithm.
+Implementation of the systematic literature review algorithm.
 }{
 Implémentation de l'algorithme de revue systématique.
 }
@@ -52,18 +51,22 @@ Implémentation de l'algorithme de revue systématique.
 
 \paragraph{Characteristics}{Caractéristiques}
 
+\bpar{
+\begin{itemize}
+\item Language: \texttt{Java}
+\item Size: 7116
+\end{itemize}
+}{
 \begin{itemize}
 \item Langage : \texttt{Java}
 \item Taille : 7116
 \end{itemize}
+}
 
 \paragraph{Particularities}{Particularités}
 
 \bpar{
-\begin{itemize}
-\item HashConsing used for unique bibliography object, specific hashcode switching if id available or only titles (proceed to lexical distance comparison in that latest case).
-\item API to cortext currently being replaced by Python scripts.
-\end{itemize}
+The HashConsing technique is used to keep unique bibliographic objects.
 }{
 La technique de HashConsing est utilisée pour conserver des objets bibliographiques uniques.
 }
@@ -71,7 +74,7 @@ La technique de HashConsing est utilisée pour conserver des objets bibliographi
 \paragraph{Architecture}{Architecture}
 
 \bpar{
-Classical object oriented, see code.
+See the diagram in~\ref{fig:quantepistemo:algo}.
 }{
 Voir le diagramme en~\ref{fig:quantepistemo:algo}.
 }
@@ -79,7 +82,7 @@ Voir le diagramme en~\ref{fig:quantepistemo:algo}.
 \paragraph{Additional scripts}{Scripts additionnels}
 
 \bpar{
-\texttt{R} for result exploration and visualization.
+Exploration of results (R).
 }{
 Exploration des résultats (R).
 }
@@ -88,12 +91,12 @@ Exploration des résultats (R).
 %----------------------------------------------------------------------------------------
 
 
-\subsection{Indirect Bibliometrics}{Bibliométrie Indirecte}
+\subsection{Indirect bibliometrics}{Bibliométrie indirecte}
 
-\paragraph{Objective}{Objectifs}
+\paragraph{Objectives}{Objectifs}
 
 \bpar{
-Multi-layer network analysis of scientific corpuses : cybergeo journal, corpus in~\ref{sec:quantepistemo}
+Analysis through citation network and semantic network of scientific corpuses: corpus of~\ref{sec:quantepistemo}, Cybergeo journal (\ref{app:sec:cybergeo}); modelography (section~\ref{sec:modelography}).
 }{
 Analyse par réseau de citation et réseau sémantique de corpus scientifiques : corpus de~\ref{sec:quantepistemo}, journal Cybergeo (\ref{app:sec:cybergeo}) ; modélographie (section~\ref{sec:modelography}).
 }
@@ -108,21 +111,34 @@ Analyse par réseau de citation et réseau sémantique de corpus scientifiques :
 
 \paragraph{Characteristics}{Caractéristiques}
 
+
+\bpar{
+\begin{itemize}
+\item Language: \texttt{Python}, \texttt{R} and \texttt{Java}.
+\item Size: 2210
+\end{itemize}
+}{
 \begin{itemize}
 \item Langage : \texttt{Python}, \texttt{R} and \texttt{Java}.
 \item Taille : 2210
 \end{itemize}
+}
 
 
 \paragraph{Particularities}{Particularités}
 
 %Polyglot 
+
+\bpar{
+Uses different databases, sqlite, sql or Mongodb depending on operations.
+}{
 Utilise des bases de données sqlite, sql ou Mongodb selon les opérations.
+}
 
 \paragraph{Architecture}{Architecture}
 
 \bpar{
-See schema chapter 3.
+See Fig.~\ref{fig:cybergeo:fig1} in Appendix~\ref{app:sec:cybergeo}.
 }{
 Voir Fig.~\ref{fig:cybergeo:fig1} en Annexe~\ref{app:sec:cybergeo}.
 }
@@ -181,6 +197,7 @@ Voir Fig.~\ref{fig:cybergeo:fig1} en Annexe~\ref{app:sec:cybergeo}.
 \paragraph{Objective}{Objectif}
 
 \bpar{
+Computation of morphological indicators, of network indicators, and of their correlations.
 }{
 Calcul des indicateurs morphologiques, indicateurs de réseau et de leur corrélations.
 }
@@ -191,10 +208,17 @@ Calcul des indicateurs morphologiques, indicateurs de réseau et de leur corrél
 
 \paragraph{Characteristics}{Caractéristiques}
 
+\bpar{
+\begin{itemize}
+\item Language: \texttt{R}
+\item Size: 1862
+\end{itemize}
+}{
 \begin{itemize}
 \item Langage : \texttt{R}
 \item Taille : 1862
 \end{itemize}
+}
 
 
 %\paragraph{Particularities}{Particularités}
@@ -221,6 +245,7 @@ Calcul des indicateurs morphologiques, indicateurs de réseau et de leur corrél
 \paragraph{Objective}{Objectif}
 
 \bpar{
+Causality regimes, synthetic data (arma and rbd model) and empirical analyses (Grand Paris, South Africa, France).
 }{
 Régimes de causalité, données synthétiques (arma et modèle rbd) et analyses empiriques (Grand Paris, Afrique du Sud, France).
 }
@@ -231,10 +256,17 @@ Régimes de causalité, données synthétiques (arma et modèle rbd) et analyses
 
 \paragraph{Characteristics}{Caractéristiques}
 
+\bpar{
+\begin{itemize}
+\item Language: \texttt{R}
+\item Size: 8627
+\end{itemize}
+}{
 \begin{itemize}
 \item Langage : \texttt{R}
 \item Taille : 8627
 \end{itemize}
+}
 
 
 %\paragraph{Particularities}{Particularités}
@@ -256,12 +288,12 @@ Régimes de causalité, données synthétiques (arma et modèle rbd) et analyses
 %----------------------------------------------------------------------------------------
 
 
-\subsection{Macroscopic model of interactions}{Modèle d'interaction macroscopique}
+\subsection{Macroscopic interaction model}{Modèle d'interaction macroscopique}
 
 \paragraph{Objective}{Objectif}
 
 \bpar{
-Interaction macroscopic model
+Macroscopic interaction model, section~\ref{sec:interactiongibrat}
 }{
 Modèle d'interaction macroscopique, section~\ref{sec:interactiongibrat}
 }
@@ -272,16 +304,23 @@ Modèle d'interaction macroscopique, section~\ref{sec:interactiongibrat}
 
 \paragraph{Characteristics}{Caractéristiques}
 
+\bpar{
+\begin{itemize}
+\item Language: \texttt{NetLogo}, \texttt{scala}, \texttt{R}
+\item Size: 5918
+\end{itemize}
+}{
 \begin{itemize}
 \item Langage : \texttt{NetLogo}, \texttt{scala}, \texttt{R}
 \item Taille : 5918
 \end{itemize}
+}
 
 
 \paragraph{Particularities}{Particularités}
 
 \bpar{
-Morphological indicators in scala implemented with Fast Fourier transform ; with R communication in NetLogo.
+The model is implemented in different languages for reasons of complementarity: \texttt{NetLogo} for the interactive exploration, \texttt{R} for the integration with statistical tests, \texttt{scala} for the calibration with OpenMole.
 }{
 Le modèle est implémenté dans différents langages pour des raisons complémentaires : \texttt{NetLogo} pour l'exploration interactive, \texttt{R} pour intégration avec les tests statistiques, \texttt{scala} pour la calibration par OpenMole.
 }
@@ -305,12 +344,12 @@ Le modèle est implémenté dans différents langages pour des raisons compléme
 %----------------------------------------------------------------------------------------
 
 
-\subsection{Density Urban Growth}{Morphogenèse de la densité}
+\subsection{Density morphogenesis}{Morphogenèse de la densité}
 
 \paragraph{Objective}{Objectif}
 
 \bpar{
-Density-based urban morphogenesis model
+Morphogenesis model for density (section~\ref{sec:densitygeneration}).
 }{
 Modèle de morphogenèse pour la densité (section~\ref{sec:densitygeneration}).
 }
@@ -321,19 +360,27 @@ Modèle de morphogenèse pour la densité (section~\ref{sec:densitygeneration}).
 
 \paragraph{Characteristics}{Caractéristiques}
 
+
+\bpar{
+\begin{itemize}
+\item Language: \texttt{NetLogo}, \texttt{scala}, \texttt{R}
+\item Size: 5065
+\end{itemize}
+}{
 \begin{itemize}
 \item Langage : \texttt{NetLogo}, \texttt{scala}, \texttt{R}
 \item Taille : 5065
 \end{itemize}
+}
 
 
 
 %----------------------------------------------------------------------------------------
 
 
-\subsection{Correlated data generation}{Génération des Données Synthétiques Corrélées}
+\subsection{Correlated synthetic data generation}{Génération des données synthétiques corrélées}
 
-\paragraph{Objective}{Objectifs}
+\paragraph{Objectives}{Objectifs}
 
 \bpar{
 Weak coupling of density generation and network generation.
@@ -348,16 +395,24 @@ Couplage faible de la génération de densité et de la génération de réseau.
 
 \paragraph{Characteristics}{Caractéristiques}
 
+
+\bpar{
+\begin{itemize}
+\item Language: \texttt{NetLogo} (network) and \texttt{scala} (density)
+\item Size: 3188
+\end{itemize}
+}{
 \begin{itemize}
 \item Langage : \texttt{NetLogo} (réseau) and \texttt{scala} (densité)
 \item Taille : 3188
 \end{itemize}
+}
 
 
 \paragraph{Particularities}{Particularités}
 
 \bpar{
-Network heuristic easier to implement and explore in netlogo
+Network heuristic are more naturally implemented and explored in NetLogo.
 }{
 Les heuristiques de réseau sont plus naturelles à implémenter et explorer en NetLogo.
 }
@@ -366,7 +421,7 @@ Les heuristiques de réseau sont plus naturelles à implémenter et explorer en 
 \paragraph{Architecture}{Architecture}
 
 \bpar{
-OpenMole allows coupling between modules through exploration script.
+The weak coupling between modules is realized through the intermediate of an OpenMole script.
 }{
 Le couplage faible entre les modules est réalisé par l'intermédiaire d'un script OpenMole.
 }
@@ -383,12 +438,12 @@ Le couplage faible entre les modules est réalisé par l'intermédiaire d'un scr
 %----------------------------------------------------------------------------------------
 
 
-\subsection{Macroscopic co-evolution}{Co-évolution à l'échelle macroscopique}
+\subsection{Co-evolution at the macroscopic scale}{Co-évolution à l'échelle macroscopique}
 
 \paragraph{Objective}{Objectif}
 
 \bpar{
-Implementation of macro-coevolution model
+Implementation of the co-evolution model at the macroscopic scale (section~\ref{sec:macrocoevol}).
 }{
 Implémentation du modèle de co-évolution à l'échelle macroscopique (section~\ref{sec:macrocoevol}).
 }
@@ -400,15 +455,25 @@ Implémentation du modèle de co-évolution à l'échelle macroscopique (section
 
 \paragraph{Characteristics}{Caractéristiques}
 
+
+\bpar{
+\begin{itemize}
+\item Language: \texttt{NetLogo}
+\item Size: 4950
+\end{itemize}
+}{
 \begin{itemize}
 \item Langage : \texttt{NetLogo}
 \item Taille : 4950
 \end{itemize}
+}
 
 
 \paragraph{Particularities}{Particularités}
 
-\bpar{}{
+\bpar{
+Dual representation of the network with links and distance matrix.
+}{
 Représentation duale liens/matrice de distance du réseau.
 }
 
@@ -417,11 +482,19 @@ Représentation duale liens/matrice de distance du réseau.
 
 \paragraph{Data used}{Données utilisées}
 
+\bpar{
+Population of French urban areas 1830-1999
+}{
 Population des aires urbaines Françaises 1830-1999
+}
 
 \paragraph{Additional scripts}{Scripts additionnels}
 
+\bpar{
+Exploration and calibration (oms), exploration of results (R)
+}{
 Exploration et calibration (oms), exploration des résultats (R)
+}
 
 
 
@@ -431,12 +504,12 @@ Exploration et calibration (oms), exploration des résultats (R)
 %----------------------------------------------------------------------------------------
 
 
-\subsection{Morphogenesis co-evolution}{Co-évolution par morphogenèse}
+\subsection{Co-evolution by morphogenesis}{Co-évolution par morphogenèse}
 
 \paragraph{Objective}{Objectif}
 
 \bpar{
-Implementation of meso-coevolution model
+Implementation of the co-evolution model at the mesoscopic scale (sections~\ref{sec:networkgrowth} and~\ref{sec:mesocoevolmodel}).
 }{
 Implémentation du modèle de co-évolution à l'échelle mesoscopique (sections~\ref{sec:networkgrowth} et~\ref{sec:mesocoevolmodel}).
 }
@@ -448,10 +521,18 @@ Implémentation du modèle de co-évolution à l'échelle mesoscopique (sections
 
 \paragraph{Characteristics}{Caractéristiques}
 
+
+\bpar{
+\begin{itemize}
+\item Language: \texttt{NetLogo}
+\item Size: 5386
+\end{itemize}
+}{
 \begin{itemize}
 \item Langage : \texttt{NetLogo}
 \item Taille : 5386
 \end{itemize}
+}
 
 
 %\paragraph{Particularities}{Particularités}
@@ -462,7 +543,11 @@ Implémentation du modèle de co-évolution à l'échelle mesoscopique (sections
 
 \paragraph{Additional scripts}{Scripts additionnels}
 
+\bpar{
+Exploration and calibration (oms), exploration of results (R)
+}{
 Exploration et calibration (oms), exploration des résultats (R)
+}
 
 
 
@@ -471,12 +556,12 @@ Exploration et calibration (oms), exploration des résultats (R)
 %----------------------------------------------------------------------------------------
 
 
-\subsection{Lutecia Model}{Modèle Lutecia}
+\subsection{Lutecia model}{Modèle Lutecia}
 
 \paragraph{Objective}{Objectif}
 
 \bpar{
-Implementation of Lutecia model, chapter~\ref{sec:lutecia}.
+Implementation of the Lutecia model, (section~\ref{sec:lutecia}).
 }{
 Implémentation du modèle Lutecia (section~\ref{sec:lutecia}).
 }
@@ -487,16 +572,24 @@ Implémentation du modèle Lutecia (section~\ref{sec:lutecia}).
 
 \paragraph{Characteristics}{Caractéristiques}
 
+
+\bpar{
+\begin{itemize}
+\item Language: \texttt{NetLogo}
+\item Size: 8866
+\end{itemize}
+}{
 \begin{itemize}
 \item Langage : \texttt{NetLogo}
 \item Taille : 8866
 \end{itemize}
+}
 
 
 \paragraph{Particularities}{Particularités}
 
 \bpar{
-Shortest path dynamical programming using matrices.
+The matrix of effective distances is updated through dynamical programming.
 }{
 La matrice des distances effectives est mise à jour par programmation dynamique.
 }
@@ -508,7 +601,7 @@ La matrice des distances effectives est mise à jour par programmation dynamique
 \paragraph{Additional scripts}{Scripts additionnels}
 
 \bpar{
-\texttt{oms} for model exploration, \texttt{R} for result exploration
+Exploration/calibration of the model (oms), exploration of results (\texttt{R}).
 }{
 Exploration/calibration du modèle (oms), exploration des résultats (\texttt{R}).
 }
@@ -524,8 +617,9 @@ Exploration/calibration du modèle (oms), exploration des résultats (\texttt{R}
 \paragraph{Objective}{Objectif}
 
 \bpar{
+Collection and analysis of traffic data for the greater Paris metropolitan area (section~\ref{sec:reproducibility}).
 }{
-Collecte et analyse des données de traffic pour la métropole du Grand Paris (section~\ref{sec:reproducibility}).
+Collecte et analyse des données de trafic pour la métropole du Grand Paris (section~\ref{sec:reproducibility}).
 }
 
 \paragraph{Location}{Localisation}
@@ -534,10 +628,17 @@ Collecte et analyse des données de traffic pour la métropole du Grand Paris (s
 
 \paragraph{Characteristics}{Caractéristiques}
 
+\bpar{
+\begin{itemize}
+\item Language: \texttt{python}, \texttt{R}
+\item Size: $\simeq$ 300
+\end{itemize}
+}{
 \begin{itemize}
 \item Langage : \texttt{python}, \texttt{R}
 \item Taille : $\simeq$ 300
 \end{itemize}
+}
 
 
 %\paragraph{Particularities}{Particularités}
@@ -561,6 +662,7 @@ Collecte et analyse des données de traffic pour la métropole du Grand Paris (s
 \paragraph{Objective}{Objectif}
 
 \bpar{
+Collection and analysis of fuel price data in the United States (section~\ref{sec:energyprice}).
 }{
 Collecte et analyse des données des prix du carburant aux Etats-unis (section~\ref{sec:energyprice}).
 }
@@ -571,15 +673,23 @@ Collecte et analyse des données des prix du carburant aux Etats-unis (section~\
 
 \paragraph{Characteristics}{Caractéristiques}
 
+\bpar{
+\begin{itemize}
+\item Language: \texttt{python}, \texttt{R}
+\item Size: 1469
+\end{itemize}
+}{
 \begin{itemize}
 \item Langage : \texttt{python}, \texttt{R}
 \item Taille : 1469
 \end{itemize}
+}
 
 
 \paragraph{Particularities}{Particularités}
 
 \bpar{
+Use of the TorPool software (see~\ref{app:sec:packages}) for data collection.
 }{
 Utilisation du logiciel TorPool (voir~\ref{app:sec:packages}) pour la collecte des données.
 }

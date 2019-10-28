@@ -4,8 +4,8 @@
 
 \newpage
 
-
-\section{Gamed-based tools as media to transmit freshwater ecology concepts}{Communication scientifique par la gamification}
+% Gamed-based tools as media to transmit freshwater ecology concepts
+\section{Scientific communication through gamification}{Communication scientifique par la gamification}
 
 \label{app:sec:mediationecotox}
 
@@ -55,7 +55,7 @@ L'attente de prise de conscience et d'implication du public concernant les quest
 % - inthetargetedplayers(groupsvsisolated gamers) 
 
 
-\subsection{Material and Methods}{Méthodologie}
+\subsection{Methods}{Méthodologie}
 
 \bpar{
 The general methodology is divided in five steps: (1) selection of species; (2) definition of the instructions (object, game board, rules); (3) incorporation of environmental stressors (biotic and abiotic), (4) design and construction of interfaces (board and computer model); (5) test with players. All steps are necessarily interdependent and are tackled in parallel during the development of the games.
@@ -71,7 +71,7 @@ La méthodologie pour la conception des deux types de jeux est divisée de mani�
 
 
 \bpar{
-While the board game is inspired by past experiences of player, the computer game is based on a model of simulation of the ecosystem. In order to introduce notions of equilibrium and its perturbations that occur at a larger time scale than on the board game, we propose to implement an agent-based model (ABM) and to couple its dynamics with gaming actions. ABM have already been widely used in ecology~\cite{grimm2005pattern}. Therefore, we selected a trophic chain dynamic model (extended prey-predator model) that can capture fish behavioral rules and spatially heterogeneous environment. It is particularly suitable for the game implementation: fish behaviors are influenced by players whereas the ecosystem is disturbed by external events. 
+While the board game is inspired by past experiences of players, the computer game is based on a model of simulation of the ecosystem. In order to introduce notions of equilibrium and its perturbations that occur at a larger time scale than on the board game, we propose to implement an agent-based model (ABM) and to couple its dynamics with gaming actions. ABM have already been widely used in ecology~\cite{grimm2005pattern}. Therefore, we selected a trophic chain dynamic model (extended prey-predator model) that can capture fish behavioral rules and spatially heterogeneous environment. It is particularly suitable for the game implementation: fish behaviors are influenced by players whereas the ecosystem is disturbed by external events. 
 }{
 Tandis que le jeu de plateau est inspiré d'experiences de joueurs, le jeu informatique se base sur un modèle de simulation de l'écosystème. De manière à introduire les notions d'équilibre et ses perturbations qui surviennent à une échelle de temps plus longue que celle du jeu de plateau, nous proposons d'implémenter un modèle basé-agent (ABM) et de coupler sa dynamique avec des actions de jeu. Les ABM sont déjà largement utilisés en écologie~\cite{grimm2005pattern}. Ainsi, nous choisissons un modèle dynamique de chaine trophique (modèle proie-prédateur étendu) qui est capable d'inclure des règles comportementales pour les poissons et un environnement spatial hétérogène. Un tel modèle est particulièrement adapté pour l'implémentation du jeu : les comportements des poissons sont influencés par les joueurs tandis que l'écosystème est perturbé par des évènements extérieurs.
 }
@@ -83,7 +83,7 @@ Tandis que le jeu de plateau est inspiré d'experiences de joueurs, le jeu infor
 % ``You, little fish, just reached a new lake after an extremely intense rain event. This new area is to be conquered. But you are not the only one: three other fish species just arrived. Which player will find its territory first? Which of you will reproduce fast enough to reach a stable population and therefore remain forever and ever in the lake? Be careful! Nature is often hostile and might stay in your way. You will need to use strategy to avoid enemies; to compete for resources, to grow up and eventually you will reproduce \ldots and become the next master of water!''
 
 \bpar{
-Both games are based on the same general rules, even if slight modifications have to be expected according to the type of game. The virtual ecosystem is presented from a fish perspective. The object of the game is to reach a given number of adults and juveniles that will guarantee the stability of the population in the lake. The external perturbations are illustrated by ``events'' that are supposed to reflect abiotic (e.g. water temperature, light, water scarcity) and biotic (e.g. chemicals, parasites, fisherman) stressors. The rationale behind lies in maximizing interactions between players (predation and competition, see fig. 1) and to illustrate feeding and reproduction strategies from different perspectives (from a big solitary fish to a shoal fish, including a invasive fish species).
+Both games are based on the same general rules, even if slight modifications have to be expected according to the type of game. The objective of the game is to ensure the stability of an ecological community in the lake. Therefore, each player must adapt the behavior of its fish population accordingly. External perturbations are illustrated by ``events'' that are supposed to reflect abiotic (e.g. water temperature, light, water scarcity) and biotic (e.g. chemicals, parasites, fisherman) stressors. The rationale behind lies in maximizing interactions between players (predation and competition, see Fig.~\ref{fig:app:mediationecotox:boardgame}) and to illustrate feeding and reproduction strategies from different perspectives (from a big solitary fish to a shoal fish, including a invasive fish species).
 }{
 Les deux jeux sont basés sur les mêmes règles générales, même si des adaptations sont nécessaires selon le type. L'objectif du jeu est de garantir la stabilité d'une communauté écologique dans un lac. Pour cela, chaque joueur doit adapter le comportement de sa population de poissons en circonstance. Des perturbations externes sont illustrées par des évènements qui reflètent des facteurs de stress abiotiques (par exemple température de l'eau, lumière, pénurie de ressources) et biotiques (par exemple produits chimiques, parasites, prédateurs humains). Le principe du jeu se base les interactions entre individus (prédation et compétition, voir Fig.~\ref{fig:app:mediationecotox:boardgame}) et illustre également les stratégies de reproduction selon différentes perspectives (dans le cas du jeu de plateau, d'un poisson solitaire à un poisson en banc, incluant une espèce invasive).
 }
@@ -104,21 +104,21 @@ Les deux jeux sont basés sur les mêmes règles générales, même si des adapt
 % Each turn, the player takes a card « chance » representing the events impacting the lake
 
 \bpar{
-To maintain the populations in the board game, each player has to find resources accordingly to his fish species. The resources are converted into “units” that can be used thereafter by the player for different purposes, such as reproduction, juvenile growth, to escape a predator or to attack a pray.
+To maintain the populations in the board game, each player has to find resources accordingly to his fish species. The resources are converted into ``units'' that can be used thereafter by the player for different purposes, such as reproduction, juvenile growth, to escape a predator or to attack a pray.
 }{
 Pour maintenir les populations dans le jeu de plateau, chaque joueur doit trouver les ressources selon son espèce de poisson. Les ressources sont converties en ``unités'' qui peuvent être utilisées par la suite par le joueur pour différents motifs, qui sont la reproduction, la croissance juvénile, échapper à un prédateur ou attaquer une proie.
 }
 
 
 \bpar{
-The current version of the game includes four players, each of them being a different species, namely the roach (Rutilus rutilus), the pumpkinseed (Lepomis gibbosus), the zander (Sander lucioperca), and the bleak (Alburnus alburnus).
+The conceptual version of the game includes four players, each of them being a different species, namely the roach (\textit{Rutilus rutilus}), the pumpkinseed (\textit{Lepomis gibbosus}), the zander (\textit{Sander lucioperca}), and the bleak (\textit{Alburnus alburnus}). The current implementation of the game has been reduced to two species for simplicity reasons, as described in Fig.~\ref{fig:app:mediationecotox:boardgame}.
 }{
 La version conceptuelle du jeu inclut quatre joueurs, chacun étant une espèce différente, à savoir le gardon (\textit{Rutilus rutilus}), la perche soleil (\textit{Lepomis gibbosus}), le sandre (\textit{Sander lucioperca}) et le \emph{bleak} (\textit{Alburnus alburnus}). L'implémentation actuelle du jeu a été réduite à deux espèces pour des raisons de simplicité, comme décrit en Fig.~\ref{fig:app:mediationecotox:boardgame}.
 }
 
 
 \bpar{
-The board is basically composed of boxes. Each of them represents a type of resource (e.g. crustacean, plants, insects), and some boxes are combined with an ``event'' to include the external perturbations in the game. The player has 2 token on the board (one male and one female) and is moving them by throwing dice. The ecological characteristics of each species are kept on a record paper by each player. It describes the species-specific rules (feeding preferences, time and resources needed to reproduce, how to escape/attack etc). A first prototype is currently being tested to determine and adjust the board game design, the ecological characteristics of each species and the characterization of events, in particular their impacts on players. The design of the board is under progress and will figure the edge of a lake.
+The board is basically composed of boxes. Each of them represents a type of resource (e.g. crustacean, plants, insects), and some boxes are combined with an ``event'' to include the external perturbations in the game. The player has 2 token on the board (one male and one female) and is moving them by throwing dice. The ecological characteristics of each species are kept on a record paper by each player. It describes the species-specific rules (feeding preferences, time and resources needed to reproduce, how to escape/attack etc). The board represents to shore of a lake. A first prototype is currently being tested to determine and adjust the board game design, the ecological characteristics of each species and the characterization of events, in particular their impacts on players.
 }{
 Le plateau se compose principalement de cases. Chacune représente un type de ressource (e.g. crustacés, plantes, insectes), et certaines cases sont combinées à un ``évènement'' pour inclure les perturbations externes dans le jeu. Le joueur a deux figurines sur le plateau (un mâle et un femelle) et les déplace à l'aide d'un dé. Les caractéristiques écologiques de chaque espèce sont gardées sur une carte par chaque joueur. Elles décrivent les règles spécifiques à chaque espèce (préférences alimentaires, temps et ressources nécessaires à la reproduction, comment s'échapper ou attaquer, etc). Le plateau représente le bord d'un lac. Un premier prototype est en cours de test pour ajuster la conception du plateau, les caractéristiques écologiques de chaque espèce et la caractérisation des évènements, en particulier leur impact sur les joueurs.
 }
@@ -127,7 +127,7 @@ Le plateau se compose principalement de cases. Chacune représente un type de re
 \begin{figure}
 	%\includegraphics[width=\linewidth]{Figures/MediationEcotox/boardgame}
 	\includegraphics[width=\linewidth]{Figures/Final/C-mediationecotox-boardgame.jpg}
-	\appcaption{\textbf{Principles of the board game.}\label{fig:app:mediationecotox:boardgame}}{\textbf{Principes du jeu de plateau.} Les espèces illustrées ici sont deux poissons européens commun de petite taille, le gardon (\textit{Rutilus rutilus}) comme proie et la perche soleil (\textit{Lepomis gibbosus}) comme prédateur. Nous donnons également des exemples de perturbations extérieures (cartes ``chance'').\label{fig:app:mediationecotox:boardgame}}
+	\appcaption{\textbf{Principles of the board game.} Species illustrated here are two common European fishes of small size, the roach (\textit{Rutilus rutilus}) as prey and the pumpkinseed (\textit{Lepomis gibbosus}) as predator. We also give examples of external perturbations (``chance'' cards).\label{fig:app:mediationecotox:boardgame}}{\textbf{Principes du jeu de plateau.} Les espèces illustrées ici sont deux poissons européens commun de petite taille, le gardon (\textit{Rutilus rutilus}) comme proie et la perche soleil (\textit{Lepomis gibbosus}) comme prédateur. Nous donnons également des exemples de perturbations extérieures (cartes ``chance'').\label{fig:app:mediationecotox:boardgame}}
 \end{figure}
 %%%%%%%%%%%%%%
 
@@ -142,21 +142,22 @@ Le plateau se compose principalement de cases. Chacune représente un type de re
 
 
 \bpar{
-The player controls an ecosytem with preys (the roach) and predators (the pumpkinseed). The objective of the game is to maintain the stability of the ecosystem. The concepts illustrated are population dynamic and ecosystem resilience.
+In the case of the computer game, the players\footnote{The number of player is not specified, since the aim is to maintain the stability of the total ecosystem. Two players can then distribute the roles of prey and predator, each playing on the parameters controlled to stabilize the ecosystem.} control an ecosytem with preys (the roach) and predators (the pumpkinseed). The objective of the game is to maintain the stability of the ecosystem and the concepts illustrated are population dynamic and ecosystem resilience.
 }{
 Dans le cas du jeu informatique, les joueurs\footnote{Le nombre de joueurs n'est pas spécifié, puisque le but est le maintien de la stabilité de l'ensemble de l'écosystème. Deux joueurs peuvent alors se répartirent les rôles de proie et prédateur, chacun jouant sur les paramètres qu'il contrôle pour stabiliser l'écosystème.} contrôlent un écosystème avec des proies (le gardon) et des prédateurs (la perche soleil). L'objectif est de maintenir la stabilité de l'écosystème et les concepts illustrés sont les dynamiques de population et la résilience d'un écosystème.
 }
 
 
+
 \bpar{
-An agent-based model2 (ABM) for a simple prey-predator system isproposed as a basis of the computer game . ABM simulate the behavior and interactions between agents (fish) to reconstruct the population dynamic (bottom-up approach). Stochasticity is included with spatialized interactions (smoothed brownian motions), illustrating the randomisation of prey-predator interactions .Discrete dynamics consist in the following steps : (a) wandering of species in their prefered zone of the lake; (b) trophic interactions (fish-fish and fish-ressources) ; (c) renewing of fish (reproduction) and of ressources. The model parameters include reproduction rates, movement parameters, etc.
+An agent-based model for a simple prey-predator system is proposed as a basis for the computer game. The ABM simulates the behavior and interactions between agents (fish) to reconstruct the population dynamic (bottom-up approach). Stochasticity is included with spatialized interactions (random encounters between smoothed brownian motions), illustrating the randomisation of prey-predator interactions. Discrete dynamics consist in the following steps: (a) wandering of species; (b) trophic interactions; (c) renewing of population (reproduction). The model parameters include reproduction rate and predation rate, and survival rate for the predator, and also movement parameters.
 }{
 Un modèle-basé agent pour un système proie-prédateur est proposé comme la base du jeu. L'ABM simule le comportement et les interactions entre agents (poissons) pour reconstruire la dynamique de population (approche \emph{bottom-up}). La stochasticité est prise en compte via les interactions spatialisées (rencontre aléatoires entre des mouvements browniens lissés), illustrant le caractère aléatoire des interactions proie-prédateur. La dynamique discrète est composée par les points suivants : (a) mouvement des individus ; (b) interactions trophiques ; (c) renouvellement de la population (reproduction). Les paramètres du modèle incluent taux de reproduction et de prédation, et de survie pour le prédateur, ainsi que les paramètres de mouvement.
 }
 
 
 \bpar{
-(Netlogo software). Large-scale model exploration and calibration are currently running (Using OpenMole model exploration platform~\cite{reuillon2013openmole} to explore the NetLogo implementation which source code is openly available on the repository of the project at https://github.com/JusteRaimbault/MediationEcotox) in order to find parameter ranges at which ecosystem is in equilibrium1. Systematic exploration of parameter space using OpenMole software3, to verify theoretical average trajectories in phase space, which allows analytical and numerical determination of initial position (attractor) and justify the use of this system for the game.
+The model is implemented in NetLogo, which allows its online use by integrating it into NetLogoweb\footnote{The open implementation is available on the repository of the project at \url{https://github.com/JusteRaimbault/MediationEcotox}.}. The model is explore by using OpenMole~\cite{reuillon2013openmole}, in order to verify the theoretical position of attractors and the average trajectories in the phase space. We obtain on a grid of the parameter space (prey reproduction rate, predation rate, predator survival rate) a good correspondance between the theoretical attractors and the simulated attractors. The Fig.~\ref{fig:app:mediationecotox:phasediags} illustrates the phase diagrams obtained through simulation. The knowledge of attractors allows utilizing the model for the game.
 }{
 Le modèle est implémenté en NetLogo, ce qui permet son utilisation en ligne par l'intermédiaire de NetLogoweb\footnote{L'implémentation ouverte est disponible sur le dépôt du projet à \url{https://github.com/JusteRaimbault/MediationEcotox}.}. Le modèle est exploré par l'intermédiaire d'OpenMole~\cite{reuillon2013openmole}, afin de vérifier la position théorique des attracteurs et des trajectoires moyennes dans l'espace des phases. Nous obtenons sur une grille de l'espace des paramètres (taux de reproduction de la proie, taux de prédation, taux de survie du prédateur) une bonne correspondance entre les attracteurs théoriques et les attracteurs simulés. La Fig.~\ref{fig:app:mediationecotox:phasediags} illustre des diagrammes de phase obtenus par les simulations. La connaissance des attracteurs permet d'utiliser le modèle pour le jeu.
 }
@@ -166,7 +167,7 @@ Le modèle est implémenté en NetLogo, ce qui permet son utilisation en ligne p
 \begin{figure}
 	%\includegraphics[width=\linewidth]{Figures/MediationEcotox/phasediags.png}
 	\includegraphics[width=\linewidth]{Figures/Final/C-mediationecotox-phasediags.jpg}
-	\appcaption{\textbf{Examples of phase diagrams of the prey-predator model.}\label{fig:app:mediationecotox:phasediags}}{\textbf{Exemples de diagrammes de phase du modèle proie-prédateur.} L'exploration systématique permet de vérifier l'expression théorique des trajectoires moyennes dans l'espace des phases. Les graphes donnent les portraits de phase des deux populations (x/y), pour deux points de l'espace des paramètres.\label{fig:app:mediationecotox:phasediags}}
+	\appcaption{\textbf{Examples of phase diagrams of the predator-prey model.} The systematic exploration allows verifying the theoretical expression of average trajectories in the phase space. The plots give the phase portraits of the two populations (x/y), for two points of the parameter space.\label{fig:app:mediationecotox:phasediags}}{\textbf{Exemples de diagrammes de phase du modèle proie-prédateur.} L'exploration systématique permet de vérifier l'expression théorique des trajectoires moyennes dans l'espace des phases. Les graphes donnent les portraits de phase des deux populations (x/y), pour deux points de l'espace des paramètres.\label{fig:app:mediationecotox:phasediags}}
 \end{figure}
 %%%%%%%%%%%%
 
@@ -174,26 +175,25 @@ Le modèle est implémenté en NetLogo, ce qui permet son utilisation en ligne p
 
 
 \bpar{
-The player starts the game with a stable ecosystem: the initial position is the attractor. The button « one turn » makes the ecosystem evolve during 50 time steps. The player sees the changes in the fish populations simustaneoulsy on the screen. The trajectory can be corrected towards the attractor in the phase space by changing the parameters of the model (predator survival, prey reproduction and hunting behavior). External events randomly perturbate the ecosystem. The game includes 5 levels of difficulty based on event strength
-%The equilibrium will constitute the default state of the system without user control. User interactions are then integrated after each turn, at given time intervals (one month, when one time step is 6h for example). It allows the system to evolve in-between. During this time frame, the players observe the consequences of its actions and the reaction of the ecosystem to external events. Further developments will consist in model refinment and user latitude adjustements thanks to player feedbacks.
+Indeed, the game starts with an ecosystem at the equilibrium, i.e. that population values are fixed at the non-zero attractor. A button to play a turn makes the ecosystem evolve for 50 time steps. The player then observes the trajectory of populations. The trajectory can then be corrected by the player by acting on model parameters (predator survival, prey reproduction, predation) and thus the position of the attractor. External random events perturbate the populations, and jointly with the noise contribute to destabilize the ecosystem, which can switch to orbits closer to collapse (disparition of one species). The game includes 5 levels of difficulty, based on the strength of perturbations.
 }{
-En effet, le jeu commence à un écosystème à l'équilibre, c'est-à-dire que les valeurs des populations sont fixées à l'attracteur non nul. Un bouton pour jouer un tour fait évoluer l'écosystème sur 50 pas de temps. Le joueur observe alors la trajectoire des populations. La trajectoire peut alors être corrigée par le joueur par action sur les paramètres du modèle (survie du prédateur, reproduction de la proie, prédation) et donc la position de l'attracteur. Des évènement extérieur aléatoires perturbent les populations, et conjointement au bruit contribuent à déstabiliser l'écosystème, qui peut passer sur des orbites plus proches de l'effondrement (disparition d'une espèce). Le jeu inclut 5 niveaux de difficultés, basés sur la force des perturbations.
+En effet, le jeu commence à un écosystème à l'équilibre, c'est-à-dire que les valeurs des populations sont fixées à l'attracteur non nul. Un bouton pour jouer un tour fait évoluer l'écosystème sur 50 pas de temps. Le joueur observe alors la trajectoire des populations. La trajectoire peut alors être corrigée par le joueur par action sur les paramètres du modèle (survie du prédateur, reproduction de la proie, prédation) et donc la position de l'attracteur. Des évènements extérieur aléatoires perturbent les populations, et conjointement au bruit contribuent à déstabiliser l'écosystème, qui peut passer sur des orbites plus proches de l'effondrement (disparition d'une espèce). Le jeu inclut 5 niveaux de difficultés, basés sur la force des perturbations.
 }
 
-% note : serait cool d'agir sur l'amplitude du bruit également ?
-% IDEE : calculer proba de collapse selon position, attracteur et bruit (doit pas pouvoir faire analytique, besoin openmole) -> fixer difficulté selon proba avec seuils.
+% TODO note : serait cool d'agir sur l'amplitude du bruit également ?
+% + IDEE : calculer proba de collapse selon position, attracteur et bruit (doit pas pouvoir faire analytique, besoin openmole) -> fixer difficulté selon proba avec seuils.
 
 %%%%%%%%%%%%
 \begin{figure}
 	%\includegraphics[width=\linewidth]{Figures/MediationEcotox/webpage.png}
 	\includegraphics[width=\linewidth]{Figures/Final/C-mediationecotox-webpage.jpg}
-	\appcaption{\label{fig:app:mediationecotox:webpage}}{\textbf{Capture de l'application web qui implémente le jeu informatique.} Le contexte, la documentation et les liens vers les ressources sont brièvement rappelés, et NetLogoweb est inclus dans la page pour l'interface du jeu.\label{fig:app:mediationecotox:webpage}}
+	\appcaption{\textbf{Screenshot of the web application implementing the computer game.} The context, the documentation and links to resources are briefly recalled, and NetLogoweb is included in the page for the interface of the game.\label{fig:app:mediationecotox:webpage}}{\textbf{Capture de l'application web qui implémente le jeu informatique.} Le contexte, la documentation et les liens vers les ressources sont brièvement rappelés, et NetLogoweb est inclus dans la page pour l'interface du jeu.\label{fig:app:mediationecotox:webpage}}
 \end{figure}
 %%%%%%%%%%%%
 
 
 \bpar{
-available at http://aquaecogames.org/
+The NetLogoweb version of the game (which contains only minimal plots dur to restrictions in comparison to the native version of NetLogo) is available online at \url{http://aquaecogames.org/}. A screenshot of the web application is shown in Fig.~\ref{fig:app:mediationecotox:webpage}.
 }{
 La version NetLogoweb du jeu (qui ne contient que les graphiques minimaux à cause des restrictions par rapport à NetLogo natif) est disponible en ligne à \url{http://aquaecogames.org/}. Une capture d'écran de l'application web est montrée en Fig.~\ref{fig:app:mediationecotox:webpage}.
 }
@@ -220,14 +220,14 @@ La version NetLogoweb du jeu (qui ne contient que les graphiques minimaux à cau
 % Diffusion of the computer-based game: open online access through Netlogoweb and development of mobile applications
 
 \bpar{
-A prototype of each game is currently available for testing and refinements are expected while experiencing the games. In a short term, next versions of the games will be developed after player feedback and will include the aesthetic design of the games and refined processes parameters. Mid-term and long-term objectives are oriented towards an online version of the computer game as described before, and the use of crowdfunding platforms to offer and diffuse the board game.
+A prototype of each game is currently available for testing and refinements are expected while experiencing the games. In a short term, next versions of the games will be developed after player feedback and will include the aesthetic design of the games and refined processes parameters. Mid-term and long-term objectives are oriented towards a native version of the web application and the use of crowdfunding platforms to diffuse the board game.
 }{
 Un prototype pour chaque jeu est disponible actuellement pour des tests et des ajustements sont prévus en fonction des retours d'expérience. A court terme, les prochaines versions des jeux seront développées selon le retour des joueurs et incluront une conception esthétique ainsi que des processus plus fins. Les objectifs à moyen et long terme s'orientent vers un développement natif de l'application web et l'utilisation de plateformes de financement participatif pour diffuser le jeu de plateau.
 }
 
 
 \bpar{
-The very first objective of our games remains to be entertaining, keeping in mind that the ludic rather than pedagogical aspects are central in the success of such game-based media. If players forget that the game is about ecology, our precise objective is reached. It would mean that the underlying scientific concepts are clearly understood.
+One must keep in mind that the ludic rather than pedagogical aspects are central in the success of such game-based media. If players forget that the game is about ecology, our precise objective is reached, since it would mean that the underlying scientific concepts are clearly understood.
 }{
 Il faut garder à l'esprit que le caractère ludique plutôt que pédagogique est central dans le succès de tels media basés sur les jeux. Si les joueurs oublient que le jeu est à propos d'un problème écologique, l'objectif est précisément atteint, puisque cela signifierait que les concepts scientifiques sous-jacents sont clairement compris.
 }

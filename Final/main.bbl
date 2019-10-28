@@ -2592,39 +2592,6 @@
     \field{year}{2018}
   \endentry
 
-  \entry{batty1986fractal}{article}{}
-    \name{author}{2}{}{%
-      {{hash=BM}{%
-         family={Batty},
-         familyi={B\bibinitperiod},
-         given={Michael},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=LPA}{%
-         family={Longley},
-         familyi={L\bibinitperiod},
-         given={Paul\bibnamedelima A},
-         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {SAGE Publications Sage UK: London, England}%
-    }
-    \strng{namehash}{BMLPA1}
-    \strng{fullhash}{BMLPA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1986}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{number}{9}
-    \field{pages}{1143\bibrangedash 1179}
-    \field{title}{The fractal simulation of urban structure}
-    \field{volume}{18}
-    \field{journaltitle}{Environment and Planning A}
-    \field{year}{1986}
-  \endentry
-
   \entry{batty1994fractal}{book}{}
     \name{author}{2}{}{%
       {{hash=BM}{%
@@ -3857,6 +3824,49 @@
     \field{year}{2012}
   \endentry
 
+  \entry{blondel_fast_2008}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BVD}{%
+         family={Blondel},
+         familyi={B\bibinitperiod},
+         given={Vincent\bibnamedelima D.},
+         giveni={V\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=GJL}{%
+         family={Guillaume},
+         familyi={G\bibinitperiod},
+         given={Jean-Louis},
+         giveni={J\bibinitperiod-L\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Lambiotte},
+         familyi={L\bibinitperiod},
+         given={Renaud},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=EL}{%
+         family={Emmanuel},
+         familyi={E\bibinitperiod},
+         given={Lefebvre.},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BVD+2}
+    \strng{fullhash}{BVDGJLLREL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{extrayear}{2}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{10}
+    \field{pages}{10008}
+    \field{title}{Fast unfolding of communities in large networks}
+    \field{journaltitle}{Journal of Statistical Mechanics: Theory and
+  Experiment}
+    \field{year}{2008}
+  \endentry
+
   \entry{blondel2008fast}{article}{}
     \name{author}{4}{}{%
       {{hash=BVD}{%
@@ -3892,6 +3902,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2008}
+    \field{extrayear}{1}
     \field{sortinit}{B}
     \field{sortinithash}{B}
     \field{number}{10}
@@ -5811,47 +5822,6 @@
     \field{year}{2007}
   \endentry
 
-  \entry{MANC:MANC1073}{article}{}
-    \name{author}{2}{}{%
-      {{hash=CD}{%
-         family={Canning},
-         familyi={C\bibinitperiod},
-         given={David},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=PP}{%
-         family={Pedroni},
-         familyi={P\bibinitperiod},
-         given={Peter},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Blackwell Publishing Ltd}%
-    }
-    \strng{namehash}{CDPP1}
-    \strng{fullhash}{CDPP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2008}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \verb{doi}
-    \verb 10.1111/j.1467-9957.2008.01073.x
-    \endverb
-    \field{issn}{1467-9957}
-    \field{number}{5}
-    \field{pages}{504\bibrangedash 527}
-    \field{title}{Infrastructure, long-run economic growth and causality tests
-  for cointegrated panels}
-    \verb{url}
-    \verb http://dx.doi.org/10.1111/j.1467-9957.2008.01073.x
-    \endverb
-    \field{volume}{76}
-    \field{journaltitle}{The Manchester School}
-    \field{year}{2008}
-  \endentry
-
   \entry{carlile2004transferring}{article}{}
     \name{author}{1}{}{%
       {{hash=CPR}{%
@@ -7396,6 +7366,28 @@
     }
     \field{type}{phdthesis}
     \field{year}{2014}
+  \endentry
+
+  \entry{cottineau2015scaling}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=CC}{%
+         family={Cottineau},
+         familyi={C\bibinitperiod},
+         given={Cl{\'e}mentine},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CC2}
+    \strng{fullhash}{CC2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{howpublished}{Presentation of ongoing work at Quanturb seminar,
+  April 1st 2015}
+    \field{title}{Urban scaling: What cities are we talking about?}
+    \field{year}{2015}
   \endentry
 
   \entry{10.1371/journal.pone.0183919}{article}{}
@@ -10248,6 +10240,38 @@
   l'appr{\'e}hension du voyageur par les ing{\'e}nieurs et les conducteurs}
     \field{journaltitle}{Travailler}
     \field{year}{2005}
+  \endentry
+
+  \entry{FotheringhamWong1991}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FAS}{%
+         family={Fotheringham},
+         familyi={F\bibinitperiod},
+         given={A.\bibnamedelima S.},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=WDWS}{%
+         family={Wong},
+         familyi={W\bibinitperiod},
+         given={D.\bibnamedelima W.\bibnamedelima S.},
+         giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FASWDWS1}
+    \strng{fullhash}{FASWDWS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1991}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{number}{7}
+    \field{pages}{1025\bibrangedash 1044}
+    \field{title}{The modifiable areal unit problem in multivariate statistical
+  analysis}
+    \field{volume}{23}
+    \field{journaltitle}{Environment and Planning A}
+    \field{year}{1991}
   \endentry
 
   \entry{franco20092}{article}{}
@@ -22224,29 +22248,6 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{astro-ph.IM}
     \field{year}{2010}
-  \endentry
-
-  \entry{raffestin1978construits}{article}{}
-    \name{author}{1}{}{%
-      {{hash=RC}{%
-         family={Raffestin},
-         familyi={R\bibinitperiod},
-         given={Claude},
-         giveni={C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{RC1}
-    \strng{fullhash}{RC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1978}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-    \field{title}{Les construits en g{\'e}ographie humaine: notions et
-  concepts}
-    \field{journaltitle}{G{\'e}opoint 78 : Concepts et construits dans la
-  g{\'e}ographie contemporaine}
-    \field{year}{1978}
   \endentry
 
   \entry{raffestin1988reperes}{article}{}
