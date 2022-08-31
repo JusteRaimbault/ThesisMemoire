@@ -1,0 +1,7 @@
+build
+*.swp
+*.aux
+main.bbl
+main.blg
+main.pdf
+
