@@ -19,5 +19,7 @@ clean arxiv version (biblio, fig legends):
 -> include figures? see https://github.com/zerotoc/pdfinlimg
 
  - single bib file; try not build in subdir with texmaker; correc biblio; bibtex keys not well translated
+ - move figures to single dir -> change paths in file (really useful?)
 
+TODO still to trad:  mesocoevol_fr.pdf ; coevolution_fr.pdf ; systematicreview_fr.pdf ; appendices intro
 
